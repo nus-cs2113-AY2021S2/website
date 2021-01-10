@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.2">
+    <meta name="generator" content="MarkBind 2.15.2">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Admin: tP week 13: v2.1</title>
     <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -12,10 +12,8 @@
     <link rel="stylesheet" href="../markbind/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
     <link rel="stylesheet" href="../markbind/css/octicons.css">
-    <link rel="stylesheet" href="../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../markbind/css/markbind.min.css"><script src="../markbind/js/polyfill.min.js"></script>
-    <script src="../markbind/js/vue.min.js"></script>
-    <script src="../markbind/js/markbind.min.js"></script>
-    <script src="../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/css/main.css">
+    <link rel="stylesheet" href="../markbind/css/github.min.css">
+    <link rel="stylesheet" href="../markbind/css/markbind.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../markbind/layouts/default/styles.css"><link rel="stylesheet" href="../markbind/css/site-nav.css"><link rel="stylesheet" href="../markbind/css/page-nav.css"><link rel="stylesheet" href="/website/css/main.css">
     <link rel="stylesheet" href="/website/css/admin.css"><link rel="icon" href="/website/favicon.ico"></head>
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
 <div id="app">
@@ -64,10 +62,10 @@
     <li><a href="https://luminus.nus.edu.sg/modules/dd7206fb-b22d-4a82-9c3b-f761a1f77ac8/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li>
     <li tags="m--cs2113 m--cs2103"><a href="/website/admin/tutorials.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
     
-    <li tags="m--cs2113 m--tic2002 m--te3201"><a href="https://repl.it/classroom/invite/sclqjqn" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> <code class="hljs inline no-lang" v-pre>repl.it</code> link</span></a></li>
+    <li tags="m--cs2113 m--tic2002 m--te3201"><a href="https://repl.it/classroom/invite/sclqjqn" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> <code v-pre>repl.it</code> link</span></a></li>
     <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
     <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
-    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-cs2113-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
+    <li tags="m--cs2103 m--cs2113"><a href="https://nus-cs2113-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-cs2113-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -139,13 +137,11 @@
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/appendixE-gitHub.html"><small>Apdx E: Using GitHub</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/appendixF-teamworkIssues.html"><small>Apdx F: Handling Team Issues</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li></ul></li></ul></div></nav>
 
-
-
 <div id="content-wrapper">
 <div class="website-content">
 <p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-w12.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP week 12: mid-v2.1</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-deliverables.html"><span>tP: Deliverables <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p>
 <br>
-<h1 id="tp-week-13-v2-1"><span id="tp-week-13-v2-1" class="anchor"></span><span class="display-4">tP week 13: v2.1</span> <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span><a class="fa fa-anchor" href="#tp-week-13-v2-1" onclick="event.stopPropagation()"></a></h1>
+<h1 id="tp-week-13-v2-1"><span class="display-4">tP week 13: v2.1</span> <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span><span id="tp-week-13-v2-1" class="anchor"></span><a class="fa fa-anchor" href="#tp-week-13-v2-1" onclick="event.stopPropagation()"></a></h1>
 <div id="main">
 <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple">
 <ol>
@@ -156,7 +152,7 @@
 <div id="body">
 <div></div>
 <p></p>
-<h4 id="1-submit-deliverables-mon-apr-12th-2359"><span id="1-submit-deliverables-mon-apr-12th-2359" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span><span><span aria-hidden="true" class="fas fa-users"></span></span> Submit deliverables</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Mon, Apr 12th 2359</span></span><a class="fa fa-anchor" href="#1-submit-deliverables-mon-apr-12th-2359" onclick="event.stopPropagation()"></a></h4>
+<h4 id="1-submit-deliverables-mon-apr-12th-2359"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span><span><span aria-hidden="true" class="fas fa-users"></span></span> Submit deliverables</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Mon, Apr 12th 2359</span></span><span id="1-submit-deliverables-mon-apr-12th-2359" class="anchor"></span><a class="fa fa-anchor" href="#1-submit-deliverables-mon-apr-12th-2359" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
 <li><strong>Deadline</strong> for all v2.1 submissions is <strong>Sun, Apr 12th 2359</strong> unless stated otherwise.</li>
@@ -196,21 +192,21 @@ cs2113T students: documents should be submitted to both modules. It's not enough
 <ul>
 <li><span><span aria-hidden="true" class="fas fa-users"></span></span> <strong>Product</strong>:
 <ul>
-<li>Do a release on GitHub, tagged as <code class="hljs inline no-lang" v-pre>v2.1</code>.</li>
+<li>Do a release on GitHub, tagged as <code v-pre>v2.1</code>.</li>
 <li>Upload the jar file to LumiNUS.<br>
-File name: <code class="hljs inline no-lang" v-pre>[team ID][product name].jar</code> <span class="dimmed">e.g. [CS2113-T09-2][Contacts Plus].jar</span></li></ul></li></ul>
+File name: <code v-pre>[team ID][product name].jar</code> <span class="dimmed">e.g. [CS2113-T09-2][Contacts Plus].jar</span></li></ul></li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Executable <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Executable <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
 <ul>
 <li><strong>Should be an executable jar file</strong>.</li>
-<li><strong>Should be <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"> i.e., it can be used by end-users</span><em>releasable</em></span></strong>. While some features may be scheduled for later versions, the features in v2.1 should be good enough to make it usable by at least some of the target users.</li>
+<li><strong>Should be <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"> i.e., it can be used by end-users</span><em>releasable</em></span></strong>. While some features may be scheduled for later versions, the features in v2.1 should be good enough to make it usable by at least some of the target users.</li>
 <li>Also note the following constraint:</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Contstraints → Constraint-File-Size <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Contstraints → Constraint-File-Size <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h4 id="constraint-file-size"><span id="constraint-file-size" class="anchor"></span><span class="badge badge-warning text-monospace"><span aria-hidden="true" class="fas fa-ban"></span> Constraint-File-Size</span><a class="fa fa-anchor" href="#constraint-file-size" onclick="event.stopPropagation()"></a></h4>
+<h4 id="constraint-file-size"><span class="badge badge-warning text-monospace"><span aria-hidden="true" class="fas fa-ban"></span> Constraint-File-Size</span><span id="constraint-file-size" class="anchor"></span><a class="fa fa-anchor" href="#constraint-file-size" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-level2">
 <p>The file sizes of the deliverables should not exceed the limits given below. <br></p>
 <div tags="m--cs2113 m--cs2103 m--tic4002">
@@ -221,9 +217,9 @@ File name: <code class="hljs inline no-lang" v-pre>[team ID][product name].jar</
 <li>
 <p><span class="text-danger">Documents (i.e., PDF files): 15MB/file</span> (Not following <a href="https://se-education.org/guides/tutorials/savingPdf.html">the recommended method of converting to PDF format</a> can cause big PDF files. Another cause is using unnecessarily high resolution images for screenshots).</p></li></ul></div></div></panel></div><p></p></div></div></panel></div><p></p>
 <ul>
-<li><span><span aria-hidden="true" class="fas fa-users"></span></span> <strong>Source Code</strong>: Push the code to GitHub and tag with the version number. Source code (<mark>please ensure the code reported by RepoSense as yours is correct;</mark> any updates to RepoSense config files or <code class="hljs inline no-lang" v-pre>@@author</code> annotations after the deadline will be considered a later submission). Note that the quality of the code attributed to you accounts for a significant component of your final score, graded individually.</li></ul>
+<li><span><span aria-hidden="true" class="fas fa-users"></span></span> <strong>Source Code</strong>: Push the code to GitHub and tag with the version number. Source code (<mark>please ensure the code reported by RepoSense as yours is correct;</mark> any updates to RepoSense config files or <code v-pre>@@author</code> annotations after the deadline will be considered a later submission). Note that the quality of the code attributed to you accounts for a significant component of your final score, graded individually.</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Source Code <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Source Code <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
 <ul>
@@ -231,9 +227,9 @@ File name: <code class="hljs inline no-lang" v-pre>[team ID][product name].jar</
 <li><strong>To be delivered as a Git repo.</strong> Ensure your GitHub team repo is updated to match the executable.</li></ul></div></div></panel></div><p></p>
 <ul>
 <li><span><span aria-hidden="true" class="fas fa-users"></span></span> <strong>User Guide</strong>: Convert to pdf and upload to LumiNUS.<br>
-File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][product Name]UG.pdf</code>  <span class="dimmed">e.g.[CS2113-T09-2][Contacts Plus]UG.pdf</span></li></ul>
+File name: <code v-pre>[TEAM_ID][product Name]UG.pdf</code>  <span class="dimmed">e.g.[CS2113-T09-2][Contacts Plus]UG.pdf</span></li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → User Guide <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → User Guide <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
 <box>
@@ -247,12 +243,12 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][product Name]UG.pdf
 <li><strong>Follow the <a href="https://se-education.org/addressbook-level3/UserGuide.html">AddressBook-Level3 (AB3) UG</a> structure</strong>.</li></ul></div>
 <ul>
 <li>
-<p>The main content you add should be in the <code class="hljs inline no-lang" v-pre>docs/UserGuide.md</code> file (for ease of tracking by grading scripts).</p></li>
+<p>The main content you add should be in the <code v-pre>docs/UserGuide.md</code> file (for ease of tracking by grading scripts).</p></li>
 <li>
 <p><strong>Should cover all v2.1 features</strong>.<br>
 <strong>Ensure those descriptions match the product precisely</strong>, as it will be used by peer testers (<mark>inaccuracies will be considered bugs</mark>).</p></li>
 <li>
-<p><strong>Optionally, can also cover future features</strong>. Mark those as <code class="hljs inline no-lang" v-pre>Coming soon</code>.</p></li>
+<p><strong>Optionally, can also cover future features</strong>. Mark those as <code v-pre>Coming soon</code>.</p></li>
 <li>
 <p><strong>It is not necessary for the UG to contain every nitty-gritty detail</strong> about the product behavior. Some rarely needed information can be omitted from the UG, if the user is expected to know that information already or if the user is kept informed in other ways. <span class="dimmed">For example, if a certain invalid input is unlikely to be used anyway, it is fine to not specify it in the UG, as long as the product is able to give an informative error message when that invalid input is used.</span></p></li>
 <li>
@@ -264,9 +260,9 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][product Name]UG.pdf
 <li>
 <p>Also note the following constraint:</p></li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Contstraints → Constraint-File-Size <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Contstraints → Constraint-File-Size <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h4 id="constraint-file-size-2"><span id="constraint-file-size-2" class="anchor"></span><span class="badge badge-warning text-monospace"><span aria-hidden="true" class="fas fa-ban"></span> Constraint-File-Size</span><a class="fa fa-anchor" href="#constraint-file-size-2" onclick="event.stopPropagation()"></a></h4>
+<h4 id="constraint-file-size-2"><span class="badge badge-warning text-monospace"><span aria-hidden="true" class="fas fa-ban"></span> Constraint-File-Size</span><span id="constraint-file-size-2" class="anchor"></span><a class="fa fa-anchor" href="#constraint-file-size-2" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-level2">
 <p>The file sizes of the deliverables should not exceed the limits given below. <br></p>
 <div tags="m--cs2113 m--cs2103 m--tic4002">
@@ -278,14 +274,14 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][product Name]UG.pdf
 <p><span class="text-danger">Documents (i.e., PDF files): 15MB/file</span> (Not following <a href="https://se-education.org/guides/tutorials/savingPdf.html">the recommended method of converting to PDF format</a> can cause big PDF files. Another cause is using unnecessarily high resolution images for screenshots).</p></li></ul></div></div></panel></div><p></p></div></div></panel></div><p></p>
 <ul>
 <li><span><span aria-hidden="true" class="fas fa-users"></span></span> <strong>Developer Guide</strong>: submission is similar to the UG<br>
-File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][product Name]DG.pdf</code> <span class="dimmed">e.g. [CS2113-T09-2][Contacts Plus]DG.pdf</span></li></ul>
+File name: <code v-pre>[TEAM_ID][product Name]DG.pdf</code> <span class="dimmed">e.g. [CS2113-T09-2][Contacts Plus]DG.pdf</span></li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Developer Guide <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Developer Guide <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
 <ul>
-<li>The main content you add should be in the <code class="hljs inline no-lang" v-pre>docs/DeveloperGuide.md</code> file (for ease of tracking by grading scripts).<br>
-If you use PlantUML diagrams, commit the diagrams as <code class="hljs inline no-lang" v-pre>.puml</code> files in the <code class="hljs inline no-lang" v-pre>docs/diagrams</code> folder.</li>
+<li>The main content you add should be in the <code v-pre>docs/DeveloperGuide.md</code> file (for ease of tracking by grading scripts).<br>
+If you use PlantUML diagrams, commit the diagrams as <code v-pre>.puml</code> files in the <code v-pre>docs/diagrams</code> folder.</li>
 <li><strong>Should match the v2.1 implementation</strong>.</li></ul>
 <div tags="m--cs2113 m--tic4001">
 <ul>
@@ -310,7 +306,7 @@ If you use PlantUML diagrams, commit the diagrams as <code class="hljs inline no
 <li>Information in this appendix should <em>complement</em> the UG. <mark>Minimize repeating information that are already mentioned in the UG.</mark></li>
 <li><strong>Inaccurate instructions will be considered bugs</strong>.</li></ul></li></ul>
 
-<h5 id="dg-tips"><span id="dg-tips" class="anchor"></span>DG Tips<a class="fa fa-anchor" href="#dg-tips" onclick="event.stopPropagation()"></a></h5>
+<h5 id="dg-tips">DG Tips<span id="dg-tips" class="anchor"></span><a class="fa fa-anchor" href="#dg-tips" onclick="event.stopPropagation()"></a></h5>
 <span id="dgTips">
 <ul>
 <li><strong>Aim to showcase your documentation skills.</strong> The stated objective of the DG is to explain the implementation to a future developer, but a secondary objective is to serve as evidence of your ability to document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v2.1 (hypothetically).<br>
@@ -323,11 +319,11 @@ For an example, see <a href="https://se-education.org/addressbook-level3/Develop
 <ul>
 <li><mark>Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally</mark> <span class="dimmed">(reason: because diagrams need to evolve with the code that is already being version controlled using git)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.</li>
 <li>Use the same diagramming tool for the whole project, except in cases for which there is a <em>strong</em> need to use a different tool due to a shortcoming in the primary diagramming tool. <span class="dimmed">Do not use a mix of different tools simply based on personal preferences.</span></li></ul></li>
-<li><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
+<li><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
 <ul>
 <li>They often don't follow the standard UML notation (e.g., they add extra icons).</li>
 <li>They tend to include <em>every</em> little detail whereas we want to limit UML diagrams to important details only, to improve readability.</li>
-<li>Diagrams reverse-engineered by an IDE might not represent the actual design as some design concepts cannot be deterministically identified from the code. e.g., differentiating between multiplicities <code class="hljs inline no-lang" v-pre>0..1</code> vs <code class="hljs inline no-lang" v-pre>1</code>, composition vs aggregation</li></ul></li></ul></li>
+<li>Diagrams reverse-engineered by an IDE might not represent the actual design as some design concepts cannot be deterministically identified from the code. e.g., differentiating between multiplicities <code v-pre>0..1</code> vs <code v-pre>1</code>, composition vs aggregation</li></ul></li></ul></li>
 <li><strong>Keep diagrams simple.</strong> The aim is to make diagrams <mark><em>comprehensible</em>, not necessarily <em>comprehensive</em></mark>.<br>
 Ways to simplify diagrams:
 <ul>
@@ -335,17 +331,17 @@ Ways to simplify diagrams:
 <ul>
 <li>a class diagram can omit minor utility classes, private/unimportant members; some less-important associations can be shown as attributes instead.</li>
 <li>a sequence diagram can omit less important interactions, self-calls.</li></ul></li>
-<li><strong>Omit repetitive details</strong> e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete <code class="hljs inline no-lang" v-pre>*Command</code> classes using a placeholder <code class="hljs inline no-lang" v-pre>XYZCommand</code>).</li>
+<li><strong>Omit repetitive details</strong> e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <span trigger="click" for="modal:ipWeek10-logicClassDiagram" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipWeek10-logicClassDiagram'].show()" class="trigger-click">AB3 Logic class diagram</span> shows concrete <code v-pre>*Command</code> classes using a placeholder <code v-pre>XYZCommand</code>).</li>
 <li><strong>Limit the scope of a diagram.</strong> Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.</li>
 <li><strong>Break diagrams into smaller fragments</strong> when possible.
 <ul>
 <li>If a component has a lot of classes, consider further dividing into sub-components (e.g., a Parser sub-component inside the Logic component). After that, sub-components can be shown as black-boxes in the main diagram and their details can be shown as separate diagrams.</li>
-<li>You can use <code class="hljs inline no-lang" v-pre>ref</code> frames to break sequence diagrams to multiple diagrams.</li></ul></li>
+<li>You can use <code v-pre>ref</code> frames to break sequence diagrams to multiple diagrams.</li></ul></li>
 <li><strong>Use visual representations</strong> as much as possible. E.g., show associations and navigabilities using lines and arrows connecting classes, rather than adding a variable in one of the classes.</li>
-<li>For some more examples of what NOT to do, see <trigger trigger="click" for="modal:ipWeek10-umlExamples">here</trigger>.</li></ul></li>
+<li>For some more examples of what NOT to do, see <span trigger="click" for="modal:ipWeek10-umlExamples" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipWeek10-umlExamples'].show()" class="trigger-click">here</span>.</li></ul></li>
 <li><strong>Integrate diagrams into the description.</strong> Place the diagram close to where it is being described.</li>
 <li><strong>Use code snippets sparingly.</strong> The more you use code snippets in the DG, and longer the code snippet, the higher the risk of it getting outdated quickly. Instead, use code snippets only when necessary and cite only the strictly relevant parts only. You can also use pseudo code instead of actual programming code.</li>
-<li><strong>Resize diagrams</strong> so that the text size in the diagram matches the the text size of the main text of the diagram. See <trigger trigger="click" for="modal:ipWeek10-diagramSizeNegative">example</trigger>.</li></ul>
+<li><strong>Resize diagrams</strong> so that the text size in the diagram matches the the text size of the main text of the diagram. See <span trigger="click" for="modal:ipWeek10-diagramSizeNegative" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipWeek10-diagramSizeNegative'].show()" class="trigger-click">example</span>.</li></ul>
 <b-modal id="modal:ipWeek10-umlExamples" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-umlExamples" class="algolia-no-index"><template slot="modal-title">UML Diagrams: Negative Examples </template>
 <p>These class diagrams seem to have lot of member details, which can get outdated pretty quickly:<br>
 <img src="https://cs2103-ay1819s1-w10-3.github.io/main/images/PollClassDiagram.png" width="750"><br>
@@ -365,7 +361,7 @@ It will look more 'polished' if the two text sizes match.
 </p></b-modal><p></p>
 <b-modal id="modal:ipWeek10-logicClassDiagram" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-logicClassDiagram" class="algolia-no-index"><template slot="modal-title">AB3 - Class Diagram of the Logic Component</template>
   <img src="https://se-education.org/addressbook-level3/images/LogicClassDiagram.png" width="900"></b-modal>
-<b-modal id="modal:ipWeek10-deleteSd" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-deleteSd" class="algolia-no-index"><template slot="modal-title">AB3 - Sequence Diagram for the <code class="hljs inline no-lang" v-pre>delete</code> command</template>
+<b-modal id="modal:ipWeek10-deleteSd" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-deleteSd" class="algolia-no-index"><template slot="modal-title">AB3 - Sequence Diagram for the <code v-pre>delete</code> command</template>
   <img src="https://se-education.org/addressbook-level3/images/DeleteSequenceDiagram.png" width="900"></b-modal>
 <b-modal id="modal:ipWeek10-archiSd" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-archiSd" class="algolia-no-index"><template slot="modal-title">AB3 - Architecture-Level Sequence Diagram</template>
   <img src="https://se-education.org/addressbook-level3/images/ArchitectureSequenceDiagram.png"></b-modal></span></div></div></panel></div><p></p>
@@ -373,19 +369,19 @@ It will look more 'polished' if the two text sizes match.
 <li><span><span aria-hidden="true" class="fas fa-user"></span></span> <strong>Project Portfolio Page (PPP)</strong>:
 <ul>
 <li>PDF file: submission is similar to the UG<br>
-File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as Given in LumiNUS]PPP.pdf</code> <span class="dimmed">e.g.[CS2113-T09-2][Leow Wai Kit, John]PPP.pdf</span><br>
-<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Use <code class="hljs inline no-lang" v-pre>-</code> in place of <code class="hljs inline no-lang" v-pre>/</code> if your name has it e.g., <code class="hljs inline no-lang" v-pre>Ravi s/o Veegan</code> → <code class="hljs inline no-lang" v-pre>Ravi s-o Veegan</code> (reason: Windows does not allow <code class="hljs inline no-lang" v-pre>/</code> in file names)</li>
-<li>HTML version: make available on <code class="hljs inline no-lang" v-pre>github.io</code></li></ul></li></ul>
+File name: <code v-pre>[TEAM_ID][Your full Name as Given in LumiNUS]PPP.pdf</code> <span class="dimmed">e.g.[CS2113-T09-2][Leow Wai Kit, John]PPP.pdf</span><br>
+<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Use <code v-pre>-</code> in place of <code v-pre>/</code> if your name has it e.g., <code v-pre>Ravi s/o Veegan</code> → <code v-pre>Ravi s-o Veegan</code> (reason: Windows does not allow <code v-pre>/</code> in file names)</li>
+<li>HTML version: make available on <code v-pre>github.io</code></li></ul></li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Project Portfolio Page <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Project Portfolio Page <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
 <p>At the end of the project each student is required to submit a <em>Project Portfolio Page</em>.</p>
-<h4 id="ppp-objectives"><span id="ppp-objectives" class="anchor"></span><span class="badge badge-info">PPP</span> <span class="text-info">Objectives</span><a class="fa fa-anchor" href="#ppp-objectives" onclick="event.stopPropagation()"></a></h4>
+<h4 id="ppp-objectives"><span class="badge badge-info">PPP</span> <span class="text-info">Objectives</span><span id="ppp-objectives" class="anchor"></span><a class="fa fa-anchor" href="#ppp-objectives" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>For you to use <span class="dimmed">(e.g. in your resume)</span> as a well-documented data point of your SE experience</li>
 <li>For evaluators to use as a data point for evaluating your project contributions</li></ul>
-<h4 id="ppp-sections-to-include"><span id="ppp-sections-to-include" class="anchor"></span><span class="badge badge-info">PPP</span> <span class="text-info">Sections to include</span><a class="fa fa-anchor" href="#ppp-sections-to-include" onclick="event.stopPropagation()"></a></h4>
+<h4 id="ppp-sections-to-include"><span class="badge badge-info">PPP</span> <span class="text-info">Sections to include</span><span id="ppp-sections-to-include" class="anchor"></span><a class="fa fa-anchor" href="#ppp-sections-to-include" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li><strong>Overview</strong>: A short overview of your product to provide some context to the reader. The opening 1-2 sentences may be reused by all team members. If your product overview extends beyond 1-2 sentences, the remainder should be written by yourself.</li>
 <li><strong>Summary of Contributions</strong> --Suggested items to include:
@@ -394,7 +390,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li><strong>Enhancements implemented:</strong> A summary of the enhancements you implemented.</li>
 <li><strong>Contributions to documentation:</strong> Which sections did you contribute to the UG?</li>
 <li><strong>Contributions to the DG:</strong> Which sections did you contribute to the DG? Which UML diagrams did you add/updated?</li>
-<li><strong>Contributions to <trigger trigger="click" for="modal:deliverablesPPP-teamTasks">team-based tasks </trigger>:</strong></li>
+<li><strong>Contributions to <span trigger="click" for="modal:deliverablesPPP-teamTasks" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:deliverablesPPP-teamTasks'].show()" class="trigger-click">team-based tasks </span>:</strong></li>
 <li><strong>Review/mentoring contributions:</strong> Links to PRs reviewed, instances of helping team members in other ways</li>
 <li><strong>Contributions beyond the project team:</strong>
 <ul>
@@ -404,7 +400,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
   <div>
 <box>
 <p><em>Team-tasks</em> are the tasks that <em>someone</em> in the team has to do.</p>
-<panel type="seamless" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples of team-tasks</p></template>
+<panel type="seamless" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples of team-tasks</p></template>
 <span id="example-team-tasks">
 <p>Here is a non-exhaustive list of team-tasks:</p>
 <ol>
@@ -422,9 +418,9 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <ul>
 <li><strong><span class="badge badge-pill badge-success">OPTIONAL</span> Contributions to the Developer Guide (Extracts)</strong>: Reproduce the parts in the Developer Guide that you wrote. Alternatively, you can show the various diagrams you contributed.</li>
 <li><strong><span class="badge badge-pill badge-success">OPTIONAL</span> Contributions to the User Guide (Extracts)</strong>: Reproduce the parts in the User Guide that you wrote.</li></ul>
-<h4 id="ppp-format"><span id="ppp-format" class="anchor"></span><span class="badge badge-info">PPP</span> <span class="text-info">Format</span><a class="fa fa-anchor" href="#ppp-format" onclick="event.stopPropagation()"></a></h4>
+<h4 id="ppp-format"><span class="badge badge-info">PPP</span> <span class="text-info">Format</span><span id="ppp-format" class="anchor"></span><a class="fa fa-anchor" href="#ppp-format" onclick="event.stopPropagation()"></a></h4>
 <ul>
-<li>File name (i.e., in the repo): <code class="hljs inline no-lang" v-pre>docs/team/githbub_username_in_lower_case.md</code> e.g., <code class="hljs inline no-lang" v-pre>docs/team/goodcoder123.md</code></li>
+<li>File name (i.e., in the repo): <code v-pre>docs/team/githbub_username_in_lower_case.md</code> e.g., <code v-pre>docs/team/goodcoder123.md</code></li>
 <li><span><span aria-hidden="true" class="fas fa-cube"></span></span> Follow the <a href="https://se-education.org/addressbook-level3/team/johndoe.html">example in the AddressBook-Level3</a></li></ul>
 <div class="indented-level2">
 <div>
@@ -433,7 +429,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <p><strong>Ensure hyperlinks in the pdf files work</strong>. Your UG/DG/PPP will be evaluated using PDF files during the PE. <mark>Broken/non-working hyperlinks in the PDF files will be considered as bugs</mark> and will count against your project score. Again, use the conversion technique given above to ensure links in the PDF files work.</p>
 <p><strong>Try the PDF conversion early</strong>. If you do it at the last minute, you may not have time to fix any problems in the generated PDF files (such problems are more common than you think).
 </p></box><p></p></div></div>
-<h4 id="ppp-page-limit"><span id="ppp-page-limit" class="anchor"></span><span class="badge badge-info">PPP</span> <span class="text-info">Page Limit</span><a class="fa fa-anchor" href="#ppp-page-limit" onclick="event.stopPropagation()"></a></h4>
+<h4 id="ppp-page-limit"><span class="badge badge-info">PPP</span> <span class="text-info">Page Limit</span><span id="ppp-page-limit" class="anchor"></span><a class="fa fa-anchor" href="#ppp-page-limit" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-level2">
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -456,26 +452,26 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <ul>
 <li>The <mark>page limits given above are <em>after</em> converting to PDF format</mark>. The actual amount of content you require is actually less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content.</li></ul></div></div></panel></div><p></p>
 <ul>
-<li><span><span aria-hidden="true" class="fas fa-users"></span></span> <strong>Product Website</strong>: Update website (home page, <code class="hljs inline no-lang" v-pre>AboutUs.md</code> etc.) on GitHub. Ensure the website is auto-published.</li></ul>
+<li><span><span aria-hidden="true" class="fas fa-users"></span></span> <strong>Product Website</strong>: Update website (home page, <code v-pre>AboutUs.md</code> etc.) on GitHub. Ensure the website is auto-published.</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Product Website <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Product Website <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
 <p>When setting up your team repo, you would be configuring <strong>the GitHub Pages feature to publish your documentation</strong> as a website.</p>
-<h4 id="website-home-page"><span id="website-home-page" class="anchor"></span><span class="badge badge-info">Website</span> <span class="text-info">Home page</span><a class="fa fa-anchor" href="#website-home-page" onclick="event.stopPropagation()"></a></h4>
+<h4 id="website-home-page"><span class="badge badge-info">Website</span> <span class="text-info">Home page</span><span id="website-home-page" class="anchor"></span><a class="fa fa-anchor" href="#website-home-page" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>Update to match your product.</li></ul>
 <div tags="m--cs2103 m--cs2113 m--tic4002">
-<h4 id="website-ui-png"><span id="website-ui-png" class="anchor"></span><span class="badge badge-info">Website</span> <span class="text-info"><code class="hljs inline no-lang" v-pre>Ui.png</code></span><a class="fa fa-anchor" href="#website-ui-png" onclick="event.stopPropagation()"></a></h4>
+<h4 id="website-ui-png"><span class="badge badge-info">Website</span> <span class="text-info"><code v-pre>Ui.png</code></span><span id="website-ui-png" class="anchor"></span><a class="fa fa-anchor" href="#website-ui-png" onclick="event.stopPropagation()"></a></h4>
 
 <div tags="m--cs2113 m--tic4001">
 <p><mark><strong>This deliverable is optional.</strong></mark></p>
 <ul>
-<li>Ensure the <code class="hljs inline no-lang" v-pre>Ui.png</code> matches the current product (if you have one)</li></ul></div>
+<li>Ensure the <code v-pre>Ui.png</code> matches the current product (if you have one)</li></ul></div>
 <div class="indented-level3" id="tips-for-product-screenshot">
 <box>
 <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Some common sense tips for a good product screenshot</strong></p>
-<p><code class="hljs inline no-lang" v-pre>Ui.png</code> represents your product in its full glory.</p>
+<p><code v-pre>Ui.png</code> represents your product in its full glory.</p>
 <ul>
 <li>Before taking the screenshot, populate the product with data that makes the product look good. For example, if the product is supposed to show profile photos, use real profile photos instead of dummy placeholders.</li>
 <li>If the product doesn't have nice line wrapping for long inputs/outputs, don't use such inputs/outputs for the screenshot.</li>
@@ -484,7 +480,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>Take a <em>clean</em> screenshot with a decent resolution. Some screenshot tools can capture a specified window only. If your tool cannot do that, make sure you crop away the extraneous parts captured by the screenshot.</li>
 <li>Avoid annotations (arrows, callouts, explanatory text etc.); it should look like the product is in use for real.</li></ul>
 </box></div></div>
-<h4 id="website-aboutus-page"><span id="website-aboutus-page" class="anchor"></span><span class="badge badge-info">Website</span> <span class="text-info">AboutUs Page</span><a class="fa fa-anchor" href="#website-aboutus-page" onclick="event.stopPropagation()"></a></h4>
+<h4 id="website-aboutus-page"><span class="badge badge-info">Website</span> <span class="text-info">AboutUs Page</span><span id="website-aboutus-page" class="anchor"></span><a class="fa fa-anchor" href="#website-aboutus-page" onclick="event.stopPropagation()"></a></h4>
 <div tags="m--cs2113 m--tic4001">
 <p><mark><strong>This deliverable is optional.</strong></mark></p></div>
 <ul>
@@ -496,19 +492,19 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <ul>
 <li><strong>Include a link to each person's PPP page.</strong></li>
 <li><strong>Team member names match full names used by LumiNUS.</strong></li></ul>
-<h4 id="website-ug-web-page"><span id="website-ug-web-page" class="anchor"></span><span class="badge badge-info">Website</span> <span class="text-info">UG (Web Page)</span><a class="fa fa-anchor" href="#website-ug-web-page" onclick="event.stopPropagation()"></a></h4>
+<h4 id="website-ug-web-page"><span class="badge badge-info">Website</span> <span class="text-info">UG (Web Page)</span><span id="website-ug-web-page" class="anchor"></span><a class="fa fa-anchor" href="#website-ug-web-page" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>Should match the submitted PDF file.</li></ul>
-<h4 id="website-dg-web-page"><span id="website-dg-web-page" class="anchor"></span><span class="badge badge-info">Website</span> <span class="text-info">DG (Web Page)</span><a class="fa fa-anchor" href="#website-dg-web-page" onclick="event.stopPropagation()"></a></h4>
+<h4 id="website-dg-web-page"><span class="badge badge-info">Website</span> <span class="text-info">DG (Web Page)</span><span id="website-dg-web-page" class="anchor"></span><a class="fa fa-anchor" href="#website-dg-web-page" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>Should match the submitted PDF file.</li></ul></div></div></panel></div><p></p></div>
 <p></p>
-<h4 id="2-submit-the-demo-video-wed-apr-14th-2359"><span id="2-submit-the-demo-video-wed-apr-14th-2359" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span><span aria-hidden="true" class="fas fa-users"></span></span> Submit the demo video</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Wed, Apr 14th 2359</span></span><a class="fa fa-anchor" href="#2-submit-the-demo-video-wed-apr-14th-2359" onclick="event.stopPropagation()"></a></h4>
+<h4 id="2-submit-the-demo-video-wed-apr-14th-2359"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span><span aria-hidden="true" class="fas fa-users"></span></span> Submit the demo video</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Wed, Apr 14th 2359</span></span><span id="2-submit-the-demo-video-wed-apr-14th-2359" class="anchor"></span><a class="fa fa-anchor" href="#2-submit-the-demo-video-wed-apr-14th-2359" onclick="event.stopPropagation()"></a></h4>
 <div>
 <span id="demo-instructions">
 <div class="indented-level2">
 <p><img src="/website/admin/images/v05demo.png" style="width: 250px"></p><p></p><p></p>
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Demo <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Deliverables → Demo <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
 <ul>
@@ -520,7 +516,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li><strong>Audio explanations</strong> are strongly encouraged.</li>
 <li><strong>Annotations and other enhancements</strong> to the video are optional (those will not earn any extra marks).</li>
 <li><strong>All members taking part</strong> in the demo video is encouraged but not compulsory.</li>
-<li><strong>File name:</strong> <code class="hljs inline no-lang" v-pre>[TEAM_ID][product Name].mp4</code>  <span class="dimmed">e.g.[CS2113-T09-2][Contacts Plus].mp4</span> (other video formats are acceptable but use a format that works on all major OS'es).</li>
+<li><strong>File name:</strong> <code v-pre>[TEAM_ID][product Name].mp4</code>  <span class="dimmed">e.g.[CS2113-T09-2][Contacts Plus].mp4</span> (other video formats are acceptable but use a format that works on all major OS'es).</li>
 <li><strong>File size:</strong> Recommended to keep below 200MB. You can use a low resolution as long as the video is in usable quality.</li>
 <li><strong>Submission:</strong> Submit to LumiNUS (different folder).</li>
 <li><strong>Deadline:</strong> 2 days after the main deadline</li>
@@ -528,14 +524,14 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <ul>
 <li>Ink2Go: You can use this to record your screen and annotate if necessary. <a href="https://wiki.nus.edu.sg/display/cit/Ink2go+Instructions+for+Students">Here</a> are some instructions from NUS CIT to help you get started.</li>
 <li><a href="https://handbrake.fr/">Handbrake</a>: A free/open-source tool to help convert videos to MP4.</li></ul></li></ul>
-<h4 id="demo-duration"><span id="demo-duration" class="anchor"></span><span class="badge badge-info">Demo</span> <span class="text-info">Duration</span><a class="fa fa-anchor" href="#demo-duration" onclick="event.stopPropagation()"></a></h4>
+<h4 id="demo-duration"><span class="badge badge-info">Demo</span> <span class="text-info">Duration</span><span id="demo-duration" class="anchor"></span><a class="fa fa-anchor" href="#demo-duration" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li><strong>Strictly 18 minutes for a 5-person team, 15 minutes for a 4-person team</strong>, 21 minutes for a 6-person team. Exceeding this limit will be penalized.</li></ul>
 
-<h4 id="demo-target-audience"><span id="demo-target-audience" class="anchor"></span><span class="badge badge-info">Demo</span> <span class="text-info">Target audience</span><a class="fa fa-anchor" href="#demo-target-audience" onclick="event.stopPropagation()"></a></h4>
+<h4 id="demo-target-audience"><span class="badge badge-info">Demo</span> <span class="text-info">Target audience</span><span id="demo-target-audience" class="anchor"></span><a class="fa fa-anchor" href="#demo-target-audience" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li><strong>Assume you are giving a demo to a higher-level manager of your company</strong>, to brief him/her on the current capabilities of the product. This is the first time they are seeing the new product you developed. The actual audience are the evaluators (the team supervisor and another tutor).</li></ul>
-<h4 id="demo-scope"><span id="demo-scope" class="anchor"></span><span class="badge badge-info">Demo</span> <span class="text-info">Scope</span><a class="fa fa-anchor" href="#demo-scope" onclick="event.stopPropagation()"></a></h4>
+<h4 id="demo-scope"><span class="badge badge-info">Demo</span> <span class="text-info">Scope</span><span id="demo-scope" class="anchor"></span><a class="fa fa-anchor" href="#demo-scope" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li><mark><strong>Start by giving an overview of the product</strong></mark> so that the evaluators get a sense of the full picture early. Include the following:
 <ul>
@@ -545,37 +541,29 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <div class="indented-level2">
 <box>
 <p>Here is an example:</p>
-<pre><code class="no-line-numbers hljs" v-pre><span>Hi, welcome to the demo of our product FooBar. It is a product to ensure the user takes
-</span><span>frequent standing-breaks while working.
-</span><span>It is for someone who works at a PC, prefers typing, and wants to avoid prolonged periods
-</span><span>of sitting.
-</span><span>The user first sets the parameters such as frequency and targets, and then enters a
-</span><span>command to record the start of the sitting time, ... The app shows the length of the
-</span><span>sitting periods, and alerts the user if ...
-</span><span>...
-</span></code></pre></box></div>
+<pre><code class="no-line-numbers hljs" v-pre><span>Hi, welcome to the demo of our product FooBar. It is a product to ensure the user takes<br></span><span>frequent standing-breaks while working.<br></span><span>It is for someone who works at a PC, prefers typing, and wants to avoid prolonged periods<br></span><span>of sitting.<br></span><span>The user first sets the parameters such as frequency and targets, and then enters a<br></span><span>command to record the start of the sitting time, ... The app shows the length of the<br></span><span>sitting periods, and alerts the user if ...<br></span><span>...<br></span></code></pre></box></div>
 <ul>
 <li>There is no need to introduce team members or explain who did what. <span class="dimmed">Reason: to save time.</span></li></ul>
 
 <ul>
 <li><strong>Present the features in a reasonable order</strong>: Organize the demo to present a cohesive picture of the product as a whole, presented in a logical order.</li>
 <li><strong>No need to cover design/implementation details</strong> as the manager is not interested in those details.</li></ul>
-<h4 id="demo-structure"><span id="demo-structure" class="anchor"></span><span class="badge badge-info">Demo</span> <span class="text-info">Structure</span><a class="fa fa-anchor" href="#demo-structure" onclick="event.stopPropagation()"></a></h4>
+<h4 id="demo-structure"><span class="badge badge-info">Demo</span> <span class="text-info">Structure</span><span id="demo-structure" class="anchor"></span><a class="fa fa-anchor" href="#demo-structure" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li><strong>Demo the product using the same executable</strong> you submitted </li>
-<li><strong>Use a sufficient amount of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><code class="hljs inline no-lang" v-pre>Mr aaa</code> is not a realistic person name</span><em>realistic</em></span> demo data.</strong> <span class="dimmed">e.g at least 20 data items</span>. Trying to demo a product using just 1-2 sample data creates a bad impression.</li></ul>
+<li><strong>Use a sufficient amount of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><code v-pre>Mr aaa</code> is not a realistic person name</span><em>realistic</em></span> demo data.</strong> <span class="dimmed">e.g at least 20 data items</span>. Trying to demo a product using just 1-2 sample data creates a bad impression.</li></ul>
 
-<h4 id="demo-tips"><span id="demo-tips" class="anchor"></span><span class="badge badge-info">Demo</span> <span class="text-info">Tips</span><a class="fa fa-anchor" href="#demo-tips" onclick="event.stopPropagation()"></a></h4>
+<h4 id="demo-tips"><span class="badge badge-info">Demo</span> <span class="text-info">Tips</span><span id="demo-tips" class="anchor"></span><a class="fa fa-anchor" href="#demo-tips" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li><strong>Plan the demo to be in sync with the impression you want to create.</strong> For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.</li></ul>
 </div></div></panel>
 <p></p></div>
 </span></div>
 <p></p>
-<h4 id="3-prepare-for-the-practical-exam"><span id="3-prepare-for-the-practical-exam" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Prepare for the practical exam</span><a class="fa fa-anchor" href="#3-prepare-for-the-practical-exam" onclick="event.stopPropagation()"></a></h4>
+<h4 id="3-prepare-for-the-practical-exam"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Prepare for the practical exam</span><span id="3-prepare-for-the-practical-exam" class="anchor"></span><a class="fa fa-anchor" href="#3-prepare-for-the-practical-exam" onclick="event.stopPropagation()"></a></h4>
 <div>
 <div class="indented-level2">
-<panel type="primary" minimized class="algolia-no-index"><template slot="header"><p>Admin → tP → <strong>PE Overview</strong></p></template>
+<panel type="primary" minimized class="algolia-no-index"><template slot="_header"><p>Admin → tP → <strong>PE Overview</strong></p></template>
 <div>
 <p><strong>Objectives:</strong></p>
 <ul>
@@ -590,26 +578,26 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>As such, we have put in measures to identify and <mark>penalize insincere/random evaluations</mark>.</li>
 <li>Also see:</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Notes on how marks are calculated for PE <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Notes on how marks are calculated for PE <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h5 id="grading-bugs-found-in-the-pe"><span id="grading-bugs-found-in-the-pe" class="anchor"></span>Grading bugs found in the PE<a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe" onclick="event.stopPropagation()"></a></h5>
+<h5 id="grading-bugs-found-in-the-pe">Grading bugs found in the PE<span id="grading-bugs-found-in-the-pe" class="anchor"></span><a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe" onclick="event.stopPropagation()"></a></h5>
 <ul>
-<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
+<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
 <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not affect marks of the tester or the developer.</li>
-<li>The penalty/credit for a bug varies based on the severity of the bug: <code class="hljs inline no-lang" v-pre>severity.High</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Medium</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Low</code> &gt; <code class="hljs inline no-lang" v-pre>severity.VeryLow</code></li>
-<li>The three types (i.e., <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>, <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>, <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
+<li>The penalty/credit for a bug varies based on the severity of the bug: <code v-pre>severity.High</code> &gt; <code v-pre>severity.Medium</code> &gt; <code v-pre>severity.Low</code> &gt; <code v-pre>severity.VeryLow</code></li>
+<li>The three types (i.e., <code v-pre>type.FunctionalityBug</code>, <code v-pre>type.DocumentationBug</code>, <code v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
 <li>The penalty for a bug is divided equally among assignees.</li>
 <li>Developers are not penalized for duplicate bug reports they received but the testers earn credit for duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
-<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
+<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
 <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
 <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
 <ul>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
+<li><code v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
+<li><code v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
 <li>You don't need to find <em>all</em> bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div></div></panel>
+<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div></div></panel>
 <p></p>
-<panel type="primary" minimized class="algolia-no-index"><template slot="header"><p>Admin → tP → <strong>PE-D/PE Preparation</strong></p></template>
+<panel type="primary" minimized class="algolia-no-index"><template slot="_header"><p>Admin → tP → <strong>PE-D/PE Preparation</strong></p></template>
 <div>
 <ul>
 <li>
@@ -619,32 +607,32 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>
 <p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer.</p></li></ul>
 <div class="indented-level2">
-<panel minimized class="algolia-no-index"><template slot="header"><p>If not using CATcher</p></template>
+<panel minimized class="algolia-no-index"><template slot="_header"><p>If not using CATcher</p></template>
 <div id="not-using-catcher-warning">
 <box type="warning">
 <p>Issues created for PE-D and PE need to be in a precise format for our grading scripts to work. Incorrectly-formatted responses will have to discarded. Therefore, you are <strong><span class="text-danger">not allowed to use the GitHub interface for PE-D and PE activities, unless you have obtained  our permission first</span></strong>.</p></box></div>
 <ul>
 <li>Create a public repo in your GitHub account with the following name:
 <ul>
-<li>PE Dry Run: <code class="hljs inline no-lang" v-pre>ped</code></li>
-<li>PE: <code class="hljs inline no-lang" v-pre>pe</code></li></ul></li>
+<li>PE Dry Run: <code v-pre>ped</code></li>
+<li>PE: <code v-pre>pe</code></li></ul></li>
 <li>Enable its issue tracker and add the following labels to it (the label names should be precisely as given).</li></ul>
 <div>
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
+<li><code v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
+<li><code v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
+<li><code v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
 <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> When applying for documentation bugs, replace <em>user</em> with <em>reader</em>.</p></box></div>
 <div>
 <box>
 <p><strong>Type</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
-<li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
+<li><code v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
+<li><code v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
 <p></p></panel><p></p><p></p></div>
 <ul>
 <li>
@@ -664,20 +652,20 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <div class="indented">
 <box>
 <p><strong class="text-success"><strong>Testing tips</strong></strong></p>
-<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Use easy-to-remember patterns in test data.</strong> For example, if you use <code class="hljs inline no-lang" v-pre>12345678</code> as a phone number while testing and it appears as <code class="hljs inline no-lang" v-pre>2345678</code> somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy. Similarly, if you use <code class="hljs inline no-lang" v-pre>Alice Bee</code>, <code class="hljs inline no-lang" v-pre>Benny Lee</code>, <code class="hljs inline no-lang" v-pre>Charles Pereira</code> as test data (note how the names start with letters A, B, C), it will be easy to detect if one goes missing, or they appear in the incorrect order.</p>
+<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Use easy-to-remember patterns in test data.</strong> For example, if you use <code v-pre>12345678</code> as a phone number while testing and it appears as <code v-pre>2345678</code> somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy. Similarly, if you use <code v-pre>Alice Bee</code>, <code v-pre>Benny Lee</code>, <code v-pre>Charles Pereira</code> as test data (note how the names start with letters A, B, C), it will be easy to detect if one goes missing, or they appear in the incorrect order.</p>
 <p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Go wide before you go deep</strong>. Do a light testing of all features first. That will give you a better idea of which features are likely to be more buggy. Spending equal time for all features or testing in the order the features appear in the UG is not always the best approach.</p></box></div>
 <p></p>
 </div></panel></div></div>
 <p></p>
-<h4 id="4-attend-the-practical-exam-during-the-lecture-on-fri-apr-16th"><span id="4-attend-the-practical-exam-during-the-lecture-on-fri-apr-16th" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Attend the practical exam</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> during the lecture on Fri, Apr 16th </span></span><a class="fa fa-anchor" href="#4-attend-the-practical-exam-during-the-lecture-on-fri-apr-16th" onclick="event.stopPropagation()"></a></h4>
+<h4 id="4-attend-the-practical-exam-during-the-lecture-on-fri-apr-16th"><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Attend the practical exam</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> during the lecture on Fri, Apr 16th </span></span><span id="4-attend-the-practical-exam-during-the-lecture-on-fri-apr-16th" class="anchor"></span><a class="fa fa-anchor" href="#4-attend-the-practical-exam-during-the-lecture-on-fri-apr-16th" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
 <li>Attend the practical test, to be done during the lecture.</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Practical Exam <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Practical Exam <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <div>
-<h4 id="pe-overview"><span id="pe-overview" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Overview</span><a class="fa fa-anchor" href="#pe-overview" onclick="event.stopPropagation()"></a></h4>
+<h4 id="pe-overview"><span class="badge badge-success">PE</span> <span class="text-success">Overview</span><span id="pe-overview" class="anchor"></span><a class="fa fa-anchor" href="#pe-overview" onclick="event.stopPropagation()"></a></h4>
 <span id="pe-overview">
 <p><strong>Objectives:</strong></p>
 <ul>
@@ -692,29 +680,29 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>As such, we have put in measures to identify and <mark>penalize insincere/random evaluations</mark>.</li>
 <li>Also see:</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Notes on how marks are calculated for PE <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Notes on how marks are calculated for PE <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h5 id="grading-bugs-found-in-the-pe-2"><span id="grading-bugs-found-in-the-pe-2" class="anchor"></span>Grading bugs found in the PE<a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe-2" onclick="event.stopPropagation()"></a></h5>
+<h5 id="grading-bugs-found-in-the-pe-2">Grading bugs found in the PE<span id="grading-bugs-found-in-the-pe-2" class="anchor"></span><a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe-2" onclick="event.stopPropagation()"></a></h5>
 <ul>
-<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
+<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
 <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not affect marks of the tester or the developer.</li>
-<li>The penalty/credit for a bug varies based on the severity of the bug: <code class="hljs inline no-lang" v-pre>severity.High</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Medium</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Low</code> &gt; <code class="hljs inline no-lang" v-pre>severity.VeryLow</code></li>
-<li>The three types (i.e., <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>, <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>, <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
+<li>The penalty/credit for a bug varies based on the severity of the bug: <code v-pre>severity.High</code> &gt; <code v-pre>severity.Medium</code> &gt; <code v-pre>severity.Low</code> &gt; <code v-pre>severity.VeryLow</code></li>
+<li>The three types (i.e., <code v-pre>type.FunctionalityBug</code>, <code v-pre>type.DocumentationBug</code>, <code v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
 <li>The penalty for a bug is divided equally among assignees.</li>
 <li>Developers are not penalized for duplicate bug reports they received but the testers earn credit for duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
-<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
+<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
 <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
 <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
 <ul>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
+<li><code v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
+<li><code v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
 <li>You don't need to find <em>all</em> bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div></span>
-<h4 id="pe-preparation"><span id="pe-preparation" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Preparation</span><a class="fa fa-anchor" href="#pe-preparation" onclick="event.stopPropagation()"></a></h4>
+<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div></span>
+<h4 id="pe-preparation"><span class="badge badge-success">PE</span> <span class="text-success">Preparation</span><span id="pe-preparation" class="anchor"></span><a class="fa fa-anchor" href="#pe-preparation" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>It's similar to,</li></ul>
 <div class="indented-level2">
-<panel type="primary" minimized class="algolia-no-index"><template slot="header"><p>PE-D Preparation</p></template>
+<panel type="primary" minimized class="algolia-no-index"><template slot="_header"><p>PE-D Preparation</p></template>
 <div>
 <ul>
 <li>
@@ -724,32 +712,32 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>
 <p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer.</p></li></ul>
 <div class="indented-level2">
-<panel minimized class="algolia-no-index"><template slot="header"><p>If not using CATcher</p></template>
+<panel minimized class="algolia-no-index"><template slot="_header"><p>If not using CATcher</p></template>
 <div id="not-using-catcher-warning">
 <box type="warning">
 <p>Issues created for PE-D and PE need to be in a precise format for our grading scripts to work. Incorrectly-formatted responses will have to discarded. Therefore, you are <strong><span class="text-danger">not allowed to use the GitHub interface for PE-D and PE activities, unless you have obtained  our permission first</span></strong>.</p></box></div>
 <ul>
 <li>Create a public repo in your GitHub account with the following name:
 <ul>
-<li>PE Dry Run: <code class="hljs inline no-lang" v-pre>ped</code></li>
-<li>PE: <code class="hljs inline no-lang" v-pre>pe</code></li></ul></li>
+<li>PE Dry Run: <code v-pre>ped</code></li>
+<li>PE: <code v-pre>pe</code></li></ul></li>
 <li>Enable its issue tracker and add the following labels to it (the label names should be precisely as given).</li></ul>
 <div>
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
+<li><code v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
+<li><code v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
+<li><code v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
 <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> When applying for documentation bugs, replace <em>user</em> with <em>reader</em>.</p></box></div>
 <div>
 <box>
 <p><strong>Type</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
-<li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
+<li><code v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
+<li><code v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
 <p></p></panel><p></p><p></p></div>
 <ul>
 <li>
@@ -769,22 +757,22 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <div class="indented">
 <box>
 <p><strong class="text-success"><strong>Testing tips</strong></strong></p>
-<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Use easy-to-remember patterns in test data.</strong> For example, if you use <code class="hljs inline no-lang" v-pre>12345678</code> as a phone number while testing and it appears as <code class="hljs inline no-lang" v-pre>2345678</code> somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy. Similarly, if you use <code class="hljs inline no-lang" v-pre>Alice Bee</code>, <code class="hljs inline no-lang" v-pre>Benny Lee</code>, <code class="hljs inline no-lang" v-pre>Charles Pereira</code> as test data (note how the names start with letters A, B, C), it will be easy to detect if one goes missing, or they appear in the incorrect order.</p>
+<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Use easy-to-remember patterns in test data.</strong> For example, if you use <code v-pre>12345678</code> as a phone number while testing and it appears as <code v-pre>2345678</code> somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy. Similarly, if you use <code v-pre>Alice Bee</code>, <code v-pre>Benny Lee</code>, <code v-pre>Charles Pereira</code> as test data (note how the names start with letters A, B, C), it will be easy to detect if one goes missing, or they appear in the incorrect order.</p>
 <p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Go wide before you go deep</strong>. Do a light testing of all features first. That will give you a better idea of which features are likely to be more buggy. Spending equal time for all features or testing in the order the features appear in the UG is not always the best approach.</p></box></div>
 <p></p>
 </div></panel></div>
 <p></p>
-<h4 id="pe-phase-1-bug-reporting"><span id="pe-phase-1-bug-reporting" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 1: Bug Reporting</span><a class="fa fa-anchor" href="#pe-phase-1-bug-reporting" onclick="event.stopPropagation()"></a></h4>
+<h4 id="pe-phase-1-bug-reporting"><span class="badge badge-success">PE</span> <span class="text-success">Phase 1: Bug Reporting</span><span id="pe-phase-1-bug-reporting" class="anchor"></span><a class="fa fa-anchor" href="#pe-phase-1-bug-reporting" onclick="event.stopPropagation()"></a></h4>
 <box type="important" seamless><template slot="icon"><span aria-hidden="true" class="fas fa-exclamation-circle"></span></template>
 <p><strong>PE Phase 1 will conducted under exam conditions. <mark>We will be following the <a href="https://mysoc.nus.edu.sg/academic/e-exam-sop-for-students/">SoC's E-Exam SOP</a></mark></strong>, combined with the deviations/refinements given below. Any non-compliance will be dealt with similar to a non-compliance in the final exam.</p>
 <ul>
 <li><strong>Proctoring will be done via Zoom.</strong> No admission if the following requirements are not met.
 <ul>
 <li><strong>You need two Zoom devices</strong> (PC: chat, audio <s>video</s>, Phone: video, <s>audio</s>), unless you have an external web cam for your PC.</li>
-<li><strong>Add your <code class="hljs inline no-lang" v-pre>[PE_seat_number]</code> in front of the <em>first name</em> of your Zoom display name</strong>, in your Zoom devices. <mark>Seat numbers can be found in <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUbcJpMC5OdJkr_K6VxDwAkkrwJsqAFSPwHmZq88EbOdAWIPMeYvDQDYOUEcsEYVwACmAz5hH0W0ZY/pubhtml?gid=0&amp;single=true">here</a></mark>. e.g.,
+<li><strong>Add your <code v-pre>[PE_seat_number]</code> in front of the <em>first name</em> of your Zoom display name</strong>, in your Zoom devices. <mark>Seat numbers can be found in <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUbcJpMC5OdJkr_K6VxDwAkkrwJsqAFSPwHmZq88EbOdAWIPMeYvDQDYOUEcsEYVwACmAz5hH0W0ZY/pubhtml?gid=0&amp;single=true">here</a></mark>. e.g.,
 <ul>
-<li><code class="hljs inline no-lang" v-pre>[M48] John Doe</code> (<code class="hljs inline no-lang" v-pre>M18</code> is the seat number)</li>
-<li><code class="hljs inline no-lang" v-pre>[M48][PC] John Doe</code> (for the PC, if using a phone as well)</li></ul></li>
+<li><code v-pre>[M48] John Doe</code> (<code v-pre>M18</code> is the seat number)</li>
+<li><code v-pre>[M48][PC] John Doe</code> (for the PC, if using a phone as well)</li></ul></li>
 <li><strong>Set your camera</strong> so that <em>all</em> the following are visible:
 <ul>
 <li>your head (side view)</li>
@@ -792,7 +780,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>the work area (i.e., the table top)<br>
 <img src="/website/admin/images/zoomCameraExample.png" width="362"></li></ul></li></ul></li>
 <li><strong>Join the Zoom waiting room <mark>15-30 minutes before the start time</mark>.</strong> Admitting you to the Zoom session can take some time.</li>
-<li><strong>In case of Zoom outage</strong>, we'll fall back on MS Teams (MST). Make sure you have MST running and have joined the matching MST Team <code class="hljs inline no-lang" v-pre>CS2103_AY2021S1_12pm_lecture</code> or <code class="hljs inline no-lang" v-pre>CS2103_AY2021S1_4pm_lecture</code>.</li>
+<li><strong>In case of Zoom outage</strong>, we'll fall back on MS Teams (MST). Make sure you have MST running and have joined the matching MST Team <code v-pre>CS2103_AY2021S1_12pm_lecture</code> or <code v-pre>CS2103_AY2021S1_4pm_lecture</code>.</li>
 <li><strong>Recording the screen is not required.</strong></li>
 <li><strong>You are allowed to use head/ear phones.</strong></li>
 <li><strong>Only one screen is allowed.</strong></li>
@@ -810,67 +798,67 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li><strong>This is a <em>manual</em> testing session</strong>. Do not use any test automation tools or custom scripts.</li></ul></box>
 <ul>
 <li><strong>When, where</strong>: Week 13 lecture slot. Use the same Zoom link used for the regular lecture.</li></ul>
-<h5 id="pe-phase-1-part-i-product-testing-60-minutes"><span id="pe-phase-1-part-i-product-testing-60-minutes" class="anchor"></span><span class="badge badge-success">PE Phase 1 - Part I</span> <span class="text-success">Product Testing [60 minutes]</span><a class="fa fa-anchor" href="#pe-phase-1-part-i-product-testing-60-minutes" onclick="event.stopPropagation()"></a></h5>
+<h5 id="pe-phase-1-part-i-product-testing-60-minutes"><span class="badge badge-success">PE Phase 1 - Part I</span> <span class="text-success">Product Testing [60 minutes]</span><span id="pe-phase-1-part-i-product-testing-60-minutes" class="anchor"></span><a class="fa fa-anchor" href="#pe-phase-1-part-i-product-testing-60-minutes" onclick="event.stopPropagation()"></a></h5>
 <box type="tip" seamless>
 <p><strong class="text-success">Bonus marks for high accuracy rates!</strong></p>
-<p>You will receive bonus marks if a high percentage (e.g., &gt;70%) of your bugs are <em><strong>accepted as reported</strong></em> (i.e., the eventual <code class="hljs inline no-lang" v-pre>type.*</code> and <code class="hljs inline no-lang" v-pre>severity.*</code> of the bug match the values you chose initially and the bug is accepted by the team).
+<p>You will receive bonus marks if a high percentage (e.g., &gt;70%) of your bugs are <em><strong>accepted as reported</strong></em> (i.e., the eventual <code v-pre>type.*</code> and <code v-pre>severity.*</code> of the bug match the values you chose initially and the bug is accepted by the team).
 </p></box><p></p>
 <p><strong>Test the product and report bugs</strong> as described below. You may report both product bugs and documentation bugs during this period.</p>
 <div>
 <box>
-<h5 id="testing-instructions-for-pe-and-pe-d"><span id="testing-instructions-for-pe-and-pe-d" class="anchor"></span><div class="text-white bg-secondary p-1"><strong>Testing instructions for PE and PE-D</strong></div><a class="fa fa-anchor" href="#testing-instructions-for-pe-and-pe-d" onclick="event.stopPropagation()"></a></h5>
-<h6 id="a-launching-the-jar-file"><span id="a-launching-the-jar-file" class="anchor"></span><div class="text-white bg-secondary p-1">a) Launching the JAR file</div><a class="fa fa-anchor" href="#a-launching-the-jar-file" onclick="event.stopPropagation()"></a></h6>
+<h5 id="testing-instructions-for-pe-and-pe-d"><div class="text-white bg-secondary p-1"><strong>Testing instructions for PE and PE-D</strong></div><span id="testing-instructions-for-pe-and-pe-d" class="anchor"></span><a class="fa fa-anchor" href="#testing-instructions-for-pe-and-pe-d" onclick="event.stopPropagation()"></a></h5>
+<h6 id="a-launching-the-jar-file"><div class="text-white bg-secondary p-1">a) Launching the JAR file</div><span id="a-launching-the-jar-file" class="anchor"></span><a class="fa fa-anchor" href="#a-launching-the-jar-file" onclick="event.stopPropagation()"></a></h6>
 <ul>
 <li>Get the jar file to be tested:</li></ul>
-<tabs active="1">
+<tabs active="0">
 <tab><template slot="_header">PE Dry Run (at <strong>v2.0</strong>)</template>
 <ul>
 <li>Download the jar file from the team's releases page, if you haven't done this already.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">PE (at <strong>v2.1</strong>)</template>
 <ul>
 <li>Download the zip file from the given location, if you haven't done that already.</li>
-<li>Unzip the downloaded zip file with the password (to be given to you at the start of the PE, via LumiNUS gradebook). This will give you another zip file with the name suffix <code class="hljs inline no-lang" v-pre>_inner.zip</code>.</li>
+<li>Unzip the downloaded zip file with the password (to be given to you at the start of the PE, via LumiNUS gradebook). This will give you another zip file with the name suffix <code v-pre>_inner.zip</code>.</li>
 <li>Unzip the inner zip file. This will give you the jar file and other PDF files needed for the PE. <mark>Warning: do not run the jar file while it is still inside the zip file</mark>.</li></ul></tab></tabs>
 <p></p>
 <ul>
 <li>Put the downloaded jar file <mark>in an empty folder</mark> in which the app is allowed to create files <span class="dimmed">(i.e., do not use a write-protected folder)</span>.</li>
-<li>Open a command window. Run the <code class="hljs inline no-lang" v-pre>java -version</code> command to ensure you are using Java 11.</li>
+<li>Open a command window. Run the <code v-pre>java -version</code> command to ensure you are using Java 11.</li>
 <li>Check the UG to see if there are extra things you need to do before launching the JAR file <span class="dimmed">e.g., download another file from somewhere</span><br>
 <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> You may visit the team's <em>releases</em> page on GitHub if they have provided some extra files you need to download.</li>
-<li>Launch the jar file <mark>using the <code class="hljs inline no-lang" v-pre>java -jar</code> command</mark> rather than double-clicking <span class="dimmed">(reason: to ensure the jar file is using the same java version that you verified above)</span>. Use double-clicking as a last resort.<br>
+<li>Launch the jar file <mark>using the <code v-pre>java -jar</code> command</mark> rather than double-clicking <span class="dimmed">(reason: to ensure the jar file is using the same java version that you verified above)</span>. Use double-clicking as a last resort.<br>
 If you are on Windows, use the DOS prompt or the PowerShell (not the WSL terminal) to run the JAR file.</li>
 <li><strong>If the product doesn't work at all:</strong> If the product fails catastrophically <span class="dimmed">e.g., cannot even launch, or even the basic commands crash the app</span>, contact the invigilator (via MS Teams, and failing that, via Zoom chat) to receive a <em>fallback</em> team to test.</li></ul>
-<h6 id="b-what-to-test"><span id="b-what-to-test" class="anchor"></span><div class="text-white bg-secondary p-1">b) What to test</div><a class="fa fa-anchor" href="#b-what-to-test" onclick="event.stopPropagation()"></a></h6>
-<tabs active="1">
+<h6 id="b-what-to-test"><div class="text-white bg-secondary p-1">b) What to test</div><span id="b-what-to-test" class="anchor"></span><a class="fa fa-anchor" href="#b-what-to-test" onclick="event.stopPropagation()"></a></h6>
+<tabs active="0">
 <tab><template slot="_header">PE Dry Run (at <strong>v2.0</strong>)</template>
 <ul>
-<li>Test the product <mark>based on the User Guide</mark> available from their GitHub website <code class="hljs inline no-lang" v-pre>https://{team-id}.github.io/tp/UserGuide.html</code>.</li>
+<li>Test the product <mark>based on the User Guide</mark> available from their GitHub website <code v-pre>https://{team-id}.github.io/tp/UserGuide.html</code>.</li>
 <li>Do <mark><em>system</em> testing first</mark> <span class="dimmed">i.e., does the product work as specified by the documentation?</span>. If there is time left, you can <mark>do <em>acceptance</em> testing as well</mark> <span class="dimmed">i.e., does the product solve the problem it claims to solve?</span>.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">PE (at <strong>v2.1</strong>)</template>
 <ul>
 <li>Test <mark>based on the Developer Guide</mark> (Appendix named <em>Instructions for Manual Testing</em>) <mark>and the User Guide</mark>. The testing instructions in the Developer Guide can provide you some guidance but if you follow those instructions strictly, you are unlikely to find many bugs. You can deviate from the instructions to probe areas that are more likely to have bugs.</li>
 <li>As before, do both <mark><em>system testing</em> and <em>acceptance testing</em></mark> but give priority to system testing as those bugs can earn you more credit.</li></ul></tab></tabs>
 <p></p>
-<h6 id="c-what-bugs-to-report"><span id="c-what-bugs-to-report" class="anchor"></span><div class="text-white bg-secondary p-1">c) What bugs to report?</div><a class="fa fa-anchor" href="#c-what-bugs-to-report" onclick="event.stopPropagation()"></a></h6>
-<tabs active="1">
+<h6 id="c-what-bugs-to-report"><div class="text-white bg-secondary p-1">c) What bugs to report?</div><span id="c-what-bugs-to-report" class="anchor"></span><a class="fa fa-anchor" href="#c-what-bugs-to-report" onclick="event.stopPropagation()"></a></h6>
+<tabs active="0">
 <tab><template slot="_header">PE Dry Run (at <strong>v2.0</strong>)</template>
 <ul>
 <li>You may report functionality bugs, UG bugs, and feature flaws.</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Functionality Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Functionality Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p>These are considered <em>functionality bugs</em>:<br>
 <span aria-hidden="true" class="fas fa-bug"></span> Behavior differs from the User Guide<br>
 <span aria-hidden="true" class="fas fa-bug"></span> A legitimate user behavior is not handled <span class="dimmed">e.g. incorrect commands, extra parameters</span><br>
 <span aria-hidden="true" class="fas fa-bug"></span> Behavior is not specified and differs from normal expectations <span class="dimmed">e.g. error message does not match the error</span><br></p></div></panel>
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Feature Flaws</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Feature Flaws</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p>These are considered <em>feature flaws</em>:<br>
 <span aria-hidden="true" class="fas fa-bug"></span> The feature does not solve the stated problem of the intended user i.e., the feature is 'incomplete'<br>
 <span aria-hidden="true" class="fas fa-bug"></span> Hard-to-test features<br>
 <span aria-hidden="true" class="fas fa-bug"></span> Features that don't fit well with the product<br>
 <span aria-hidden="true" class="fas fa-bug"></span> Features that are not optimized enough for fast-typists or target users</p></div></panel>
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible UG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible UG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p><strong>These are considered UG bugs (if they hinder the reader):</strong><br></p>
 <div>
@@ -910,16 +898,16 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <ul>
 <li>Report functionality bugs:</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Functionality Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Functionality Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p>These are considered <em>functionality bugs</em>:<br>
 <span aria-hidden="true" class="fas fa-bug"></span> Behavior differs from the User Guide<br>
 <span aria-hidden="true" class="fas fa-bug"></span> A legitimate user behavior is not handled <span class="dimmed">e.g. incorrect commands, extra parameters</span><br>
 <span aria-hidden="true" class="fas fa-bug"></span> Behavior is not specified and differs from normal expectations <span class="dimmed">e.g. error message does not match the error</span><br></p></div></panel></div><p></p>
 <ul>
-<li>Do not post suggestions but if the product is missing a critical functionality that makes the product less useful to the intended user, it can be reported as a bug of type <code class="hljs inline no-lang" v-pre>Type.FeatureFlaw</code>. The dev team is allowed to reject bug reports framed as mere suggestions or/and lacking in a convincing justification as to why the omission of that functionality is problematic.</li></ul>
+<li>Do not post suggestions but if the product is missing a critical functionality that makes the product less useful to the intended user, it can be reported as a bug of type <code v-pre>Type.FeatureFlaw</code>. The dev team is allowed to reject bug reports framed as mere suggestions or/and lacking in a convincing justification as to why the omission of that functionality is problematic.</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Feature Flaws</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Feature Flaws</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p>These are considered <em>feature flaws</em>:<br>
 <span aria-hidden="true" class="fas fa-bug"></span> The feature does not solve the stated problem of the intended user i.e., the feature is 'incomplete'<br>
@@ -929,7 +917,7 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <ul>
 <li>You may also report UG bugs.</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible UG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible UG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p><strong>These are considered UG bugs (if they hinder the reader):</strong><br></p>
 <div>
@@ -963,7 +951,7 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>hard to read/understand</li>
 <li>unnecessary repetitions <span class="dimmed">(i.e., hard to see what's similar and what's different)</span></li></ul></span></div></div></panel></div><p></p></tab></tabs>
 <p></p>
-<h6 id="d-how-to-report-bugs"><span id="d-how-to-report-bugs" class="anchor"></span><div class="text-white bg-secondary p-1">d) How to report bugs</div><a class="fa fa-anchor" href="#d-how-to-report-bugs" onclick="event.stopPropagation()"></a></h6>
+<h6 id="d-how-to-report-bugs"><div class="text-white bg-secondary p-1">d) How to report bugs</div><span id="d-how-to-report-bugs" class="anchor"></span><a class="fa fa-anchor" href="#d-how-to-report-bugs" onclick="event.stopPropagation()"></a></h6>
 <ul>
 <li><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Post bugs as you find them</strong> <span class="dimmed">(i.e., do not wait to post all bugs at the end)</span> because <span class="text-danger">bug reports created/modified after the allocated time will not count.</span></li></ul>
 <div class="indented-level2">
@@ -972,8 +960,8 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <ul>
 <li>Launch CATcher, and login to the correct profile:
 <ul>
-<li>PE Dry Run: <code class="hljs inline no-lang" v-pre>CS2113/T PE Dry run</code></li>
-<li>PE: <code class="hljs inline no-lang" v-pre>CS2113/T PE</code></li></ul></li>
+<li>PE Dry Run: <code v-pre>CS2113/T PE Dry run</code></li>
+<li>PE: <code v-pre>CS2113/T PE</code></li></ul></li>
 <li>Post bugs using CATcher.
 </li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">Not using CATcher</template>
@@ -985,42 +973,42 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <div><ul>
 <li>Post bug reports in the following repo you created earlier:
 <ul>
-<li>PE Dry Run: <code class="hljs inline no-lang" v-pre>ped</code></li>
-<li>PE: <code class="hljs inline no-lang" v-pre>pe</code></li></ul></li>
+<li>PE Dry Run: <code v-pre>ped</code></li>
+<li>PE: <code v-pre>pe</code></li></ul></li>
 <li>The whole description of the bug should be in the issue description i.e., <mark>do not add comments to the issue</mark>.</li></ul></div></div></tab></tabs></div>
-<h6 id="e-bug-report-format"><span id="e-bug-report-format" class="anchor"></span><div class="text-white bg-secondary p-1">e) Bug report format</div><a class="fa fa-anchor" href="#e-bug-report-format" onclick="event.stopPropagation()"></a></h6>
+<h6 id="e-bug-report-format"><div class="text-white bg-secondary p-1">e) Bug report format</div><span id="e-bug-report-format" class="anchor"></span><a class="fa fa-anchor" href="#e-bug-report-format" onclick="event.stopPropagation()"></a></h6>
 <ul>
 <li>Each bug should be a separate issue.</li>
 <li>Write good quality bug reports; <mark>poor quality or incorrect bug reports will not earn credit</mark>.</li>
 <li>Use a descriptive title.</li>
 <li>Give a good description of the bug with <mark>steps to reproduce, expected, actual, and screenshots</mark>. If the receiving team cannot reproduce the bug, you will not be able to get credit for it.</li>
-<li>Assign exactly one <code class="hljs inline no-lang" v-pre>severity.*</code> label to the bug report. Bug report without a severity label are considered <code class="hljs inline no-lang" v-pre>severity.Low</code> (lower severity bugs earn lower credit)<br></li></ul>
+<li>Assign exactly one <code v-pre>severity.*</code> label to the bug report. Bug report without a severity label are considered <code v-pre>severity.Low</code> (lower severity bugs earn lower credit)<br></li></ul>
 <div class="indented-level2">
 <div>
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
+<li><code v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
+<li><code v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
+<li><code v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
 <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> When applying for documentation bugs, replace <em>user</em> with <em>reader</em>.</p></box></div></div>
 <ul>
-<li>Assign exactly one <code class="hljs inline no-lang" v-pre>type.*</code> label to the issue.</li></ul>
+<li>Assign exactly one <code v-pre>type.*</code> label to the issue.</li></ul>
 <div class="indented-level2">
 <div>
 <box>
 <p><strong>Type</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
-<li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div></div></box></div>
-<h5 id="pe-phase-1-part-ii-evaluating-documents-30-minutes"><span id="pe-phase-1-part-ii-evaluating-documents-30-minutes" class="anchor"></span><span class="badge badge-success">PE Phase 1 - Part II</span> <span class="text-success">Evaluating Documents [30 minutes]</span><a class="fa fa-anchor" href="#pe-phase-1-part-ii-evaluating-documents-30-minutes" onclick="event.stopPropagation()"></a></h5>
+<li><code v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
+<li><code v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div></div></box></div>
+<h5 id="pe-phase-1-part-ii-evaluating-documents-30-minutes"><span class="badge badge-success">PE Phase 1 - Part II</span> <span class="text-success">Evaluating Documents [30 minutes]</span><span id="pe-phase-1-part-ii-evaluating-documents-30-minutes" class="anchor"></span><a class="fa fa-anchor" href="#pe-phase-1-part-ii-evaluating-documents-30-minutes" onclick="event.stopPropagation()"></a></h5>
 <ul>
 <li><strong>This slot is for reporting documentation bugs only</strong>. You may report bugs related to the UG and the DG.</li>
 <li><strong>For each bug reported, cite evidence and justify.</strong> For example, if you think the explanation of a feature is too brief, explain what information is missing and why the omission hinders the reader.</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible UG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible UG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p><strong>These are considered UG bugs (if they hinder the reader):</strong><br></p>
 <div>
@@ -1054,10 +1042,10 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>hard to read/understand</li>
 <li>unnecessary repetitions <span class="dimmed">(i.e., hard to see what's similar and what's different)</span></li></ul></span></div></div></panel></div><p></p>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible DG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible DG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p><strong>These are considered DG bugs (if they hinder the reader):</strong></p>
-<panel type="seamless" class="algolia-no-index"><template slot="header"><p>Those given as possible UG bugs ...</p></template>
+<panel type="seamless" class="algolia-no-index"><template slot="_header"><p>Those given as possible UG bugs ...</p></template>
 <div>
 <p><strong>These are considered UG bugs (if they hinder the reader):</strong><br></p>
 <div>
@@ -1133,12 +1121,12 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>Important terms missing
 </li></ul></span></div></panel></div><p></p>
 <p></p>
-<h5 id="pe-phase-1-part-iii-overall-evaluation-15-minutes"><span id="pe-phase-1-part-iii-overall-evaluation-15-minutes" class="anchor"></span><span class="badge badge-success">PE Phase 1 - Part III</span> <span class="text-success">Overall Evaluation [15 minutes]</span><a class="fa fa-anchor" href="#pe-phase-1-part-iii-overall-evaluation-15-minutes" onclick="event.stopPropagation()"></a></h5>
+<h5 id="pe-phase-1-part-iii-overall-evaluation-15-minutes"><span class="badge badge-success">PE Phase 1 - Part III</span> <span class="text-success">Overall Evaluation [15 minutes]</span><span id="pe-phase-1-part-iii-overall-evaluation-15-minutes" class="anchor"></span><a class="fa fa-anchor" href="#pe-phase-1-part-iii-overall-evaluation-15-minutes" onclick="event.stopPropagation()"></a></h5>
 <ul>
 <li>To be submitted via TEAMMATES. You are recommended to complete this during the PE session itself, but <mark>you have until the end of the day to submit (or revise) your submissions</mark>.</li></ul>
 <div class="indented">
 <box>
-<h5 id="important-questions-included-in-the-evaluation"><span id="important-questions-included-in-the-evaluation" class="anchor"></span><strong>Important questions included in the evaluation:</strong><a class="fa fa-anchor" href="#important-questions-included-in-the-evaluation" onclick="event.stopPropagation()"></a></h5>
+<h5 id="important-questions-included-in-the-evaluation"><strong>Important questions included in the evaluation:</strong><span id="important-questions-included-in-the-evaluation" class="anchor"></span><a class="fa fa-anchor" href="#important-questions-included-in-the-evaluation" onclick="event.stopPropagation()"></a></h5>
 <div id="projectGrading-featureFit-instructions">
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>Quality of the product design,</strong><br>
 Evaluate based on the User Guide and the actual product behavior.</p>
@@ -1151,25 +1139,25 @@ Evaluate based on the User Guide and the actual product behavior.</p>
 <th>High</th></tr></thead>
 <tbody>
 <tr>
-<td><code class="hljs inline no-lang" v-pre>target user</code></td>
+<td><code v-pre>target user</code></td>
 <td>Not specified</td>
 <td></td>
 <td></td>
 <td>Clearly specified and narrowed down appropriately</td></tr>
 <tr>
-<td><code class="hljs inline no-lang" v-pre>value proposition</code></td>
+<td><code v-pre>value proposition</code></td>
 <td>Not specified</td>
 <td>The value to target user is low. App is not worth using</td>
 <td>Some small group of target users might find the app worth using</td>
 <td>Most of the target users are likely to find the app worth using</td></tr>
 <tr>
-<td><code class="hljs inline no-lang" v-pre>optimized for target user</code></td>
+<td><code v-pre>optimized for target user</code></td>
 <td></td>
 <td>Not enough focus for CLI users</td>
 <td>Mostly CLI-based, but cumbersome to use most of the time</td>
 <td>Feels like a fast typist can be more productive with the app, compared to an equivalent GUI app without a CLI</td></tr>
 <tr>
-<td><code class="hljs inline no-lang" v-pre>feature-fit</code></td>
+<td><code v-pre>feature-fit</code></td>
 <td></td>
 <td>Many of the features don't fit with others</td>
 <td>Most features fit together but a few may be possible misfits</td>
@@ -1179,21 +1167,21 @@ Evaluate based on the User Guide and the actual product behavior.</p>
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>Compared to AddressBoook-Level3 (AB3), the overall quality of the UG you evaluated is,</strong><br>
 Evaluate based on fit-for-purpose, from the perspective of a target user.
 For reference, the AB3 UG is <a href="https://se-education.org/addressbook-level3/UserGuide.html">here</a>.<br></p>
-<ul radio-group="7acba" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Significantly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Slightly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Similar</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Higher</label></li></ul></div>
+<ul radio-group="a24af" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="a24af" type="radio">  Significantly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="a24af" type="radio">  Slightly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="a24af" type="radio">  Similar</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="a24af" type="radio">  Higher</label></li></ul></div>
 <p></p>
 <div id="projectGrading-devGuide-instructions">
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>Compared to AB3, the overall quality of the DG you evaluated is,</strong><br>
 Evaluate based on fit-for-purpose from the perspective of a new team member trying to understand the product's internal design by reading the DG.
 For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level3/DeveloperGuide.html">here</a>.<br></p>
-<ul radio-group="068c5" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Significantly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Slightly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Similar</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Higher</label></li></ul></div>
+<ul radio-group="aa650" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="aa650" type="radio">  Significantly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="aa650" type="radio">  Slightly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="aa650" type="radio">  Similar</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="aa650" type="radio">  Higher</label></li></ul></div>
 <p></p>
 <div id="projectGrading-effort-instructions">
 
@@ -1202,18 +1190,18 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <mark>Consider implementation work only (i.e., exclude testing, documentation, project management etc.)</mark><br>
 The <em>typical iP</em> refers to an iP where all the requirements are met at the minimal expectations given.<br>
 Use the person's PPP and RepoSense page to evaluate the effort.</p>
-<ul radio-group="c9961" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="c9961" type="radio">  Unable to judge</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="c9961" type="radio">  Significantly less than a typical iP</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="c9961" type="radio">  Slightly less than a typical iP</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="c9961" type="radio">  At least as much as a typical iP</label></li></ul></div></div>
+<ul radio-group="956c4" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="956c4" type="radio">  Unable to judge</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="956c4" type="radio">  Significantly less than a typical iP</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="956c4" type="radio">  Slightly less than a typical iP</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="956c4" type="radio">  At least as much as a typical iP</label></li></ul></div></div>
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>[Optional] Concerns or any noteworthy observations about the product you evaluated</strong></p></box></div>
-<h4 id="pe-phase-2-developer-response"><span id="pe-phase-2-developer-response" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 2: Developer Response</span><a class="fa fa-anchor" href="#pe-phase-2-developer-response" onclick="event.stopPropagation()"></a></h4>
+<h4 id="pe-phase-2-developer-response"><span class="badge badge-success">PE</span> <span class="text-success">Phase 2: Developer Response</span><span id="pe-phase-2-developer-response" class="anchor"></span><a class="fa fa-anchor" href="#pe-phase-2-developer-response" onclick="event.stopPropagation()"></a></h4>
 <p><mark><strong>Deadline:</strong> Tue, Apr 20th 2359</mark></p>
 <p>This phase is for you to respond to the bug reports you received.</p>
 <box type="tip" seamless>
 <p><strong class="text-success">Bonus marks for high accuracy rates!</strong></p>
-<p>You will receive bonus marks if a high percentage (e.g., &gt;80%) of bugs are <em><strong>accepted as triaged</strong></em> (i.e., the eventual <code class="hljs inline no-lang" v-pre>type.*</code>, <code class="hljs inline no-lang" v-pre>severity.*</code>, and <code class="hljs inline no-lang" v-pre>response.*</code> of the bug match the ones you chose).
+<p>You will receive bonus marks if a high percentage (e.g., &gt;80%) of bugs are <em><strong>accepted as triaged</strong></em> (i.e., the eventual <code v-pre>type.*</code>, <code v-pre>severity.*</code>, and <code v-pre>response.*</code> of the bug match the ones you chose).
 </p></box><p></p>
 <p>Duration: The review period will start around 1 day after the PE and will last for 2-3 days (exact times will be announced later). However, you are recommended to finish this task ASAP, to minimize cutting into your exam preparation work.</p>
 <p>Bug reviewing is recommended to be done as a team as some of the decisions need team consensus.</p>
@@ -1226,13 +1214,13 @@ Use the person's PPP and RepoSense page to evaluate the effort.</p>
 <box type="info"><template slot="icon"><span aria-hidden="true" class="fas fa-hard-hat"></span></template>
 <ul>
 <li>CATcher does not come with a UG, but the UI is fairly intuitive (there are tool tips too). Do post in the forum if you need any guidance with its usage.</li>
-<li>Also note that CATcher hasn't been battle-tested for this phase, in particular, w.r.t. multiple team members editing the same issue concurrently. It is ideal if the team members get together and work through the issues together. If you think others might be editing the same issues at the same time, use the <code class="hljs inline no-lang" v-pre>Sync</code> button at the top to force-sync your view with the latest data from GitHub.
+<li>Also note that CATcher hasn't been battle-tested for this phase, in particular, w.r.t. multiple team members editing the same issue concurrently. It is ideal if the team members get together and work through the issues together. If you think others might be editing the same issues at the same time, use the <code v-pre>Sync</code> button at the top to force-sync your view with the latest data from GitHub.
 </li></ul></box>
-<li>Launch CATcher, and login to the profile <code class="hljs inline no-lang" v-pre>CS2113/T PE</code>. It will show all the bugs assigned to your team, divided into three sections:
+<li>Launch CATcher, and login to the profile <code v-pre>CS2113/T PE</code>. It will show all the bugs assigned to your team, divided into three sections:
 <ol>
-<li><code class="hljs inline no-lang" v-pre>Issues Pending Responses</code> - Issues that your team has not processed yet.</li>
-<li><code class="hljs inline no-lang" v-pre>Issues Responded</code> - Your job is to get all issues to this category.</li>
-<li><code class="hljs inline no-lang" v-pre>Faulty Issues</code> - e.g., Bugs marked as duplicates of each other, or causing circular <em>duplicate</em> relationships. Fix the problem given so that no issues remain in this category.</li></ol></li>
+<li><code v-pre>Issues Pending Responses</code> - Issues that your team has not processed yet.</li>
+<li><code v-pre>Issues Responded</code> - Your job is to get all issues to this category.</li>
+<li><code v-pre>Faulty Issues</code> - e.g., Bugs marked as duplicates of each other, or causing circular <em>duplicate</em> relationships. Fix the problem given so that no issues remain in this category.</li></ol></li>
 <li>Respond to the bug reports shown.
 </li></tab>
 <tab class="algolia-no-index"><template slot="_header">Not using CATcher</template>
@@ -1249,30 +1237,30 @@ Use the person's PPP and RepoSense page to evaluate the effort.</p>
 <li><strong>If a bug seems to be for a different product</strong> (i.e. wrongly assigned to your team), let us know ASAP.</li>
 <li><strong>If the bug is reported multiple times</strong>,
 <ul>
-<li>Mark <span class="text-danger">all copies <mark>EXCEPT one</mark></span> as duplicates of the one left out (let's call that one the <em>original</em>) using the <span aria-hidden="true" class="fas fa-check-square"></span> <code class="hljs inline no-lang" v-pre>A Duplicate of</code> tick box.</li>
+<li>Mark <span class="text-danger">all copies <mark>EXCEPT one</mark></span> as duplicates of the one left out (let's call that one the <em>original</em>) using the <span aria-hidden="true" class="fas fa-check-square"></span> <code v-pre>A Duplicate of</code> tick box.</li>
 <li>For each group of duplicates, all duplicates should point to one <em>original</em> i.e., no multiple levels of duplicates, and no cyclical duplication relationships.</li>
-<li>If the duplication status is eventually accepted, all duplicates will be assumed to have inherited the <code class="hljs inline no-lang" v-pre>type.*</code> and <code class="hljs inline no-lang" v-pre>severity.*</code> from the <em>original</em>.</li></ul></li></ul>
+<li>If the duplication status is eventually accepted, all duplicates will be assumed to have inherited the <code v-pre>type.*</code> and <code v-pre>severity.*</code> from the <em>original</em>.</li></ul></li></ul>
 <p></p>
 <ul>
-<li><strong>Apply one of these labels</strong> (if missing, we assign: <code class="hljs inline no-lang" v-pre>response.Accepted</code>)</li></ul>
+<li><strong>Apply one of these labels</strong> (if missing, we assign: <code v-pre>response.Accepted</code>)</li></ul>
 <div class="indented">
 <box>
 <p><strong>Response</strong> Labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>response.Accepted</code>: You accept it as a bug.</li>
-<li><code class="hljs inline no-lang" v-pre>response.NotInScope</code>: It is a valid issue but not something the team should be penalized for <span class="dimmed">e.g., it was not related to features delivered in v2.1</span>.</li>
-<li><code class="hljs inline no-lang" v-pre>response.Rejected</code>: What tester treated as a bug is in fact the expected behavior, or the tester was mistaken in some other way.</li>
-<li><code class="hljs inline no-lang" v-pre>response.CannotReproduce</code>: You are unable to reproduce the behavior reported in the bug after multiple tries.</li>
-<li><code class="hljs inline no-lang" v-pre>response.IssueUnclear</code>: The issue description is not clear. Don't post comments asking the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymous.</li></ul></box></div>
+<li><code v-pre>response.Accepted</code>: You accept it as a bug.</li>
+<li><code v-pre>response.NotInScope</code>: It is a valid issue but not something the team should be penalized for <span class="dimmed">e.g., it was not related to features delivered in v2.1</span>.</li>
+<li><code v-pre>response.Rejected</code>: What tester treated as a bug is in fact the expected behavior, or the tester was mistaken in some other way.</li>
+<li><code v-pre>response.CannotReproduce</code>: You are unable to reproduce the behavior reported in the bug after multiple tries.</li>
+<li><code v-pre>response.IssueUnclear</code>: The issue description is not clear. Don't post comments asking the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymous.</li></ul></box></div>
 <ul>
-<li><strong>Apply one of these labels</strong> (if missing, we assign: <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>)</li></ul>
+<li><strong>Apply one of these labels</strong> (if missing, we assign: <code v-pre>type.FunctionalityBug</code>)</li></ul>
 <div class="indented" id="type-labels">
 <box>
 <p><strong>Type</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
-<li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
+<li><code v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
+<li><code v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v2.1 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v2.1 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
 <ul>
 <li><strong>If you disagree with the original severity assigned to the bug</strong>, you may change it to the correct level.</li></ul>
 <div class="indented">
@@ -1280,10 +1268,10 @@ Use the person's PPP and RepoSense page to evaluate the effort.</p>
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
-<li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
+<li><code v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
+<li><code v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
+<li><code v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
 <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> When applying for documentation bugs, replace <em>user</em> with <em>reader</em>.</p></box></div></div>
 <ul>
 <li><strong>If you need the teaching team's inputs when deciding on a bug</strong> <span class="dimmed">(e.g., if you are not sure if the UML notation is correct)</span>, post in the <a href="https://github.com/nus-cs2113-AY2021S2/forum/issues">forum</a>. Remember to <mark>quote the issue number shown in CATcher</mark> (it appears at the end of the issue title).</li></ul>
@@ -1298,7 +1286,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>The exact same bug reported multiple times.</li>
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
-<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
+<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code v-pre>severity.VeryLow</code> <code v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
 <li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority that the ones that are implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
@@ -1306,16 +1294,16 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li><strong>If a missing feature is essential for the app to be reasonably useful</strong>, its omission can be considered a <em>feature flaw</em> even if it can be proven as <em>not in scope</em> as given in the previous point.</li>
 <li><strong>If a bug report contains multiple bugs</strong> (i.e., despite instructions to the contrary, a tester included multiple bugs in a single bug report), you have to choose one bug and ignore the others. If there are valid bugs, choose from valid bugs. Among the choices available, choose the one with the highest severity (in your opinion). In your response, mention which bug you chose.</li>
 <li><strong>How to decide the severity of bugs related to <em>missing requirements</em></strong> (e.g., missing user stories)? Depends on the potential damage the omission can cause. Keep in mind that not documenting a requirement increases the risk of it not getting implemented in a timely manner (i.e., future developers will not know that feature needs to be implemented).</li>
-<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
+<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
 </li></ul></box></div>
 <ul>
-<li><strong>Decide who should fix the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.</strong>
+<li><strong>Decide who should fix the bug</strong>. Use the <code v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.</strong>
 <ul>
 <li>If it is not easy to decide the assignee(s), we recommend (but not enforce) that the feature owner should be assigned bugs related to the feature, Reason: The feature owner should have defended the feature against bugs using automated tests and defensive coding techniques.</li></ul></li></ul>
 <p></p>
 <ul>
 <li>
-<p>As far as possible, <mark><strong>choose the correct <code class="hljs inline no-lang" v-pre>type.*</code>, <code class="hljs inline no-lang" v-pre>severity.*</code>, <code class="hljs inline no-lang" v-pre>response.*</code>, assignees, and duplicate status even for bugs you are not accepting or marking as duplicates</strong></mark>. Reason: your <em>non-acceptance</em>  or duplication status may be rejected in a later phase, in which case we need to grade it as an accepted/non-duplicate bug.</p></li>
+<p>As far as possible, <mark><strong>choose the correct <code v-pre>type.*</code>, <code v-pre>severity.*</code>, <code v-pre>response.*</code>, assignees, and duplicate status even for bugs you are not accepting or marking as duplicates</strong></mark>. Reason: your <em>non-acceptance</em>  or duplication status may be rejected in a later phase, in which case we need to grade it as an accepted/non-duplicate bug.</p></li>
 <li>
 <p><strong>Justify your response.</strong> For all of the following cases, <mark>you must add a comment justifying your stance</mark>. Testers will get to respond to all those cases and will be double-checked by the teaching team in later phases.</p>
 <ul>
@@ -1327,28 +1315,28 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <ul>
 <li>You can also refer to the below guidelines:</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Grading bugs found in the PE</p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Grading bugs found in the PE</p></template>
 <div>
-<h5 id="grading-bugs-found-in-the-pe-3"><span id="grading-bugs-found-in-the-pe-3" class="anchor"></span>Grading bugs found in the PE<a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe-3" onclick="event.stopPropagation()"></a></h5>
+<h5 id="grading-bugs-found-in-the-pe-3">Grading bugs found in the PE<span id="grading-bugs-found-in-the-pe-3" class="anchor"></span><a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe-3" onclick="event.stopPropagation()"></a></h5>
 <ul>
-<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
+<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
 <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not affect marks of the tester or the developer.</li>
-<li>The penalty/credit for a bug varies based on the severity of the bug: <code class="hljs inline no-lang" v-pre>severity.High</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Medium</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Low</code> &gt; <code class="hljs inline no-lang" v-pre>severity.VeryLow</code></li>
-<li>The three types (i.e., <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>, <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>, <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
+<li>The penalty/credit for a bug varies based on the severity of the bug: <code v-pre>severity.High</code> &gt; <code v-pre>severity.Medium</code> &gt; <code v-pre>severity.Low</code> &gt; <code v-pre>severity.VeryLow</code></li>
+<li>The three types (i.e., <code v-pre>type.FunctionalityBug</code>, <code v-pre>type.DocumentationBug</code>, <code v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
 <li>The penalty for a bug is divided equally among assignees.</li>
 <li>Developers are not penalized for duplicate bug reports they received but the testers earn credit for duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
-<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
+<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
 <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
 <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
 <ul>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
+<li><code v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
+<li><code v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
 <li>You don't need to find <em>all</em> bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div><p></p>
-<h4 id="pe-phase-3-tester-response"><span id="pe-phase-3-tester-response" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 3: Tester Response</span><a class="fa fa-anchor" href="#pe-phase-3-tester-response" onclick="event.stopPropagation()"></a></h4>
+<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div><p></p>
+<h4 id="pe-phase-3-tester-response"><span class="badge badge-success">PE</span> <span class="text-success">Phase 3: Tester Response</span><span id="pe-phase-3-tester-response" class="anchor"></span><a class="fa fa-anchor" href="#pe-phase-3-tester-response" onclick="event.stopPropagation()"></a></h4>
 <p><strong>Start:</strong> Within 1 day after Phase 2 ends.<br></p>
 <div class="indented">
-<p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> While you are waiting for Phase 3 to start, comments will be added to the bug reports in your <code class="hljs inline no-lang" v-pre>/pe</code> repo, to indicate the response each received from the receiving team. <span class="text-danger">Please do not edit any of those comments or reply to them via the GitHub interface.</span> Doing so can invalidate them, in which case the grading script will assume that you agree with the dev team's response. Instead, wait till the start of the Phase 3 is announced, after which you should use CATcher to respond.</p></div>
+<p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> While you are waiting for Phase 3 to start, comments will be added to the bug reports in your <code v-pre>/pe</code> repo, to indicate the response each received from the receiving team. <span class="text-danger">Please do not edit any of those comments or reply to them via the GitHub interface.</span> Doing so can invalidate them, in which case the grading script will assume that you agree with the dev team's response. Instead, wait till the start of the Phase 3 is announced, after which you should use CATcher to respond.</p></div>
 <p><mark><strong>Deadline:</strong> Fri, Apr 23rd 2359</mark></p>
 <ul>
 <li>In this phase you will get to state whether you agree or disagree with the dev team's response to the bugs you reported. If a bug reported has been subjected to any of the below by the receiving dev team, you can record your objections and the reason for the objection.
@@ -1357,10 +1345,10 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>severity downgraded</li>
 <li>bug type changed</li>
 <li>bug flagged as duplicate <span class="dimmed">(Note that you still get credit for bugs flagged as duplicates, unless you reported both bugs yourself. Nevertheless, it is in your interest to object to bugs being flagged incorrectly as duplicates because when a bug is reported by more testers, it will be considered an 'obvious' bug and will earn slightly less credit than otherwise)</span></li></ul></li>
-<li>If you disagree with the team's decision but would like to revise your own initial type/severity/response as well, you can state that in your explanation <span class="dimmed">e.g., you rated the bug <code class="hljs inline no-lang" v-pre>severity.High</code> and the team changed it to <code class="hljs inline no-lang" v-pre>severity.Low</code> but now you think it should be <code class="hljs inline no-lang" v-pre>severity.Medium</code></span>.</li>
+<li>If you disagree with the team's decision but would like to revise your own initial type/severity/response as well, you can state that in your explanation <span class="dimmed">e.g., you rated the bug <code v-pre>severity.High</code> and the team changed it to <code v-pre>severity.Low</code> but now you think it should be <code v-pre>severity.Medium</code></span>.</li>
 <li>You can also refer to the below guidelines:</li></ul>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> PE → Phase 2 → Additional Guidelines for Bug Triaging</p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> PE → Phase 2 → Additional Guidelines for Bug Triaging</p></template>
 <div>
 <box type="info"><template slot="_header"><p><strong>Some additional guidelines for bug triaging:</strong></p></template>
 <ul>
@@ -1372,7 +1360,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>The exact same bug reported multiple times.</li>
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
-<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
+<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code v-pre>severity.VeryLow</code> <code v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
 <li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority that the ones that are implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
@@ -1380,27 +1368,27 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li><strong>If a missing feature is essential for the app to be reasonably useful</strong>, its omission can be considered a <em>feature flaw</em> even if it can be proven as <em>not in scope</em> as given in the previous point.</li>
 <li><strong>If a bug report contains multiple bugs</strong> (i.e., despite instructions to the contrary, a tester included multiple bugs in a single bug report), you have to choose one bug and ignore the others. If there are valid bugs, choose from valid bugs. Among the choices available, choose the one with the highest severity (in your opinion). In your response, mention which bug you chose.</li>
 <li><strong>How to decide the severity of bugs related to <em>missing requirements</em></strong> (e.g., missing user stories)? Depends on the potential damage the omission can cause. Keep in mind that not documenting a requirement increases the risk of it not getting implemented in a timely manner (i.e., future developers will not know that feature needs to be implemented).</li>
-<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
+<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
 </li></ul></box></div></panel></div><p></p>
 <div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Grading bugs found in the PE</p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Grading bugs found in the PE</p></template>
 <div>
-<h5 id="grading-bugs-found-in-the-pe-4"><span id="grading-bugs-found-in-the-pe-4" class="anchor"></span>Grading bugs found in the PE<a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe-4" onclick="event.stopPropagation()"></a></h5>
+<h5 id="grading-bugs-found-in-the-pe-4">Grading bugs found in the PE<span id="grading-bugs-found-in-the-pe-4" class="anchor"></span><a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe-4" onclick="event.stopPropagation()"></a></h5>
 <ul>
-<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
+<li><mark>Of <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>Developer Testing</em> component, based on the bugs found in your code</span>3A</span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content"><em>System/Acceptance Testing</em> component, based on the bugs found in others' code</span>3B</span> above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
 <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not affect marks of the tester or the developer.</li>
-<li>The penalty/credit for a bug varies based on the severity of the bug: <code class="hljs inline no-lang" v-pre>severity.High</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Medium</code> &gt; <code class="hljs inline no-lang" v-pre>severity.Low</code> &gt; <code class="hljs inline no-lang" v-pre>severity.VeryLow</code></li>
-<li>The three types (i.e., <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>, <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>, <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
+<li>The penalty/credit for a bug varies based on the severity of the bug: <code v-pre>severity.High</code> &gt; <code v-pre>severity.Medium</code> &gt; <code v-pre>severity.Low</code> &gt; <code v-pre>severity.VeryLow</code></li>
+<li>The three types (i.e., <code v-pre>type.FunctionalityBug</code>, <code v-pre>type.DocumentationBug</code>, <code v-pre>type.FeatureFlaw</code>) are counted for three different grade components. The penalty/credit can vary based on the bug type. <span class="dimmed">Given that you are not told which type has a bigger impact on the grade, always choose the most suitable type for a bug rather than try to choose a type that benefits your grade.</span></li>
 <li>The penalty for a bug is divided equally among assignees.</li>
 <li>Developers are not penalized for duplicate bug reports they received but the testers earn credit for duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
-<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
+<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., the same bug reported by many testers</span><em>Obvious</em> bugs</span> earn less credit for the tester and slightly higher penalty for the developer.</li>
 <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
 <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
 <ul>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
-<li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
+<li><code v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
+<li><code v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
 <li>You don't need to find <em>all</em> bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div><p></p>
+<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div><p></p>
 <ul>
 <li>This phase is optional. If you do not respond to a dev response, we'll assume that you agree with it.</li>
 <li>Procedure:</li></ul>
@@ -1408,13 +1396,13 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <tabs>
 <tab><template slot="_header">Using CATcher</template>
 <ul>
-<li>When the phase has been announced as open, login to CATcher as usual (profile: <code class="hljs inline no-lang" v-pre>CS2113/T PE</code>).<br>
+<li>When the phase has been announced as open, login to CATcher as usual (profile: <code v-pre>CS2113/T PE</code>).<br>
 <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> You may use <a href="https://github.com/CATcher-org/CATcher/releases">the latest version of CATcher</a> or the <a href="http://catcher-org.github.io/webapp">Web version of CATcher</a>.</li>
-<li>For each issues listed in the <code class="hljs inline no-lang" v-pre>Issues Pending Responses</code> section:,
+<li>For each issues listed in the <code v-pre>Issues Pending Responses</code> section:,
 <ul>
 <li>Go to the details, and read the dev team's response.</li>
-<li>If you disagree with any of the items listed, tick on the <code class="hljs inline no-lang" v-pre>I disagree</code> tick box and enter your justification for the disagreement, and click <code class="hljs inline no-lang" v-pre>Save</code>.</li>
-<li>If you are fine with the team's changes, click <code class="hljs inline no-lang" v-pre>Save</code> without any other changes upon which the issue will move to the <code class="hljs inline no-lang" v-pre>Issue Responded</code> section.</li></ul></li>
+<li>If you disagree with any of the items listed, tick on the <code v-pre>I disagree</code> tick box and enter your justification for the disagreement, and click <code v-pre>Save</code>.</li>
+<li>If you are fine with the team's changes, click <code v-pre>Save</code> without any other changes upon which the issue will move to the <code v-pre>Issue Responded</code> section.</li></ul></li>
 <li>Note that only bugs that require your response will be shown by CATcher. <strong>Bugs already accepted <em>as reported</em> by the team will not appear in CATcher</strong> as there is nothing for you to do about them.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">Not using CATcher</template>
 <div class="indented-less">
@@ -1424,14 +1412,14 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 </p></box><p></p></div>
 
 <p></p></div></div></tab></tabs><p></p></div>
-<h4 id="pe-phase-4-tutor-moderation"><span id="pe-phase-4-tutor-moderation" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 4: Tutor Moderation</span><a class="fa fa-anchor" href="#pe-phase-4-tutor-moderation" onclick="event.stopPropagation()"></a></h4>
+<h4 id="pe-phase-4-tutor-moderation"><span class="badge badge-success">PE</span> <span class="text-success">Phase 4: Tutor Moderation</span><span id="pe-phase-4-tutor-moderation" class="anchor"></span><a class="fa fa-anchor" href="#pe-phase-4-tutor-moderation" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>In this phase tutors will look through all dev responses you objected to in the previous phase and decide on a final outcome.</li>
 <li>In the unlikely case we need your inputs, the tutor will contact you.</li></ul></div></div></panel></div><p></p></div>
 <p></p></div></div>
 <br>
-<p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-w12.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP week 12: mid-v2.1</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-deliverables.html"><span>tP: Deliverables <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div>
-<p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
+<p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-w12.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP week 12: mid-v2.1</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-deliverables.html"><span>tP: Deliverables <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div></div>
+
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
@@ -1451,13 +1439,18 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Tue, 29 Dec 2020, 1:34:10 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Sun, Jan 10, 2021, 10:43:57 PM GMT+8]</small></div></footer></div>
 </body>
+<script src="../markbind/js/vue.min.js"></script>
+<script src="../markbind/js/components.min.js"></script>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../markbind/js/polyfill.min.js"></script>
+<script src="../markbind/js/bootstrap-vue.min.js"></script>
 <script>
   const baseUrl = '/website'
-  MarkBind.setup()
+  const enableSearch = false
 </script>
+<script src="../markbind/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
     function initAlgolia() {
@@ -1469,7 +1462,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
         debug: false,
       });
     }
-    initAlgolia();
+    MarkBind.afterSetup(initAlgolia);
   </script>
-<script src="../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
+<script src="../markbind/layouts/default/scripts.js"></script>
 </html>
