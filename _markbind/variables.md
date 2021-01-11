@@ -12,9 +12,9 @@
 
 <variable name="algolia">yes</variable>
 
-<variable name="luminus_module_id">dd7206fb-b22d-4a82-9c3b-f761a1f77ac8</variable>
+<variable name="luminus_module_id">cacc11ca-ba0f-4cee-bc07-6c297d5812d4</variable>
 <variable name="url_instructors">https://docs.google.com/document/d/e/2PACX-1vQ3yMfxtxatSX5XxWnZparVJN9UkEOu504YHyShketpCzdqQth4JDcwQwhWvOBi-XH8-gkdgMgGpg1t/pub?embedded=true</variable>
-<variable name="url_repl_classroom">https://repl.it/classroom/invite/sclqjqn</variable>
+<variable name="url_coursemology_classroom">https://coursemology.org/courses/2020</variable>
 <variable name="url_ms_teams_class">x</variable>
 
 <variable name="date_w1_start">2021-01-11</variable>
