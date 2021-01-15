@@ -8,14 +8,13 @@
 <variable name="S">2</variable>
 <variable name="semester">AY2021S{{ S }}</variable>
 <variable name="period">2021 Jan-May</variable>
-<variable name="current_week">-1</variable>
+<variable name="current_week">2</variable>
 
 <variable name="algolia">yes</variable>
 
 <variable name="luminus_module_id">cacc11ca-ba0f-4cee-bc07-6c297d5812d4</variable>
-<variable name="url_instructors">https://docs.google.com/document/d/e/2PACX-1vQ3yMfxtxatSX5XxWnZparVJN9UkEOu504YHyShketpCzdqQth4JDcwQwhWvOBi-XH8-gkdgMgGpg1t/pub?embedded=true</variable>
-<variable name="url_coursemology_classroom">https://coursemology.org/courses/2020</variable>
-<variable name="url_ms_teams_class">x</variable>
+<variable name="url_instructors">https://docs.google.com/document/d/e/2PACX-1vRt2_3g0HmEUPrUBteN3-qFh1HL6vc6HoP3j7_PulcC64Zd8s7TUJNyp7gd0QFHMwsqR7lC6GpxR1uX/pub?embedded=true</variable>
+<variable name="url_ghclassroom_ex">https://docs.google.com/document/d/e/2PACX-1vRyqtD6Q6FLpcDkvSdKABDl3Jf7aP4KckhlE30V5RG_q0zwA_Ezk16D26C_YClnwcBqOA5MKwfOdNPi/pub?embedded=true</variable>
 
 <variable name="date_w1_start">2021-01-11</variable>
 <variable name="date_w2_start">2021-01-15</variable>
