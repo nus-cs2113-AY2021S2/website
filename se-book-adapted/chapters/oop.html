@@ -702,7 +702,39 @@ components of real systems, but equally as well fulfill assigned roles as compon
 <pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Team</span> </span>{<br></span><span>    Person leader;<br></span><span>    ...<br></span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setLeader</span><span class="hljs-params">(Person p)</span> </span>{<br></span><span>        leader = p;<br></span><span>    }<br></span><span>}<br></span></code></pre></div>
 <div class="alt-python">
 <pre><code class="hljs python" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Team</span>:</span><br></span><span>  <br></span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span><br></span><span>    self.__leader = <span class="hljs-literal">None</span><br></span><span>    <br></span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">set_leader</span><span class="hljs-params">(self, person)</span>:</span><br></span><span>    self.__leader = person<br></span></code></pre></div></box></div>
-  <div></div></div></panel></panel>
+  <div></div></div></panel>
+<panel type="seamless" expanded id="association-classes"><template slot="_header"><h4 id="association-classes">Association Classes<span id="association-classes" class="anchor"></span><a class="fa fa-anchor" href="#association-classes" onclick="event.stopPropagation()"></a></h4></template>
+  <div class="indented">
+  <span class="badge badge-light">
+  <span><span class="dimmed"><font color="ForestGreen"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font></span></span></span>
+  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the meaning of association classes</span></span></span></span><p></p>
+  <div>
+<p><strong>An <em>association class</em> represents additional information about an association.</strong> It is a normal class but plays a special role from a design point of view.</p>
+<box>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code v-pre>Man</code> class and a <code v-pre>Woman</code> class are linked with a ‘married to’ association and there is a need to store the date of marriage. However, that data is related to the association rather than specifically owned by either the <code v-pre>Man</code> object or the <code v-pre>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code v-pre>Marriage</code> class, to store such information.</p></box>
+<p><panel type="seamless" src="/website/book/uml/classDiagrams/associationClasses/what/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Class Diagrams → Association Classes → What</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/AssociationClasses</p></template></panel></p>
+<h5 id="implementing-association-classes">Implementing association classes<span id="implementing-association-classes" class="anchor"></span><a class="fa fa-anchor" href="#implementing-association-classes" onclick="event.stopPropagation()"></a></h5>
+<p>There is no special way to implement an association class. It can be implemented as a normal class that has variables to represent the endpoint of the association it represents.</p>
+<box>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, the <code v-pre>Transaction</code> class is an association class that represents a transaction between a <code v-pre>Person</code> who is the seller and another <code v-pre>Person</code> who is the buyer.</p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span> </span>{<br></span><span>    <br></span><span>    <span class="hljs-comment">//all fields are compulsory</span><br></span><span>    Person seller;<br></span><span>    Person buyer;<br></span><span>    Date date;<br></span><span>    String receiptNumber;<br></span><span>    <br></span><span>    Transaction(Person seller, Person buyer, Date date, String receiptNumber) {<br></span><span>        <span class="hljs-comment">//set fields</span><br></span><span>    }<br></span><span>}<br></span></code></pre></box></div>
+  <div>
+  <div>
+<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+  <div>
+<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Which are suitable as an Association Class?</p></template>
+<question>
+<p>Which of these are suitable as an Association Class?</p>
+<img src="/website/book/oop/associations/associationClasses/images/exerciseDiagram.png" width="500">
+<p></p>
+<ul class="contains-task-list">
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> a</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> b</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> c</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> d</li></ul>
+<div slot="answer" class="algolia-no-index">
+<p>(a)(b)<s>(c)</s>(d)</p>
+<p>Explanation: <code v-pre>Mileage</code> is a property of the car, and not specifically about the association between the <code v-pre>Driver</code> and the <code v-pre>Car</code>. If <code v-pre>Mileage</code> was defined as the total number of miles that car was driven by that driver, then it would be suitable as an association class.</p></div></question></panel></div></panel></div></div></div></panel></panel>
 <panel type="seamless" expanded id="inheritance">
   <span slot="header" class="card-title"><div><h2 id="inheritance"><span>Inheritance</span><span id="inheritance" class="anchor"></span><a class="fa fa-anchor" href="#inheritance" onclick="event.stopPropagation()"></a></h2></div></span>
 <panel type="seamless" expanded id="what-5"><template slot="_header"><h4 id="what-5">What<span id="what-5" class="anchor"></span><a class="fa fa-anchor" href="#what-5" onclick="event.stopPropagation()"></a></h4></template>
@@ -1207,6 +1239,7 @@ Which of these do not belong to the four main OO principles?
 <a class="nav-link py-1" href="#dependencies">Dependencies&#x200E;</a>
 <a class="nav-link py-1" href="#composition">Composition&#x200E;</a>
 <a class="nav-link py-1" href="#aggregation">Aggregation&#x200E;</a>
+<a class="nav-link py-1" href="#association-classes">Association Classes&#x200E;</a>
 </nav>
 <a class="nav-link py-1" href="#inheritance">Inheritance&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
@@ -1237,7 +1270,7 @@ Which of these do not belong to the four main OO principles?
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Sat, Jan 16, 2021, 2:51:06 PM GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Sat, Jan 16, 2021, 11:36:43 PM GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/vue.min.js"></script>
 <script src="../../markbind/js/components.min.js"></script>

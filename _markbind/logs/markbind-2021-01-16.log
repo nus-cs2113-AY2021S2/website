@@ -694,3 +694,100 @@ fatal: unable to access 'https://github.com/nus-cs2113-AY2021S2/website.git/': T
 
 2021-01-16T06:50:56.416Z - info: Website generation started at 2:50:51 PM
 2021-01-16T06:51:01.917Z - info: Building assets...
+2021-01-16T06:51:06.910Z - info: Assets built
+2021-01-16T06:51:06.911Z - info: Generating pages...
+2021-01-16T06:51:22.374Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:22.374Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:26.184Z - debug:  
+2021-01-16T06:51:26.184Z - debug:  
+2021-01-16T06:51:26.185Z - debug:  
+2021-01-16T06:51:26.186Z - debug:  
+2021-01-16T06:51:26.186Z - debug:  
+2021-01-16T06:51:28.977Z - debug:  
+2021-01-16T06:51:30.249Z - debug:  
+2021-01-16T06:51:36.001Z - debug:  
+2021-01-16T06:51:36.002Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:36.003Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:36.003Z - debug:  
+2021-01-16T06:51:36.003Z - debug:  
+2021-01-16T06:51:38.875Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:38.875Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:39.800Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:39.800Z - debug:  
+2021-01-16T06:51:39.801Z - debug:  
+2021-01-16T06:51:39.802Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:44.534Z - debug:  
+2021-01-16T06:51:44.535Z - debug:  
+2021-01-16T06:51:57.389Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:58.310Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:51:59.489Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:00.260Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:00.262Z - debug:  
+2021-01-16T06:52:01.591Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:03.488Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:04.172Z - debug:  
+2021-01-16T06:52:06.237Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:06.239Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:08.819Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:08.820Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:11.472Z - debug:  
+2021-01-16T06:52:11.472Z - debug:  
+2021-01-16T06:52:14.735Z - debug:  
+2021-01-16T06:52:15.083Z - debug:  
+2021-01-16T06:52:21.740Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:23.505Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T06:52:24.616Z - debug:  
+2021-01-16T06:52:45.654Z - debug:  
+2021-01-16T06:52:45.655Z - debug:  
+2021-01-16T06:52:45.655Z - debug:  
+2021-01-16T06:52:46.394Z - debug:  
+2021-01-16T06:52:51.799Z - debug:  
+2021-01-16T06:52:52.455Z - debug:  
+2021-01-16T06:52:54.220Z - debug:  
+2021-01-16T06:53:03.126Z - debug:  
+2021-01-16T06:53:03.127Z - debug:  
+2021-01-16T06:53:03.127Z - debug:  
+2021-01-16T06:53:03.820Z - debug:  
+2021-01-16T06:53:03.821Z - debug:  
+2021-01-16T06:53:11.519Z - debug:  
+2021-01-16T06:53:13.473Z - debug:  
+2021-01-16T06:53:13.750Z - debug:  
+2021-01-16T06:53:18.748Z - debug:  
+2021-01-16T06:53:51.704Z - debug:  
+2021-01-16T06:53:58.840Z - debug:  
+2021-01-16T06:53:58.840Z - debug:  
+2021-01-16T06:53:58.840Z - debug:  
+2021-01-16T06:54:29.100Z - debug:  
+2021-01-16T06:54:46.286Z - debug:  
+2021-01-16T06:54:46.729Z - debug:  
+2021-01-16T06:54:56.790Z - info: Pages built
+2021-01-16T06:55:23.199Z - info: Website generation complete! Total build time: 272.151s
+2021-01-16T06:55:23.201Z - info: Build success!
+2021-01-16T06:55:23.201Z - debug:  
+2021-01-16T06:55:23.204Z - info: Site data built
+2021-01-16T06:56:12.232Z - error: remote: Permission to nus-cs2113-AY2021S2/website.git denied to okkhoy.
+fatal: unable to access 'https://github.com/nus-cs2113-AY2021S2/website.git/': The requested URL returned error: 403
+
+2021-01-16T07:24:47.488Z - info: Deployed!
+2021-01-16T15:36:27.551Z - info: Website generation started at 11:36:17 PM
+2021-01-16T15:36:37.962Z - info: Building assets...
