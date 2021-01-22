@@ -791,3 +791,97 @@ fatal: unable to access 'https://github.com/nus-cs2113-AY2021S2/website.git/': T
 2021-01-16T07:24:47.488Z - info: Deployed!
 2021-01-16T15:36:27.551Z - info: Website generation started at 11:36:17 PM
 2021-01-16T15:36:37.962Z - info: Building assets...
+2021-01-16T15:36:43.971Z - info: Assets built
+2021-01-16T15:36:43.972Z - info: Generating pages...
+2021-01-16T15:37:02.327Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:02.352Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:02.353Z - debug:  
+2021-01-16T15:37:02.355Z - debug:  
+2021-01-16T15:37:02.356Z - debug:  
+2021-01-16T15:37:02.356Z - debug:  
+2021-01-16T15:37:02.357Z - debug:  
+2021-01-16T15:37:07.430Z - debug:  
+2021-01-16T15:37:08.588Z - debug:  
+2021-01-16T15:37:08.624Z - debug:  
+2021-01-16T15:37:13.039Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:13.039Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:13.040Z - debug:  
+2021-01-16T15:37:13.040Z - debug:  
+2021-01-16T15:37:15.735Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:15.736Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:16.196Z - debug:  
+2021-01-16T15:37:16.607Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:16.879Z - debug:  
+2021-01-16T15:37:16.880Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:21.612Z - debug:  
+2021-01-16T15:37:21.713Z - debug:  
+2021-01-16T15:37:43.104Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:43.951Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:45.329Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:46.474Z - debug:  
+2021-01-16T15:37:47.838Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:48.930Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:51.115Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:51.115Z - debug:  
+2021-01-16T15:37:55.534Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:55.535Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:57.985Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:37:57.986Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:38:01.087Z - debug:  
+2021-01-16T15:38:01.088Z - debug:  
+2021-01-16T15:38:04.149Z - debug:  
+2021-01-16T15:38:04.724Z - debug:  
+2021-01-16T15:38:14.839Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:38:17.183Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:38:19.255Z - debug:  
+2021-01-16T15:38:54.472Z - debug:  
+2021-01-16T15:38:54.841Z - debug:  
+2021-01-16T15:38:54.841Z - debug:  
+2021-01-16T15:38:55.509Z - debug:  
+2021-01-16T15:39:04.396Z - debug:  
+2021-01-16T15:39:04.396Z - debug:  
+2021-01-16T15:39:04.397Z - debug:  
+2021-01-16T15:39:09.995Z - debug:  
+2021-01-16T15:39:15.230Z - debug:  
+2021-01-16T15:39:15.230Z - debug:  
+2021-01-16T15:39:15.231Z - debug:  
+2021-01-16T15:39:15.231Z - debug:  
+2021-01-16T15:39:21.853Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-16T15:39:25.122Z - debug:  
+2021-01-16T15:39:28.357Z - debug:  
+2021-01-16T15:39:28.358Z - debug:  
+2021-01-16T15:39:36.649Z - debug:  
+2021-01-16T15:40:16.674Z - debug:  
+2021-01-16T15:40:31.206Z - debug:  
+2021-01-16T15:40:31.207Z - debug:  
+2021-01-16T15:40:31.207Z - debug:  
+2021-01-16T15:41:23.935Z - debug:  
+2021-01-16T15:41:51.201Z - debug:  
+2021-01-16T15:41:51.978Z - debug:  
+2021-01-16T15:42:08.762Z - info: Pages built
+2021-01-16T15:42:56.227Z - info: Website generation complete! Total build time: 399.222s
+2021-01-16T15:42:56.230Z - info: Build success!
+2021-01-16T15:42:56.230Z - debug:  
+2021-01-16T15:42:56.233Z - info: Site data built
+2021-01-16T15:44:23.197Z - info: Deployed!
