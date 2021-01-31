@@ -1,0 +1,27 @@
+2021-01-31T14:08:25.546Z - info: Website generation (lazy) started at 10:08:19 PM
+2021-01-31T14:08:30.385Z - info: Building assets...
+2021-01-31T14:08:34.365Z - info: Assets built
+2021-01-31T14:08:34.366Z - info: Generating landing page...
+2021-01-31T14:08:35.658Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-01-31T14:08:35.736Z - info: Website generation (lazy) complete! Total build time: 15.74s
+2021-01-31T14:08:36.218Z - info: Serving "D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\_site" at http://127.0.0.1:8080
+2021-01-31T14:08:36.219Z - info: Press CTRL+C to stop ...
+2021-01-31T14:08:36.280Z - info: Site data built
+2021-01-31T14:09:23.291Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\schedule\week4\project as some of its dependencies were changed since the last visit
+2021-01-31T14:09:26.432Z - info: Site data built
+2021-01-31T14:09:26.434Z - info: Lazy website regeneration complete! Total build time: 3.143s
+2021-01-31T14:11:53.723Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\schedule\week4\tutorial as some of its dependencies were changed since the last visit
+2021-01-31T14:11:54.236Z - info: Site data built
+2021-01-31T14:11:54.236Z - info: Lazy website regeneration complete! Total build time: 0.514s
+2021-01-31T14:12:33.107Z - info: [10:12:33 PM] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\schedule\week4\tutorial-cs2113.mbdf
+2021-01-31T14:12:34.112Z - info: Rebuilding 1 pages
+2021-01-31T14:12:34.700Z - info: Pages rebuilt
+2021-01-31T14:12:34.700Z - info: Website regeneration complete! Total build time: 0.591s
+2021-01-31T14:12:34.704Z - info: Site data built
+2021-01-31T14:13:39.421Z - info: [10:13:39 PM] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\schedule\week4\tutorial-cs2113.mbdf
+2021-01-31T14:13:40.428Z - info: Rebuilding 1 pages
+2021-01-31T14:13:40.942Z - info: Pages rebuilt
+2021-01-31T14:13:40.943Z - info: Website regeneration complete! Total build time: 0.52s
+2021-01-31T14:13:40.946Z - info: Site data built
+2021-01-31T14:15:10.992Z - info: Website generation started at 10:15:08 PM
+2021-01-31T14:15:16.649Z - info: Building assets...

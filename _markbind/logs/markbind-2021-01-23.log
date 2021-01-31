@@ -506,3 +506,98 @@ Error while preprocessing 'D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin
 2021-01-23T09:01:46.638Z - info: Site data built
 2021-01-23T09:02:42.110Z - info: Website generation started at 5:02:39 PM
 2021-01-23T09:02:47.143Z - info: Building assets...
+2021-01-23T09:02:51.677Z - info: Assets built
+2021-01-23T09:02:51.678Z - info: Generating pages...
+2021-01-23T09:03:07.737Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:07.738Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:11.977Z - debug:  
+2021-01-23T09:03:11.979Z - debug:  
+2021-01-23T09:03:11.979Z - debug:  
+2021-01-23T09:03:11.979Z - debug:  
+2021-01-23T09:03:11.980Z - debug:  
+2021-01-23T09:03:13.769Z - debug:  
+2021-01-23T09:03:19.750Z - debug:  
+2021-01-23T09:03:19.751Z - debug:  
+2021-01-23T09:03:19.751Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:19.752Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:19.752Z - debug:  
+2021-01-23T09:03:22.390Z - debug:  
+2021-01-23T09:03:22.391Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:22.391Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:23.540Z - debug:  
+2021-01-23T09:03:23.540Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:23.755Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:23.756Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:23.960Z - debug:  
+2021-01-23T09:03:27.452Z - debug:  
+2021-01-23T09:03:43.798Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:44.532Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:46.053Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:46.879Z - debug:  
+2021-01-23T09:03:48.285Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:49.819Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:51.434Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:51.435Z - debug:  
+2021-01-23T09:03:54.404Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:54.405Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:57.235Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:57.235Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:03:59.808Z - debug:  
+2021-01-23T09:03:59.809Z - debug:  
+2021-01-23T09:04:03.395Z - debug:  
+2021-01-23T09:04:03.395Z - debug:  
+2021-01-23T09:04:10.171Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:04:12.755Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:04:13.908Z - debug:  
+2021-01-23T09:04:38.033Z - debug:  
+2021-01-23T09:04:38.207Z - debug:  
+2021-01-23T09:04:38.388Z - debug:  
+2021-01-23T09:04:38.388Z - debug:  
+2021-01-23T09:04:45.327Z - debug:  
+2021-01-23T09:04:45.327Z - debug:  
+2021-01-23T09:04:47.350Z - debug:  
+2021-01-23T09:04:54.261Z - debug:  
+2021-01-23T09:04:57.664Z - debug:  
+2021-01-23T09:04:58.349Z - debug:  
+2021-01-23T09:04:58.349Z - debug:  
+2021-01-23T09:04:58.349Z - debug:  
+2021-01-23T09:05:03.474Z - debug: The process cannot access the file because it is being used by another process.
+
+2021-01-23T09:05:07.139Z - debug:  
+2021-01-23T09:05:08.730Z - debug:  
+2021-01-23T09:05:09.012Z - debug:  
+2021-01-23T09:05:14.568Z - debug:  
+2021-01-23T09:05:37.968Z - debug:  
+2021-01-23T09:05:52.468Z - debug:  
+2021-01-23T09:05:52.469Z - debug:  
+2021-01-23T09:05:52.469Z - debug:  
+2021-01-23T09:06:31.278Z - debug:  
+2021-01-23T09:06:52.612Z - debug:  
+2021-01-23T09:06:52.613Z - debug:  
+2021-01-23T09:07:04.852Z - info: Pages built
+2021-01-23T09:07:32.427Z - info: Website generation complete! Total build time: 292.831s
+2021-01-23T09:07:32.428Z - info: Build success!
+2021-01-23T09:07:32.430Z - debug:  
+2021-01-23T09:07:32.432Z - info: Site data built
+2021-01-23T09:08:22.896Z - info: Deployed!
