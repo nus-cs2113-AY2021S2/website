@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.15.2">
+    <meta name="generator" content="MarkBind 2.17.3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Week 12 - Topics</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
     <link rel="stylesheet" href="../../markbind/css/octicons.css">
-    <link rel="stylesheet" href="../../markbind/css/github.min.css">
-    <link rel="stylesheet" href="../../markbind/css/markbind.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="../../markbind/css/page-nav.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
+    <link rel="stylesheet" href="../../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../../markbind/css/markbind.min.css"><script src="../../markbind/js/polyfill.min.js"></script>
+    <script src="../../markbind/js/vue.min.js"></script>
+    <script src="../../markbind/js/markbind.min.js"></script>
+    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
     <link rel="stylesheet" href="/website/css/main.css">
     <link rel="stylesheet" href="/website/css/schedule.css"><link rel="icon" href="/website/favicon.ico"></head>
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
@@ -76,6 +78,8 @@
     <form class="navbar-form">
       <searchbar placeholder="Search" algolia menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
         
+
+
 <div id="content-wrapper">
 <div class="website-content">
 <nav>
@@ -88,9 +92,9 @@
 <li class="page-item"><a class="page-link" href="/website/schedule/week12/tutorial.html"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li>
 <li class="page-item">&nbsp;&nbsp;&nbsp;</li><li class="page-item"><a class="page-link" href="/website/schedule/week13"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav>
 <p></p>
-<h1 id="week-12-fri-apr-2nd-topics">Week 12 <small><small><span class="dimmed">[Fri, Apr 2nd]</span> - Topics</small></small><span id="week-12-fri-apr-2nd-topics" class="anchor"></span><a class="fa fa-anchor" href="#week-12-fri-apr-2nd-topics" onclick="event.stopPropagation()"></a></h1>
+<h1 id="week-12-fri-apr-2nd-topics"><span id="week-12-fri-apr-2nd-topics" class="anchor"></span>Week 12 <small><small><span class="dimmed">[Fri, Apr 2nd]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-12-fri-apr-2nd-topics" onclick="event.stopPropagation()"></a></h1>
 <div></div>
-<panel type="seamless" class="algolia-no-index"><template slot="_header"><p><span class="dimmed"><span aria-hidden="true" class="fas fa-list-ol"></span> Detailed Table of Contents</span></p></template>
+<panel type="seamless" class="algolia-no-index"><template slot="header"><p><span class="dimmed"><span aria-hidden="true" class="fas fa-list-ol"></span> Detailed Table of Contents</span></p></template>
 <span id="toc">
 <ul>
 <li>[<a href="/website/schedule/week12/topics.html#W12-1">W12.1</a>] <strong>Boundary Value Analysis</strong> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li></ul>
@@ -168,14 +172,14 @@
 Previously, you learned about _equivalence partitions_, a heuristic for dividing the possible test cases into partitions. But which test cases should we pick from each partition? Next, let us learn another heuristic which can addresses that problem.
 </div></div></div></div></div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w12-1-boundary-value-analysis">
-<span slot="header" class="card-title"><div><h2 id="w12-1-boundary-value-analysis"><span class="dimmed">[W12.1]</span> <strong>Boundary Value Analysis</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w12-1-boundary-value-analysis" class="anchor"></span><a class="fa fa-anchor" href="#w12-1-boundary-value-analysis" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w12-1-boundary-value-analysis"><span id="w12-1-boundary-value-analysis" class="anchor"></span><span class="dimmed">[W12.1]</span> <strong>Boundary Value Analysis</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w12-1-boundary-value-analysis" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <p><span id="W12-1a"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/testCaseDesign/boundaryValueAnalysis/what" id="quality-assurance-test-case-design-boundary-value-analysis-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.1a</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-test-case-design-boundary-value-analysis-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Boundary Value Analysis →</span></span></small> <strong><span>What</span></strong><span id="quality-assurance-test-case-design-boundary-value-analysis-what" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-test-case-design-boundary-value-analysis-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-test-case-design-boundary-value-analysis-what"><span id="quality-assurance-test-case-design-boundary-value-analysis-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Boundary Value Analysis →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-test-case-design-boundary-value-analysis-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -184,14 +188,14 @@ Previously, you learned about _equivalence partitions_, a heuristic for dividing
 <div>
 <p><strong><em>Boundary Value Analysis (BVA)</em> is a test case design heuristic that is based on the observation that bugs often result from incorrect handling of boundaries of equivalence partitions.</strong> This is not surprising, as the end points of boundaries are often used in branching instructions, etc., where the programmer can make mistakes.</p>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code v-pre>markCellAt(int x, int y)</code> operation could contain code such as <code v-pre>if (x &gt; 0 &amp;&amp; x &lt;= (W-1))</code> which involves the boundaries of x’s equivalence partitions.</p></box>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code class="hljs inline no-lang" v-pre>markCellAt(int x, int y)</code> operation could contain code such as <code class="hljs inline no-lang" v-pre>if (x &gt; 0 &amp;&amp; x &lt;= (W-1))</code> which involves the boundaries of x’s equivalence partitions.</p></box>
 <p><strong>BVA suggests that when picking test inputs from an equivalence partition, values near boundaries (i.e. boundary values) are more likely to find bugs.</strong></p>
 <p>Boundary values are sometimes called <em>corner cases</em>.</p></div>
 <div>
   <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> What BVA recommends</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> What BVA recommends</p></template>
 <question>
 <p>Boundary value analysis recommends testing <em>only</em> values that reside on the equivalence class boundary.</p>
 <ul radio-group="f8ff4" class="radio-list">
@@ -208,7 +212,7 @@ Previously, you learned about _equivalence partitions_, a heuristic for dividing
 <panel type="seamless" expanded popup-url="/website/book/testCaseDesign/boundaryValueAnalysis/how" id="quality-assurance-test-case-design-boundary-value-analysis-how">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.1b</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-test-case-design-boundary-value-analysis-how"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Boundary Value Analysis →</span></span></small> <strong><span>How</span></strong><span id="quality-assurance-test-case-design-boundary-value-analysis-how" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-test-case-design-boundary-value-analysis-how" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-test-case-design-boundary-value-analysis-how"><span id="quality-assurance-test-case-design-boundary-value-analysis-how" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Boundary Value Analysis →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#quality-assurance-test-case-design-boundary-value-analysis-how" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -269,16 +273,16 @@ No specific boundary</p></td></tr>
 <p><span class="text-success"><small><strong><span aria-hidden="true" class="far fa-hand-point-down"></span></strong> Guidance for the item(s) below:</small></span><br></p>
 <div class="indented">
 <div>
-<p>Earlier, you learned <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">Equivalence Partitioning, Boundary Value Analysis</span>two heuristics</span> that can improve the test case quality. Even when applying them, the number of test cases can increase when the SUT takes multiple inputs. Let's see how we can deal with such situations.</p></div></div></div></div></div>
+<p>Earlier, you learned <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">Equivalence Partitioning, Boundary Value Analysis</span>two heuristics</span> that can improve the test case quality. Even when applying them, the number of test cases can increase when the SUT takes multiple inputs. Let's see how we can deal with such situations.</p></div></div></div></div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w12-2-combining-multiple-test-inputs">
-<span slot="header" class="card-title"><div><h2 id="w12-2-combining-multiple-test-inputs"><span class="dimmed">[W12.2]</span> <strong>Combining Multiple Test Inputs</strong> <small><small><span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w12-2-combining-multiple-test-inputs" class="anchor"></span><a class="fa fa-anchor" href="#w12-2-combining-multiple-test-inputs" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w12-2-combining-multiple-test-inputs"><span id="w12-2-combining-multiple-test-inputs" class="anchor"></span><span class="dimmed">[W12.2]</span> <strong>Combining Multiple Test Inputs</strong> <small><small><span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w12-2-combining-multiple-test-inputs" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <p><span id="W12-2a"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/testCaseDesign/combiningTestInputs/why" id="quality-assurance-test-case-design-combining-test-inputs-why">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.2a</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-test-case-design-combining-test-inputs-why"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Why</span></strong><span id="quality-assurance-test-case-design-combining-test-inputs-why" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-why" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-test-case-design-combining-test-inputs-why"><span id="quality-assurance-test-case-design-combining-test-inputs-why" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Why</span></strong><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-why" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -289,7 +293,7 @@ No specific boundary</p></td></tr>
 <box>
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An SUT that takes multiple inputs and some values chosen for each input:</p>
 <ul>
-<li>Method to test: <code v-pre>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
+<li>Method to test: <code class="hljs inline no-lang" v-pre>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
 <li>Values to test:<div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Input</th>
@@ -322,7 +326,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" expanded popup-url="/website/book/testCaseDesign/combiningTestInputs/combinationStrategies" id="quality-assurance-test-case-design-combining-test-inputs-test-input-combination-strategies">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.2b</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-test-case-design-combining-test-inputs-test-input-combination-strategies"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Test input combination strategies</span></strong><span id="quality-assurance-test-case-design-combining-test-inputs-test-input-combination-strategies" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-test-input-combination-strategies" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-test-case-design-combining-test-inputs-test-input-combination-strategies"><span id="quality-assurance-test-case-design-combining-test-inputs-test-input-combination-strategies" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Test input combination strategies</span></strong><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-test-input-combination-strategies" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -332,7 +336,7 @@ No specific boundary</p></td></tr>
 <p>Given below are some basic strategies for generating a set of test cases by combining multiple test inputs.</p>
 <box>
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Let's assume the SUT has the following three inputs and you have selected the given values for testing:</p>
-<p>SUT: <code v-pre>foo(char p1, int p2, boolean p3)</code></p>
+<p>SUT: <code class="hljs inline no-lang" v-pre>foo(char p1, int p2, boolean p3)</code></p>
 <p>Values to test:</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -411,7 +415,7 @@ No specific boundary</p></td></tr>
 <p><strong>The <em>all pairs</em> strategy creates test cases so that for any given pair of inputs, all combinations between them are tested.</strong> It is based on the observation that a bug is rarely the result of more than two interacting factors. The resulting number of test cases is lower than the <em>all combinations</em> strategy, but higher than the <em>at least once</em> approach.</p>
 <box>
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This strategy generates 9 test cases:</p>
-<panel type="seamless" class="algolia-no-index"><template slot="_header"><p>See steps</p></template>
+<panel type="seamless" class="algolia-no-index"><template slot="header"><p>See steps</p></template>
 <p>Let's first consider inputs p1 and p2:</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -423,7 +427,7 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">a, b, c</td></tr>
 <tr>
 <td style="text-align:center">p2</td>
-<td style="text-align:center">1, 2, 3</td></tr></tbody></table></div><p>These values can generate <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">(a,1)(a,2)(a,3)(b,1)(b,2),...</span>3x3=9 combinations</span>, and the test cases should cover all of them.</p>
+<td style="text-align:center">1, 2, 3</td></tr></tbody></table></div><p>These values can generate <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">(a,1)(a,2)(a,3)(b,1)(b,2),...</span>3x3=9 combinations</span>, and the test cases should cover all of them.</p>
 <p>Next, let's consider p1 and p3.</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -435,7 +439,7 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">a, b, c</td></tr>
 <tr>
 <td style="text-align:center">p3</td>
-<td style="text-align:center">T, F</td></tr></tbody></table></div><p>These values can generate <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">(a,T)(a,F)(b,T)(b,F),...</span>3x2=6 combinations</span>, and the test cases should cover all of them.</p>
+<td style="text-align:center">T, F</td></tr></tbody></table></div><p>These values can generate <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">(a,T)(a,F)(b,T)(b,F),...</span>3x2=6 combinations</span>, and the test cases should cover all of them.</p>
 <p>Similarly, inputs p2 and p3 generate another 6 combinations.</p>
 <p>The 9 test cases given below cover all the above 9+6+6 combinations.</p></panel>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
@@ -541,7 +545,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" popup-url="/website/book/testCaseDesign/combiningTestInputs/heuristicValid" id="quality-assurance-test-case-design-combining-test-inputs-heuristic-each-valid-input-at-least-once-in-a-positive-test-case" class="algolia-no-index">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.2c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>: OPTIONAL</span>
-<h4 id="quality-assurance-test-case-design-combining-test-inputs-heuristic-each-valid-input-at-least-once-in-a-positive-test-case"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Heuristic: Each valid input at least once in a positive test case</span></strong><span id="quality-assurance-test-case-design-combining-test-inputs-heuristic-each-valid-input-at-least-once-in-a-positive-test-case" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-heuristic-each-valid-input-at-least-once-in-a-positive-test-case" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-test-case-design-combining-test-inputs-heuristic-each-valid-input-at-least-once-in-a-positive-test-case"><span id="quality-assurance-test-case-design-combining-test-inputs-heuristic-each-valid-input-at-least-once-in-a-positive-test-case" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Heuristic: Each valid input at least once in a positive test case</span></strong><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-heuristic-each-valid-input-at-least-once-in-a-positive-test-case" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -550,8 +554,8 @@ No specific boundary</p></td></tr>
 <div>
 <p>Consider the following scenario.</p>
 <box>
-<p>SUT:  <code v-pre>printLabel(String fruitName, int unitPrice)</code></p>
-<p><strong>Selected values for</strong> <code v-pre>fruitName</code> (invalid values are <ins>underlined</ins>):</p>
+<p>SUT:  <code class="hljs inline no-lang" v-pre>printLabel(String fruitName, int unitPrice)</code></p>
+<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <ins>underlined</ins>):</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Values</th>
@@ -568,7 +572,7 @@ No specific boundary</p></td></tr>
 <td>Label format is square</td></tr>
 <tr>
 <td><ins>Dog</ins></td>
-<td>Not a valid fruit</td></tr></tbody></table></div><p><strong>Selected values for</strong> <code v-pre>unitPrice</code>:</p>
+<td>Not a valid fruit</td></tr></tbody></table></div><p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>unitPrice</code>:</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Values</th>
@@ -618,8 +622,8 @@ No specific boundary</p></td></tr>
 <p>It looks like the test cases were created using the <em>at least once</em> strategy. After running these tests, can you confirm that the square-format label printing is done correctly?</p>
 <ul>
 <li>Answer: No.</li>
-<li>Reason: <code v-pre>Cherry</code> -- the only input that can produce a square-format label -- is in a negative test case which produces an error message instead of a label. If there is a bug in the code that prints labels in square-format, these tests cases will not trigger that bug.</li></ul>
-<p>In this case, a useful heuristic to apply is <strong>each valid input must appear at least once in a positive test case</strong>. <code v-pre>Cherry</code> is a valid test input and you must ensure that it appears at least once in a positive test case. Here are the updated test cases after applying that heuristic.</p>
+<li>Reason: <code class="hljs inline no-lang" v-pre>Cherry</code> -- the only input that can produce a square-format label -- is in a negative test case which produces an error message instead of a label. If there is a bug in the code that prints labels in square-format, these tests cases will not trigger that bug.</li></ul>
+<p>In this case, a useful heuristic to apply is <strong>each valid input must appear at least once in a positive test case</strong>. <code class="hljs inline no-lang" v-pre>Cherry</code> is a valid test input and you must ensure that it appears at least once in a positive test case. Here are the updated test cases after applying that heuristic.</p>
 <box>
 <div id="heuristic-valid-test-case">
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
@@ -663,15 +667,15 @@ No specific boundary</p></td></tr>
 <panel type="seamless" popup-url="/website/book/testCaseDesign/combiningTestInputs/heuristicInvalid" id="quality-assurance-test-case-design-combining-test-inputs-heuristic-no-more-than-one-invalid-input-in-a-test-case" class="algolia-no-index">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.2d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>: OPTIONAL</span>
-<h4 id="quality-assurance-test-case-design-combining-test-inputs-heuristic-no-more-than-one-invalid-input-in-a-test-case"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Heuristic: No more than one invalid input in a test case</span></strong><span id="quality-assurance-test-case-design-combining-test-inputs-heuristic-no-more-than-one-invalid-input-in-a-test-case" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-heuristic-no-more-than-one-invalid-input-in-a-test-case" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-test-case-design-combining-test-inputs-heuristic-no-more-than-one-invalid-input-in-a-test-case"><span id="quality-assurance-test-case-design-combining-test-inputs-heuristic-no-more-than-one-invalid-input-in-a-test-case" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Test Case Design → Combining Test Inputs →</span></span></small> <strong><span>Heuristic: No more than one invalid input in a test case</span></strong><a class="fa fa-anchor" href="#quality-assurance-test-case-design-combining-test-inputs-heuristic-no-more-than-one-invalid-input-in-a-test-case" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div>
-<p><panel src="/website/book/testCaseDesign/combiningTestInputs/heuristicValid/unit-inElsewhere-asFlat._include_.html" popup-url="/website/book/testCaseDesign/combiningTestInputs/heuristicValid" class="algolia-no-index"><template slot="_header"><p><span class="dimmed"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> Quality Assurance → Test Case Design → Combining Test Inputs → Heuristic: Each Valid Input at Least Once in a Positive Test Case</span></p></template></panel></p></div><p></p>
+<p><panel src="/website/book/testCaseDesign/combiningTestInputs/heuristicValid/unit-inElsewhere-asFlat._include_.html" popup-url="/website/book/testCaseDesign/combiningTestInputs/heuristicValid" class="algolia-no-index"><template slot="header"><p><span class="dimmed"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> Quality Assurance → Test Case Design → Combining Test Inputs → Heuristic: Each Valid Input at Least Once in a Positive Test Case</span></p></template></panel></p></div><p></p>
 <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply heuristic ‘no more than one invalid input in a test case’</span></span></span></span></p><p></p><p></p>
 <p></p>
 <div>
-<p>Consider the <span for="modal:heuristic-valid-test-case" trigger="click" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:heuristic-valid-test-case'].show()" class="trigger-click">test cases designed in [Heuristic: each valid input at least once in a positive test case]</span>.</p>
+<p>Consider the <trigger for="modal:heuristic-valid-test-case" trigger="click">test cases designed in [Heuristic: each valid input at least once in a positive test case]</trigger>.</p>
 <b-modal id="modal:heuristic-valid-test-case" hide-footer size="lg" modal-class="mb-zoom" ref="modal:heuristic-valid-test-case" class="algolia-no-index"><template slot="modal-title"><strong>Extract from Quality Assurance → Test Case Design → Combining Test Inputs → Heuristic: each valid input at least once in a positive test case</strong></template>
   <div>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
@@ -709,7 +713,7 @@ No specific boundary</p></td></tr>
 <p>After running these test cases, can you be sure that the error message “invalid price” is shown for negative prices?</p>
 <ul>
 <li>Answer: No.</li>
-<li>Reason: <code v-pre>-1</code> -- the only input that is a negative price -– is in a test case that produces the error message “invalid fruit”.</li></ul>
+<li>Reason: <code class="hljs inline no-lang" v-pre>-1</code> -- the only input that is a negative price -– is in a test case that produces the error message “invalid fruit”.</li></ul>
 <p>In this case, a useful heuristic to apply is <strong>no more than one invalid input in a test case</strong>. After applying that, you get the following test cases.</p>
 <box>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
@@ -751,9 +755,9 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></box></div>
 <div>
   <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Can define test cases precisely</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Can define test cases precisely</p></template>
 <question>
 <p>Applying the heuristics covered so far, we can determine the precise number of test cases required to test any given SUT effectively.</p>
 <ul radio-group="a7d7f" class="radio-list">
@@ -777,14 +781,14 @@ No specific boundary</p></td></tr>
 <div>
 <p>Testing is the first thing that comes to mind when you hear 'Quality Assurance' but there are other QA techniques that can complement testing. Let's first take a step back and take a look at QA in general, followed by a look at some other QA techniques.</p></div></div></div></div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w12-3-other-qa-techniques">
-<span slot="header" class="card-title"><div><h2 id="w12-3-other-qa-techniques"><span class="dimmed">[W12.3]</span> <strong>Other QA Techniques</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w12-3-other-qa-techniques" class="anchor"></span><a class="fa fa-anchor" href="#w12-3-other-qa-techniques" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w12-3-other-qa-techniques"><span id="w12-3-other-qa-techniques" class="anchor"></span><span class="dimmed">[W12.3]</span> <strong>Other QA Techniques</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w12-3-other-qa-techniques" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <p><span id="W12-3a"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/introduction/what" id="quality-assurance-quality-assurance-introduction-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.3a</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-quality-assurance-introduction-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Introduction →</span></span></small> <strong><span>What</span></strong><span id="quality-assurance-quality-assurance-introduction-what" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-introduction-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-quality-assurance-introduction-what"><span id="quality-assurance-quality-assurance-introduction-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-introduction-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -802,7 +806,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/introduction/validationVsVerification" id="quality-assurance-quality-assurance-introduction-validation-versus-verification">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.3b</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-quality-assurance-introduction-validation-versus-verification"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Introduction →</span></span></small> <strong><span>Validation versus verification</span></strong><span id="quality-assurance-quality-assurance-introduction-validation-versus-verification" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-introduction-validation-versus-verification" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-quality-assurance-introduction-validation-versus-verification"><span id="quality-assurance-quality-assurance-introduction-validation-versus-verification" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Introduction →</span></span></small> <strong><span>Validation versus verification</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-introduction-validation-versus-verification" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -817,9 +821,9 @@ No specific boundary</p></td></tr>
 <p>Whether something belongs under validation or verification is not that important. What is more important is that both are done, instead of limiting to only verification (i.e., remember that the requirements can be wrong too).</p></div>
 <div>
 <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about validation and verification</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about validation and verification</p></template>
 <question>
 <p>Choose the correct statements about validation and verification.</p>
 <ul class="contains-task-list">
@@ -844,7 +848,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/codeReviews/what" id="quality-assurance-quality-assurance-code-reviews-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.3c</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-quality-assurance-code-reviews-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Code Reviews →</span></span></small> <strong><span>What</span></strong><span id="quality-assurance-quality-assurance-code-reviews-what" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-code-reviews-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-quality-assurance-code-reviews-what"><span id="quality-assurance-quality-assurance-code-reviews-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Code Reviews →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-code-reviews-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -859,7 +863,7 @@ No specific boundary</p></td></tr>
 <ul>
 <li>Project Management Platforms such as GitHub and BitBucket allow the new code to be proposed as <em>Pull Requests</em> and provide the ability for others to review the code in the PR.</li></ul></li>
 <li>
-<p><strong>In <span trigger="click" for="modal:codeReview-pairProgramming" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:codeReview-pairProgramming'].show()" class="trigger-click">pair programming</span></strong></p>
+<p><strong>In <trigger trigger="click" for="modal:codeReview-pairProgramming">pair programming</trigger></strong></p>
 <ul>
 <li>As pair programming involves two programmers working on the same code at the same time, there is an implicit review of the code by the other member of the pair.</li></ul></li></ul>
 <b-modal id="modal:codeReview-pairProgramming" hide-footer size="lg" modal-class="mb-zoom" ref="modal:codeReview-pairProgramming" class="algolia-no-index"><template slot="modal-title">Pair Programming</template>
@@ -893,7 +897,7 @@ No specific boundary</p></td></tr>
 <li>It is a manual process and therefore, error prone.</li></ul></div>
 <div>
 <div>
-<panel expanded><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources</p></template>
+<panel expanded><template slot="header"><p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources</p></template>
 <ul>
 <li><a href="https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/"><strong>10 tips for reviewing code you don’t like</strong></a> - a blog post by David Lloyd (a Red Hat developer).</li></ul></panel></div></div></div></div></panel>
 <p></p>
@@ -904,7 +908,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/staticAnalysis/what" id="quality-assurance-quality-assurance-static-analysis-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.3d</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-quality-assurance-static-analysis-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Static Analysis →</span></span></small> <strong><span>What</span></strong><span id="quality-assurance-quality-assurance-static-analysis-what" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-static-analysis-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-quality-assurance-static-analysis-what"><span id="quality-assurance-quality-assurance-static-analysis-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Static Analysis →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-static-analysis-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -929,7 +933,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/formalVerification/what" id="quality-assurance-quality-assurance-formal-verification-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.3e</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-quality-assurance-formal-verification-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Formal Verification →</span></span></small> <strong><span>What</span></strong><span id="quality-assurance-quality-assurance-formal-verification-what" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-formal-verification-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-quality-assurance-formal-verification-what"><span id="quality-assurance-quality-assurance-formal-verification-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Formal Verification →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-formal-verification-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -937,7 +941,7 @@ No specific boundary</p></td></tr>
 <p></p>
 <div>
 <p><strong>Formal verification uses mathematical techniques to prove the correctness of a program.</strong></p>
-<panel type="seamless" class="non-printable algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> An introduction to Formal Methods</p></template>
+<panel type="seamless" class="non-printable algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> An introduction to Formal Methods</p></template>
 <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/89fKiaMxHrA" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 <p>by <a href="http://www.cs.utoronto.ca/~hehner/">Eric Hehner</a></p>
 <p></p></panel><p></p><p></p>
@@ -950,9 +954,9 @@ No specific boundary</p></td></tr>
 <li>It requires highly specialized notations and knowledge which makes it an expensive technique to administer. Therefore, <strong>formal verifications are more commonly used in safety-critical software such as flight control systems</strong>.</li></ul></div>
 <div>
 <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Absence of errors</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Absence of errors</p></template>
 <question>
 <p>Testing cannot prove the absence of errors. It can only prove the presence of errors. However, formal methods can prove the absence of errors.</p>
 <ul radio-group="cefed" class="radio-list">
@@ -978,14 +982,14 @@ No specific boundary</p></td></tr>
 <p>In <a href="/website/week7/topics.html">a previous week</a>, you learned about <em>sequential</em> and <em>iterative</em> ways of doing a software.
 Now, let us take a quick look at a couple of well-known processes used in the industry, both of which fall into a category called <em>agile processes</em>.</p></div></div></div></div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w12-4-sdlc-process-models-xp-scrum">
-<span slot="header" class="card-title"><div><h2 id="w12-4-sdlc-process-models-xp-scrum"><span class="dimmed">[W12.4]</span> <strong>SDLC Process Models: XP/Scrum</strong> <small><small><span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w12-4-sdlc-process-models-xp-scrum" class="anchor"></span><a class="fa fa-anchor" href="#w12-4-sdlc-process-models-xp-scrum" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w12-4-sdlc-process-models-xp-scrum"><span id="w12-4-sdlc-process-models-xp-scrum" class="anchor"></span><span class="dimmed">[W12.4]</span> <strong>SDLC Process Models: XP/Scrum</strong> <small><small><span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w12-4-sdlc-process-models-xp-scrum" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <p><span id="W12-4a"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/processModels/introduction/agileModels" id="project-management-sdlc-process-models-introduction-agile-models">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.4a</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="project-management-sdlc-process-models-introduction-agile-models"><small><span class="font-weight-bold text-muted"><span>Project Management → SDLC Process Models → Introduction →</span></span></small> <strong><span>Agile models</span></strong><span id="project-management-sdlc-process-models-introduction-agile-models" class="anchor"></span><a class="fa fa-anchor" href="#project-management-sdlc-process-models-introduction-agile-models" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="project-management-sdlc-process-models-introduction-agile-models"><span id="project-management-sdlc-process-models-introduction-agile-models" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Project Management → SDLC Process Models → Introduction →</span></span></small> <strong><span>Agile models</span></strong><a class="fa fa-anchor" href="#project-management-sdlc-process-models-introduction-agile-models" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -1011,9 +1015,9 @@ Now, let us take a quick look at a couple of well-known processes used in the in
 <p><strong>There are a number of agile processes in the development world today. <em>eXtreme Programming (XP)</em> and <em>Scrum</em> are two of the well-known ones.</strong></p></div>
 <div>
   <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about agile processes</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about agile processes</p></template>
 <question>
 <p>Choose the correct statements about agile processes.</p>
 <ul class="contains-task-list">
@@ -1031,7 +1035,7 @@ Now, let us take a quick look at a couple of well-known processes used in the in
 <panel type="seamless" expanded popup-url="/website/book/processModels/exampleProcessModels/scrum" id="project-management-sdlc-process-models-scrum">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.4b</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="project-management-sdlc-process-models-scrum"><small><span class="font-weight-bold text-muted"><span>Project Management → SDLC Process Models →</span></span></small> <strong><span>Scrum</span></strong><span id="project-management-sdlc-process-models-scrum" class="anchor"></span><a class="fa fa-anchor" href="#project-management-sdlc-process-models-scrum" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="project-management-sdlc-process-models-scrum"><span id="project-management-sdlc-process-models-scrum" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Project Management → SDLC Process Models →</span></span></small> <strong><span>Scrum</span></strong><a class="fa fa-anchor" href="#project-management-sdlc-process-models-scrum" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -1063,7 +1067,7 @@ Now, let us take a quick look at a couple of well-known processes used in the in
 <li>Are there any impediments in your way?</li></ul>
 <p>...</p>
 <p>The daily scrum meeting is not used as a problem-solving or issue resolution meeting. <strong>Issues that are raised are taken offline and usually dealt with by the relevant subgroup immediately after the meeting.</strong></p>
-<panel type="seamless" class="non-printable algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Intro to Scrum in Under 10 Minutes</p></template>
+<panel type="seamless" class="non-printable algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Intro to Scrum in Under 10 Minutes</p></template>
 <p><sub>(This is not an endorsement of the product mentioned in the video)</sub></p>
 <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/XU0llRltyFM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></panel></box></div>
 <div></div></div></div></panel>
@@ -1075,7 +1079,7 @@ Now, let us take a quick look at a couple of well-known processes used in the in
 <panel type="seamless" expanded popup-url="/website/book/processModels/exampleProcessModels/xp" id="project-management-sdlc-process-models-xp">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W12.4c</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="project-management-sdlc-process-models-xp"><small><span class="font-weight-bold text-muted"><span>Project Management → SDLC Process Models →</span></span></small> <strong><span>XP</span></strong><span id="project-management-sdlc-process-models-xp" class="anchor"></span><a class="fa fa-anchor" href="#project-management-sdlc-process-models-xp" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="project-management-sdlc-process-models-xp"><span id="project-management-sdlc-process-models-xp" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Project Management → SDLC Process Models →</span></span></small> <strong><span>XP</span></strong><a class="fa fa-anchor" href="#project-management-sdlc-process-models-xp" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -1100,8 +1104,8 @@ Now, let us take a quick look at a couple of well-known processes used in the in
 <div class="indented">
 <div></div></div>
 <p></p></div>
-</div>
 
+<p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
@@ -1121,18 +1125,13 @@ Now, let us take a quick look at a couple of well-known processes used in the in
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Mon, Feb 15, 2021, 10:11:15 PM GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Feb 2021, 22:39:07 GMT+8]</small></div></footer></div>
 </body>
-<script src="../../markbind/js/vue.min.js"></script>
-<script src="../../markbind/js/components.min.js"></script>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
-<script src="../../markbind/js/polyfill.min.js"></script>
-<script src="../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
   const baseUrl = '/website'
-  const enableSearch = false
+  MarkBind.setup()
 </script>
-<script src="../../markbind/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
     function initAlgolia() {
@@ -1144,7 +1143,7 @@ Now, let us take a quick look at a couple of well-known processes used in the in
         debug: false,
       });
     }
-    MarkBind.afterSetup(initAlgolia);
+    initAlgolia();
   </script>
-<script src="../../markbind/layouts/default/scripts.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
 </html>

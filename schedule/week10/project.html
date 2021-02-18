@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.15.2">
+    <meta name="generator" content="MarkBind 2.17.3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Week 10 - Project</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
     <link rel="stylesheet" href="../../markbind/css/octicons.css">
-    <link rel="stylesheet" href="../../markbind/css/github.min.css">
-    <link rel="stylesheet" href="../../markbind/css/markbind.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="../../markbind/css/page-nav.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
+    <link rel="stylesheet" href="../../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../../markbind/css/markbind.min.css"><script src="../../markbind/js/polyfill.min.js"></script>
+    <script src="../../markbind/js/vue.min.js"></script>
+    <script src="../../markbind/js/markbind.min.js"></script>
+    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
     <link rel="stylesheet" href="/website/css/main.css">
     <link rel="stylesheet" href="/website/css/schedule.css"><link rel="icon" href="/website/favicon.ico"></head>
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
@@ -76,6 +78,8 @@
     <form class="navbar-form">
       <searchbar placeholder="Search" algolia menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
         
+
+
 <div id="content-wrapper">
 <nav>
 <ul class="pagination mt-2"><li class="page-item"><a class="page-link" href="/website/schedule/week9"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
@@ -87,16 +91,16 @@
 <li class="page-item"><a class="page-link" href="/website/schedule/week10/tutorial.html"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li>
 <li class="page-item">&nbsp;&nbsp;&nbsp;</li><li class="page-item"><a class="page-link" href="/website/schedule/week11"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav>
 <p></p>
-<h1 id="week-10-fri-mar-19th-project">Week 10 <small><small><span class="dimmed">[Fri, Mar 19th]</span> - Project</small></small><span id="week-10-fri-mar-19th-project" class="anchor"></span><a class="fa fa-anchor" href="#week-10-fri-mar-19th-project" onclick="event.stopPropagation()"></a></h1>
+<h1 id="week-10-fri-mar-19th-project"><span id="week-10-fri-mar-19th-project" class="anchor"></span>Week 10 <small><small><span class="dimmed">[Fri, Mar 19th]</span> - Project</small></small><a class="fa fa-anchor" href="#week-10-fri-mar-19th-project" onclick="event.stopPropagation()"></a></h1>
 <div id="summary" class="lead border-left ml-3 mb-3 pl-2" style="color: purple;">
 <p><strong>tP:</strong></p>
 <div>
 <ol>
 <li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Start the next iteration</span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Update the DG with design details</span> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> IMPORTANT</span></span></li>
-<li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Smoke-test CATcher</span> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> IMPORTANT</span></span> <span class="text-info"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">counted for participation</span><span aria-hidden="true" class="fab fa-product-hunt"></span></span></span></li>
+<li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Smoke-test CATcher</span> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> IMPORTANT</span></span> <span class="text-info"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">counted for participation</span><span aria-hidden="true" class="fab fa-product-hunt"></span></span></span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Ensure the code RepoSense-compatible</span></li></ol></div></div>
-<h2 class="d-block text-white bg-dark p-1 mb-4 mt-4" id="tp-mid-v2-0">tP: mid-v2.0<span id="tp-mid-v2-0" class="anchor"></span><a class="fa fa-anchor" href="#tp-mid-v2-0" onclick="event.stopPropagation()"></a></h2>
+<h2 class="d-block text-white bg-dark p-1 mb-4 mt-4" id="tp-mid-v2-0"><span id="tp-mid-v2-0" class="anchor"></span>tP: mid-v2.0<a class="fa fa-anchor" href="#tp-mid-v2-0" onclick="event.stopPropagation()"></a></h2>
 <div>
 <div>
 <div>
@@ -109,7 +113,7 @@
 <strong>Focus on improving the process and the quality</strong> instead.</li>
 <li><strong>Move in small steps, and keep the product working at each step.</strong> If it breaks, you will only have to examine the latest change for the cause of the breakage.</li></ul></div></div></div></div>
 <p></p>
-<h4 id="1-start-the-next-iteration"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Start the next iteration</span><span id="1-start-the-next-iteration" class="anchor"></span><a class="fa fa-anchor" href="#1-start-the-next-iteration" onclick="event.stopPropagation()"></a></h4>
+<h4 id="1-start-the-next-iteration"><span id="1-start-the-next-iteration" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Start the next iteration</span><a class="fa fa-anchor" href="#1-start-the-next-iteration" onclick="event.stopPropagation()"></a></h4>
 <div>
 <div class="indented">
 <box type="important" tags="m--cs2113 m--cs2103 m--tic4002" seamless>
@@ -134,7 +138,7 @@
 <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Recommend: <strong>Each PR should also update the relevant parts of documentation and tests</strong>. That way, your documentation/testing work will not pile up towards the end.</li></ul>
 </div></div>
 <p></p>
-<h4 id="2-update-the-dg-with-design-details-important"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Update the DG with design details</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> IMPORTANT</span></span><span id="2-update-the-dg-with-design-details-important" class="anchor"></span><a class="fa fa-anchor" href="#2-update-the-dg-with-design-details-important" onclick="event.stopPropagation()"></a></h4>
+<h4 id="2-update-the-dg-with-design-details-important"><span id="2-update-the-dg-with-design-details-important" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Update the DG with design details</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> IMPORTANT</span></span><a class="fa fa-anchor" href="#2-update-the-dg-with-design-details-important" onclick="event.stopPropagation()"></a></h4>
 <div>
 
 <ul>
@@ -151,7 +155,7 @@ Expected length: 1+ page per person</li>
 <div class="indented-level2">
 <panel type="success" expanded id="admin-tp-deliverables-dg-tips">
 <span slot="header" class="card-title">
-<h5 id="admin-tp-deliverables-dg-tips"><span class="text-white"> <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Deliverables → DG → Tips</span><span id="admin-tp-deliverables-dg-tips" class="anchor"></span><a class="fa fa-anchor" href="#admin-tp-deliverables-dg-tips" onclick="event.stopPropagation()"></a></h5></span>
+<h5 id="admin-tp-deliverables-dg-tips"><span id="admin-tp-deliverables-dg-tips" class="anchor"></span><span class="text-white"> <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Deliverables → DG → Tips</span><a class="fa fa-anchor" href="#admin-tp-deliverables-dg-tips" onclick="event.stopPropagation()"></a></h5></span>
 <span id="dgTips">
 <div>
 <ul>
@@ -165,11 +169,11 @@ For an example, see <a href="https://se-education.org/addressbook-level3/Develop
 <ul>
 <li><mark>Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally</mark> <span class="dimmed">(reason: because diagrams need to evolve with the code that is already being version controlled using git)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.</li>
 <li>Use the same diagramming tool for the whole project, except in cases for which there is a <em>strong</em> need to use a different tool due to a shortcoming in the primary diagramming tool. <span class="dimmed">Do not use a mix of different tools simply based on personal preferences.</span></li></ul></li>
-<li><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
+<li><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
 <ul>
 <li>They often don't follow the standard UML notation (e.g., they add extra icons).</li>
 <li>They tend to include <em>every</em> little detail whereas we want to limit UML diagrams to important details only, to improve readability.</li>
-<li>Diagrams reverse-engineered by an IDE might not represent the actual design as some design concepts cannot be deterministically identified from the code. e.g., differentiating between multiplicities <code v-pre>0..1</code> vs <code v-pre>1</code>, composition vs aggregation</li></ul></li></ul></li>
+<li>Diagrams reverse-engineered by an IDE might not represent the actual design as some design concepts cannot be deterministically identified from the code. e.g., differentiating between multiplicities <code class="hljs inline no-lang" v-pre>0..1</code> vs <code class="hljs inline no-lang" v-pre>1</code>, composition vs aggregation</li></ul></li></ul></li>
 <li><strong>Keep diagrams simple.</strong> The aim is to make diagrams <mark><em>comprehensible</em>, not necessarily <em>comprehensive</em></mark>.<br>
 Ways to simplify diagrams:
 <ul>
@@ -177,17 +181,17 @@ Ways to simplify diagrams:
 <ul>
 <li>a class diagram can omit minor utility classes, private/unimportant members; some less-important associations can be shown as attributes instead.</li>
 <li>a sequence diagram can omit less important interactions, self-calls.</li></ul></li>
-<li><strong>Omit repetitive details</strong> e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <span trigger="click" for="modal:ipWeek10-logicClassDiagram" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipWeek10-logicClassDiagram'].show()" class="trigger-click">AB3 Logic class diagram</span> shows concrete <code v-pre>*Command</code> classes using a placeholder <code v-pre>XYZCommand</code>).</li>
+<li><strong>Omit repetitive details</strong> e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete <code class="hljs inline no-lang" v-pre>*Command</code> classes using a placeholder <code class="hljs inline no-lang" v-pre>XYZCommand</code>).</li>
 <li><strong>Limit the scope of a diagram.</strong> Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.</li>
 <li><strong>Break diagrams into smaller fragments</strong> when possible.
 <ul>
 <li>If a component has a lot of classes, consider further dividing into sub-components (e.g., a Parser sub-component inside the Logic component). After that, sub-components can be shown as black-boxes in the main diagram and their details can be shown as separate diagrams.</li>
-<li>You can use <code v-pre>ref</code> frames to break sequence diagrams to multiple diagrams.</li></ul></li>
+<li>You can use <code class="hljs inline no-lang" v-pre>ref</code> frames to break sequence diagrams to multiple diagrams.</li></ul></li>
 <li><strong>Use visual representations</strong> as much as possible. E.g., show associations and navigabilities using lines and arrows connecting classes, rather than adding a variable in one of the classes.</li>
-<li>For some more examples of what NOT to do, see <span trigger="click" for="modal:ipWeek10-umlExamples" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipWeek10-umlExamples'].show()" class="trigger-click">here</span>.</li></ul></li>
+<li>For some more examples of what NOT to do, see <trigger trigger="click" for="modal:ipWeek10-umlExamples">here</trigger>.</li></ul></li>
 <li><strong>Integrate diagrams into the description.</strong> Place the diagram close to where it is being described.</li>
 <li><strong>Use code snippets sparingly.</strong> The more you use code snippets in the DG, and longer the code snippet, the higher the risk of it getting outdated quickly. Instead, use code snippets only when necessary and cite only the strictly relevant parts only. You can also use pseudo code instead of actual programming code.</li>
-<li><strong>Resize diagrams</strong> so that the text size in the diagram matches the the text size of the main text of the diagram. See <span trigger="click" for="modal:ipWeek10-diagramSizeNegative" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipWeek10-diagramSizeNegative'].show()" class="trigger-click">example</span>.</li></ul>
+<li><strong>Resize diagrams</strong> so that the text size in the diagram matches the the text size of the main text of the diagram. See <trigger trigger="click" for="modal:ipWeek10-diagramSizeNegative">example</trigger>.</li></ul>
 <b-modal id="modal:ipWeek10-umlExamples" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-umlExamples" class="algolia-no-index"><template slot="modal-title">UML Diagrams: Negative Examples </template>
 <p>These class diagrams seem to have lot of member details, which can get outdated pretty quickly:<br>
 <img src="https://cs2103-ay1819s1-w10-3.github.io/main/images/PollClassDiagram.png" width="750"><br>
@@ -207,57 +211,57 @@ It will look more 'polished' if the two text sizes match.
 </p></b-modal><p></p>
 <b-modal id="modal:ipWeek10-logicClassDiagram" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-logicClassDiagram" class="algolia-no-index"><template slot="modal-title">AB3 - Class Diagram of the Logic Component</template>
   <img src="https://se-education.org/addressbook-level3/images/LogicClassDiagram.png" width="900"></b-modal>
-<b-modal id="modal:ipWeek10-deleteSd" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-deleteSd" class="algolia-no-index"><template slot="modal-title">AB3 - Sequence Diagram for the <code v-pre>delete</code> command</template>
+<b-modal id="modal:ipWeek10-deleteSd" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-deleteSd" class="algolia-no-index"><template slot="modal-title">AB3 - Sequence Diagram for the <code class="hljs inline no-lang" v-pre>delete</code> command</template>
   <img src="https://se-education.org/addressbook-level3/images/DeleteSequenceDiagram.png" width="900"></b-modal>
 <b-modal id="modal:ipWeek10-archiSd" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipWeek10-archiSd" class="algolia-no-index"><template slot="modal-title">AB3 - Architecture-Level Sequence Diagram</template>
   <img src="https://se-education.org/addressbook-level3/images/ArchitectureSequenceDiagram.png"></b-modal></div></span></panel>
 <p></p></div></div>
 <p></p>
-<h4 id="3-smoke-test-catcher-important"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Smoke-test CATcher</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> IMPORTANT</span></span> <span class="text-info"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">counted for participation</span><span aria-hidden="true" class="fab fa-product-hunt"></span></span></span><span id="3-smoke-test-catcher-important" class="anchor"></span><a class="fa fa-anchor" href="#3-smoke-test-catcher-important" onclick="event.stopPropagation()"></a></h4>
+<h4 id="3-smoke-test-catcher-important"><span id="3-smoke-test-catcher-important" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Smoke-test CATcher</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> IMPORTANT</span></span> <span class="text-info"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">counted for participation</span><span aria-hidden="true" class="fab fa-product-hunt"></span></span></span><a class="fa fa-anchor" href="#3-smoke-test-catcher-important" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
-<li><strong>This activity is <span class="text-danger">compulsory</span> and counts for <code v-pre>3</code> participation points.</strong> Please do it before the weekly deadline.</li></ul>
+<li><strong>This activity is <span class="text-danger">compulsory</span> and counts for <code class="hljs inline no-lang" v-pre>3</code> participation points.</strong> Please do it before the weekly deadline.</li></ul>
 <div class="indented-level2">
 <box dismissible>
-<p><span class="dimmed"><strong><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Some background:</strong> As you know, our <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., Practical Exam</span>PE</span> includes peer-testing tP products under exam conditions. In the past, we used GitHub as the platform for that -- which was not optimal (e.g., it was hard to ensure the compulsory labels have been applied). As a remedy, some ex-students have been developing an app called <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">CAT stands for Crowd-sourced Anonymous Testing</span>CATcher</span> that we'll be using for the PE this semester.</span></p></box><p></p>
+<p><span class="dimmed"><strong><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Some background:</strong> As you know, our <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., Practical Exam</span>PE</span> includes peer-testing tP products under exam conditions. In the past, we used GitHub as the platform for that -- which was not optimal (e.g., it was hard to ensure the compulsory labels have been applied). As a remedy, some ex-students have been developing an app called <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">CAT stands for Crowd-sourced Anonymous Testing</span>CATcher</span> that we'll be using for the PE this semester.</span></p></box><p></p>
 <p>This week, we would like you to smoke-test the CATcher app <strong>to ensure it can run in your computer</strong>.</p>
 <p></p>
-<panel type="info" minimized class="algolia-no-index"><template slot="_header"><p><strong>The steps for smoke-testing CATcher:</strong></p></template>
+<panel type="info" minimized class="algolia-no-index"><template slot="header"><p><strong>The steps for smoke-testing CATcher:</strong></p></template>
 <ol>
 <li><strong>Download the latest version</strong> of the CATcher executable from <a href="https://github.com/CATcher-org/CATcher/releases">https://github.com/CATcher-org/CATcher/releases</a>.</li>
-<li><strong>Launch the app.</strong> Allow the app to run if there are security warnings <span class="dimmed">(e.g., for Win 10, click the <code v-pre>More Info</code> link in the security warning and choose <code v-pre>Run anyway</code>)</span>.<br>
+<li><strong>Launch the app.</strong> Allow the app to run if there are security warnings <span class="dimmed">(e.g., for Win 10, click the <code class="hljs inline no-lang" v-pre>More Info</code> link in the security warning and choose <code class="hljs inline no-lang" v-pre>Run anyway</code>)</span>.<br>
 <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the app is blocked by your virus scanner, put it in a new folder and add the folder to the <em>exclusions</em> list of the virus scanner.<br>
-<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you encounter other problems at the app launch, refer to the <a href="https://github.com/CATcher-org/CATcher/blob/master/docs/usage-notes.md">Notes on using the CATcher Desktop App</a>.</li>
-<li><strong>Login</strong>: Choose the <em>session</em> <code v-pre>CS2113/T Alpha Test</code>, and submit.
+<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you encounter other problems at the app launch, refer to the <a href="https://github.com/CATcher-org/CATcher/blob/master/docs/usage-notes.html">Notes on using the CATcher Desktop App</a>.</li>
+<li><strong>Login</strong>: Choose the <em>session</em> <code class="hljs inline no-lang" v-pre>CS2113/T Alpha Test</code>, and submit.
 <img src="/website/admin/images/catcherLogin.png"></li>
 <li>In the next screen, login to CATcher using your GitHub account.<br>
 If the app asks for public repo access permissions, grant it (just go with the default settings).</li>
-<li><strong>Let CATcher create a repo named <code v-pre>alpha</code></strong> in your GitHub account, when it asks for permission. That repo will be used to hold the bug reports you will create in this testing session.</li>
+<li><strong>Let CATcher create a repo named <code class="hljs inline no-lang" v-pre>alpha</code></strong> in your GitHub account, when it asks for permission. That repo will be used to hold the bug reports you will create in this testing session.</li>
 <li><strong>Use the app (not the GitHub Web interface) to create 1-2 dummy bug reports</strong>. The steps are similar to how you would enter bug reports in the GitHub issue tracker. Include at least one screenshot in one of those bug reports.<br>
 <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> you can <mark>copy-paste screenshots</mark> into the bug description.<br>
 <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use Markdown syntax in the bug descriptions.<br>
-<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> The <code v-pre>severity</code> and <code v-pre>type</code> labels are compulsory.</li>
+<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> The <code class="hljs inline no-lang" v-pre>severity</code> and <code class="hljs inline no-lang" v-pre>type</code> labels are compulsory.</li>
 <li><strong>Report any problems you encounter</strong> at the <a href="https://github.com/CATcher-org/CATcher/issues">CATcher issue tracker</a>.</li>
-<li><strong>Do NOT delete the <code v-pre>alpha</code> repo</strong> created by CATcher in your GitHub account (keep it until the end of the semester) as our scripts will look for it later to check if you have done this activity.</li>
+<li><strong>Do NOT delete the <code class="hljs inline no-lang" v-pre>alpha</code> repo</strong> created by CATcher in your GitHub account (keep it until the end of the semester) as our scripts will look for it later to check if you have done this activity.</li>
 <li><strong>Do NOT delete the CATcher executable</strong> you downloaded either; you will need it again.</li></ol></panel>
 <p></p></div></div>
 <p></p>
-<h4 id="4-ensure-the-code-reposense-compatible"><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Ensure the code RepoSense-compatible</span><span id="4-ensure-the-code-reposense-compatible" class="anchor"></span><a class="fa fa-anchor" href="#4-ensure-the-code-reposense-compatible" onclick="event.stopPropagation()"></a></h4>
+<h4 id="4-ensure-the-code-reposense-compatible"><span id="4-ensure-the-code-reposense-compatible" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Ensure the code RepoSense-compatible</span><a class="fa fa-anchor" href="#4-ensure-the-code-reposense-compatible" onclick="event.stopPropagation()"></a></h4>
 <div>
 <span id="midV13-repoSenseCompatible">
 <ul>
 <li>
-<p><strong>Ensure your code is <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., RepoSense can detect your code as yours</span>RepoSense-compatible</span></strong> and the <strong>code it attributes to you is indeed the code written by you</strong>, as explained below:</p>
+<p><strong>Ensure your code is <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., RepoSense can detect your code as yours</span>RepoSense-compatible</span></strong> and the <strong>code it attributes to you is indeed the code written by you</strong>, as explained below:</p>
 <ul>
-<li>Go to the <a href="https://nus-cs2113-ay2021s2.github.io/tp-dashboard/#breakdown=true">tp Code Dashboard</a>. Click on the <code v-pre>&lt;/&gt;</code> icon against your name and verify that the <mark>lines attributed to you (i.e., lines marked as green)</mark> reflects your code contribution correctly. This is important because some aspects of your project grade (e.g., code quality) will be graded based on those lines.<br>
+<li>Go to the <a href="https://nus-cs2113-ay2021s2.github.io/tp-dashboard/#breakdown=true">tp Code Dashboard</a>. Click on the <code class="hljs inline no-lang" v-pre>&lt;/&gt;</code> icon against your name and verify that the <mark>lines attributed to you (i.e., lines marked as green)</mark> reflects your code contribution correctly. This is important because some aspects of your project grade (e.g., code quality) will be graded based on those lines.<br>
     <img src="/website/admin/images/greenLines.png" width="600"></li></ul>
 <p></p>
 <ul>
 <li>More info on how to make the code RepoSense compatible:</li></ul></li></ul>
 <div class="indented-level4">
-<panel type class="embedding algolia-no-index" minimized><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tools → RepoSense <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tools → RepoSense <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h2 id="tool-reposense-for-authorship-tracking">Tool: RepoSense (for authorship tracking)<span id="tool-reposense-for-authorship-tracking" class="anchor"></span><a class="fa fa-anchor" href="#tool-reposense-for-authorship-tracking" onclick="event.stopPropagation()"></a></h2>
+<h2 id="tool-reposense-for-authorship-tracking"><span id="tool-reposense-for-authorship-tracking" class="anchor"></span>Tool: RepoSense (for authorship tracking)<a class="fa fa-anchor" href="#tool-reposense-for-authorship-tracking" onclick="event.stopPropagation()"></a></h2>
 <div>
 <p><pic src="https://reposense.org/images/reposenseOverview.png"></pic></p>
 <p>We will be using a tool called <a href="http://reposense.org">RepoSense</a> to make it <strong>easier for you to see (and learn from) code written by others</strong>, and to help us see who wrote which part of the code.</p>
@@ -271,36 +275,64 @@ If the app asks for public repo access permissions, grant it (just go with the d
 <p><strong><strong>If the code does not match the actual authorship:</strong></strong> Given below are the possible reasons for the code shown to mismatch the code you wrote.</p>
 <ul>
 <li>
-<p><strong>Reason 1:</strong> the <code v-pre>Author name</code> of some of your commits is not known to RepoSense -- this is a result of not setting the <code v-pre>git.username</code> property as instructed <a href="/website/admin/tools.html#tool-git-for-revision-control">in our Git setup instructions</a>.<br>
-<strong>How to check:</strong> Find the <code v-pre>Author name</code> of your commits that are <em>missing</em> (you can use SourceTree or the <code v-pre>git log</code> command for that -- it's not possible to do that using the GitHub interface though).<br> Check if that author name is included in the <a href="https://github.com/nus-cs2113-AY2021S2/ip-dashboard/blob/master/configs/author-config.csv">RepoSense config for the iP</a> or the <a href="https://github.com/nus-cs2113-AY2021S2/tp-dashboard/blob/master/configs/author-config.csv">RepoSense config for the tP</a> (whichever the applicable one)<br>
+<p><strong>Reason 1:</strong> the <code class="hljs inline no-lang" v-pre>Author name</code> of some of your commits is not known to RepoSense -- this is a result of not setting the <code class="hljs inline no-lang" v-pre>git.username</code> property as instructed <a href="/website/admin/tools.html#tool-git-for-revision-control">in our Git setup instructions</a>.<br>
+<strong>How to check:</strong> Find the <code class="hljs inline no-lang" v-pre>Author name</code> of your commits that are <em>missing</em> (you can use SourceTree or the <code class="hljs inline no-lang" v-pre>git log</code> command for that -- it's not possible to do that using the GitHub interface though).<br> Check if that author name is included in the <a href="https://github.com/nus-cs2113-AY2021S2/ip-dashboard/blob/master/configs/author-config.csv">RepoSense config for the iP</a> or the <a href="https://github.com/nus-cs2113-AY2021S2/tp-dashboard/blob/master/configs/author-config.csv">RepoSense config for the tP</a> (whichever the applicable one)<br>
 <strong>Remedy:</strong> Send the missing author name(s) to the prof so that the RepoSense configuration can be updated accordingly.</p></li>
 <li>
 <p><strong>Reason 2:</strong> The actual authorship does not match the authorship determined by git blame/log e.g., another student touched your code after you wrote it, and Git log attributed the code to that student instead.<br>
-<strong>Remedy:</strong> You can add <code v-pre>@@author</code> annotations as explained in the panel below:</p></li></ul>
+<strong>Remedy:</strong> You can add <code class="hljs inline no-lang" v-pre>@@author</code> annotations as explained in the panel below:</p></li></ul>
 <div class="indented-level2">
-<panel class="algolia-no-index"><template slot="_header"><p>Adding <code v-pre>@@author</code> tags to indicate authorship</p></template>
+<panel class="algolia-no-index"><template slot="header"><p>Adding <code class="hljs inline no-lang" v-pre>@@author</code> tags to indicate authorship</p></template>
   <div>
-<h4 id="adding-author-tags-indicate-authorship">Adding <code v-pre>@@author</code> tags indicate authorship<span id="adding-author-tags-indicate-authorship" class="anchor"></span><a class="fa fa-anchor" href="#adding-author-tags-indicate-authorship" onclick="event.stopPropagation()"></a></h4>
+<h4 id="adding-author-tags-indicate-authorship"><span id="adding-author-tags-indicate-authorship" class="anchor"></span>Adding <code class="hljs inline no-lang" v-pre>@@author</code> tags indicate authorship<a class="fa fa-anchor" href="#adding-author-tags-indicate-authorship" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>
-<p>Mark your code with a <code v-pre>//@@author {yourGithubUsername}</code>. Note the double <code v-pre>@</code>.<br>
-The <code v-pre>//@@author</code> tag should indicates the beginning of the code you wrote. The code up to the next <code v-pre>//@@author</code> tag or the end of the file (whichever comes first) will be considered as was written by that author.
+<p>Mark your code with a <code class="hljs inline no-lang" v-pre>//@@author {yourGithubUsername}</code>. Note the double <code class="hljs inline no-lang" v-pre>@</code>.<br>
+The <code class="hljs inline no-lang" v-pre>//@@author</code> tag should indicates the beginning of the code you wrote. The code up to the next <code class="hljs inline no-lang" v-pre>//@@author</code> tag or the end of the file (whichever comes first) will be considered as was written by that author.
 Here is a sample code file:</p>
-<pre><code class="hljs" v-pre><span>//@@author johndoe<br></span><span>method 1 ...<br></span><span>method 2 ...<br></span><span>//@@author sarahkhoo<br></span><span>method 3 ...<br></span><span>//@@author johndoe<br></span><span>method 4 ...<br></span></code></pre></li>
+<pre><code class="hljs" v-pre><span>//@@author johndoe
+</span><span>method 1 ...
+</span><span>method 2 ...
+</span><span>//@@author sarahkhoo
+</span><span>method 3 ...
+</span><span>//@@author johndoe
+</span><span>method 4 ...
+</span></code></pre></li>
 <li>
-<p><strong>If you don't know who wrote the code segment below yours</strong>, you may put an empty <code v-pre>//@@author</code> (i.e. no GitHub username) to indicate the end of the code segment you wrote. The author of code below yours can add the GitHub username to the empty tag later.
-Here is a sample code with an empty <code v-pre>author</code> tag:</p>
-<pre><code class="hljs" v-pre><span>method 0 ...<br></span><span>//@@author johndoe<br></span><span>method 1 ...<br></span><span>method 2 ...<br></span><span>//@@author<br></span><span>method 3 ...<br></span><span>method 4 ...<br></span></code></pre></li>
+<p><strong>If you don't know who wrote the code segment below yours</strong>, you may put an empty <code class="hljs inline no-lang" v-pre>//@@author</code> (i.e. no GitHub username) to indicate the end of the code segment you wrote. The author of code below yours can add the GitHub username to the empty tag later.
+Here is a sample code with an empty <code class="hljs inline no-lang" v-pre>author</code> tag:</p>
+<pre><code class="hljs" v-pre><span>method 0 ...
+</span><span>//@@author johndoe
+</span><span>method 1 ...
+</span><span>method 2 ...
+</span><span>//@@author
+</span><span>method 3 ...
+</span><span>method 4 ...
+</span></code></pre></li>
 <li>
 <p><strong>The author tag syntax varies based on file type</strong> e.g. for java, css, fxml. Use the corresponding comment syntax for non-Java files.<br>
 Here is an example code from an xml/fxml file.</p>
-<pre><code class="hljs" v-pre><span>&lt;!-- @@author sereneWong --&gt;<br></span><span>&lt;textbox&gt;<br></span><span>  &lt;label&gt;...&lt;/label&gt;<br></span><span>  &lt;input&gt;...&lt;/input&gt;<br></span><span>&lt;/textbox&gt;<br></span><span>...<br></span></code></pre></li>
+<pre><code class="hljs" v-pre><span>&lt;!-- @@author sereneWong --&gt;
+</span><span>&lt;textbox&gt;
+</span><span>  &lt;label&gt;...&lt;/label&gt;
+</span><span>  &lt;input&gt;...&lt;/input&gt;
+</span><span>&lt;/textbox&gt;
+</span><span>...
+</span></code></pre></li>
 <li>
-<p><strong>Do not put the <code v-pre>//@@author</code> inside java header comments</strong>.<br>
+<p><strong>Do not put the <code class="hljs inline no-lang" v-pre>//@@author</code> inside java header comments</strong>.<br>
 👎<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-<pre><code class="hljs" v-pre><span>/**<br></span><span>  * Returns true if ...<br></span><span>  * @@author johndoe<br></span><span>  */<br></span></code></pre><p>👍<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-<pre><code class="hljs" v-pre><span>//@@author johndoe<br></span><span>/**<br></span><span>  * Returns true if ...<br></span><span>  */<br></span></code></pre></li></ul>
-<h4 id="what-to-and-what-not-to-annotate">What to and what not to annotate<span id="what-to-and-what-not-to-annotate" class="anchor"></span><a class="fa fa-anchor" href="#what-to-and-what-not-to-annotate" onclick="event.stopPropagation()"></a></h4>
+<pre><code class="hljs" v-pre><span>/**
+</span><span>  * Returns true if ...
+</span><span>  * @@author johndoe
+</span><span>  */
+</span></code></pre><p>👍<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+<pre><code class="hljs" v-pre><span>//@@author johndoe
+</span><span>/**
+</span><span>  * Returns true if ...
+</span><span>  */
+</span></code></pre></li></ul>
+<h4 id="what-to-and-what-not-to-annotate"><span id="what-to-and-what-not-to-annotate" class="anchor"></span>What to and what not to annotate<a class="fa fa-anchor" href="#what-to-and-what-not-to-annotate" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>
 <p><strong>Annotate both functional and test code</strong> There is no need to annotate documentation files.</p></li>
@@ -318,17 +350,23 @@ If you notice a team member claiming credit for code that he/she did not write o
 <li>
 <p><strong>If you wrote a significant amount of code that was not used in the final product</strong>,</p>
 <ul>
-<li>Create a folder called <code v-pre>{project root}/unused</code></li>
+<li>Create a folder called <code class="hljs inline no-lang" v-pre>{project root}/unused</code></li>
 <li>Move unused files (or copies of files containing unused code) to that folder</li>
-<li>use <code v-pre>//@@author {yourGithubUsername}-unused</code> to mark unused code in those files (note the suffix <code v-pre>unused</code>)
+<li>use <code class="hljs inline no-lang" v-pre>//@@author {yourGithubUsername}-unused</code> to mark unused code in those files (note the suffix <code class="hljs inline no-lang" v-pre>unused</code>)
 e.g.</li></ul>
-<pre><code class="hljs" v-pre><span>//@@author johndoe-unused<br></span><span>method 1 ...<br></span><span>method 2 ...<br></span></code></pre><p>Please put a comment in the code to explain why it was not used.</p></li>
+<pre><code class="hljs" v-pre><span>//@@author johndoe-unused
+</span><span>method 1 ...
+</span><span>method 2 ...
+</span></code></pre><p>Please put a comment in the code to explain why it was not used.</p></li>
 <li>
-<p><strong>If you reused code from elsewhere,</strong> mark such code as <code v-pre>//@@author {yourGithubUsername}-reused</code> (note the suffix <code v-pre>reused</code>)
+<p><strong>If you reused code from elsewhere,</strong> mark such code as <code class="hljs inline no-lang" v-pre>//@@author {yourGithubUsername}-reused</code> (note the suffix <code class="hljs inline no-lang" v-pre>reused</code>)
 e.g.</p>
-<pre><code class="hljs" v-pre><span>//@@author johndoe-reused<br></span><span>method 1 ...<br></span><span>method 2 ...<br></span></code></pre></li>
+<pre><code class="hljs" v-pre><span>//@@author johndoe-reused
+</span><span>method 1 ...
+</span><span>method 2 ...
+</span></code></pre></li>
 <li>
-<p><strong>You can use empty <code v-pre>@@author</code> tags to mark code as not yours when RepoSense attribute the code to you incorrectly.</strong></p>
+<p><strong>You can use empty <code class="hljs inline no-lang" v-pre>@@author</code> tags to mark code as not yours when RepoSense attribute the code to you incorrectly.</strong></p>
 <ul>
 <li>
 <p><strong>Code generated by the IDE/framework,</strong> should not be annotated as your own.</p></li>
@@ -337,10 +375,10 @@ e.g.</p>
 <ul>
 <li><strong>Reason 3:</strong> Some commits should not be included in the authorship analysis <span class="dimmed">e.g., you committed the code of a third party library by mistake</span>.<br>
 <strong>Remedy:</strong> Let us know the hashes of the commits that need to be omitted from the analysis.</li></ul>
-<p>If none of the above works, please please post in the <a href="https://github.com/nus-cs2113-AY2021S2/forum/issues">forum</a> or contact us via <code v-pre>cs2113@comp.nus.edu.sg</code> so that we can advise you what to do.</p>
+<p>If none of the above works, please please post in the <a href="https://github.com/nus-cs2113-AY2021S2/forum/issues">forum</a> or contact us via <code class="hljs inline no-lang" v-pre>cs2113@comp.nus.edu.sg</code> so that we can advise you what to do.</p>
 <p><mark><strong>We recommend you ensure your code is RepoSense-compatible by v2.0</strong></mark></p></div></div></panel></div><p></p></span></div>
-<p></p></div></div>
-
+<p></p></div>
+<p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
@@ -363,18 +401,13 @@ e.g.</p>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Mon, Feb 15, 2021, 10:11:15 PM GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Feb 2021, 22:39:07 GMT+8]</small></div></footer></div>
 </body>
-<script src="../../markbind/js/vue.min.js"></script>
-<script src="../../markbind/js/components.min.js"></script>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
-<script src="../../markbind/js/polyfill.min.js"></script>
-<script src="../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
   const baseUrl = '/website'
-  const enableSearch = false
+  MarkBind.setup()
 </script>
-<script src="../../markbind/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
     function initAlgolia() {
@@ -386,7 +419,7 @@ e.g.</p>
         debug: false,
       });
     }
-    MarkBind.afterSetup(initAlgolia);
+    initAlgolia();
   </script>
-<script src="../../markbind/layouts/default/scripts.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
 </html>

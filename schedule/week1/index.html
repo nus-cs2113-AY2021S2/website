@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.15.2">
+    <meta name="generator" content="MarkBind 2.17.3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Week 1 - Summary</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
     <link rel="stylesheet" href="../../markbind/css/octicons.css">
-    <link rel="stylesheet" href="../../markbind/css/github.min.css">
-    <link rel="stylesheet" href="../../markbind/css/markbind.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="../../markbind/css/page-nav.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
+    <link rel="stylesheet" href="../../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../../markbind/css/markbind.min.css"><script src="../../markbind/js/polyfill.min.js"></script>
+    <script src="../../markbind/js/vue.min.js"></script>
+    <script src="../../markbind/js/markbind.min.js"></script>
+    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
     <link rel="stylesheet" href="/website/css/main.css">
     <link rel="stylesheet" href="/website/css/schedule.css"><link rel="icon" href="/website/favicon.ico"></head>
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
@@ -76,6 +78,8 @@
     <form class="navbar-form">
       <searchbar placeholder="Search" algolia menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
         
+
+
 <div id="content-wrapper">
 <div class="website-content">
 <nav>
@@ -88,7 +92,7 @@
 <li class="page-item"><a class="page-link" href="/website/schedule/week1/tutorial.html"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li>
 <li class="page-item">&nbsp;&nbsp;&nbsp;</li><li class="page-item"><a class="page-link" href="/website/schedule/week2"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav>
 <p></p>
-<h1 id="week-1-mon-jan-11th-summary">Week 1 <small><small><span class="dimmed">[Mon, Jan 11th]</span> - Summary</small></small><span id="week-1-mon-jan-11th-summary" class="anchor"></span><a class="fa fa-anchor" href="#week-1-mon-jan-11th-summary" onclick="event.stopPropagation()"></a></h1>
+<h1 id="week-1-mon-jan-11th-summary"><span id="week-1-mon-jan-11th-summary" class="anchor"></span>Week 1 <small><small><span class="dimmed">[Mon, Jan 11th]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-1-mon-jan-11th-summary" onclick="event.stopPropagation()"></a></h1>
 <div>
 <div>
 <div>
@@ -122,8 +126,8 @@
 <li><span>Learn about the module</span></li>
 <li><span>Attend the first lecture</span></li></ol></div>
 <div></div></div></div></div></span>
-<br></div></div>
-
+<br></div>
+<p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
@@ -137,18 +141,13 @@
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Mon, Feb 15, 2021, 10:11:15 PM GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Feb 2021, 22:39:07 GMT+8]</small></div></footer></div>
 </body>
-<script src="../../markbind/js/vue.min.js"></script>
-<script src="../../markbind/js/components.min.js"></script>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
-<script src="../../markbind/js/polyfill.min.js"></script>
-<script src="../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
   const baseUrl = '/website'
-  const enableSearch = false
+  MarkBind.setup()
 </script>
-<script src="../../markbind/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
     function initAlgolia() {
@@ -160,7 +159,7 @@
         debug: false,
       });
     }
-    MarkBind.afterSetup(initAlgolia);
+    initAlgolia();
   </script>
-<script src="../../markbind/layouts/default/scripts.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
 </html>

@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.15.2">
+    <meta name="generator" content="MarkBind 2.17.3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Week 10 - Topics</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
     <link rel="stylesheet" href="../../markbind/css/octicons.css">
-    <link rel="stylesheet" href="../../markbind/css/github.min.css">
-    <link rel="stylesheet" href="../../markbind/css/markbind.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="../../markbind/css/page-nav.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
+    <link rel="stylesheet" href="../../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../../markbind/css/markbind.min.css"><script src="../../markbind/js/polyfill.min.js"></script>
+    <script src="../../markbind/js/vue.min.js"></script>
+    <script src="../../markbind/js/markbind.min.js"></script>
+    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
     <link rel="stylesheet" href="/website/css/main.css">
     <link rel="stylesheet" href="/website/css/schedule.css"><link rel="icon" href="/website/favicon.ico"></head>
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
@@ -76,6 +78,8 @@
     <form class="navbar-form">
       <searchbar placeholder="Search" algolia menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
         
+
+
 <div id="content-wrapper">
 <div class="website-content">
 <nav>
@@ -88,9 +92,9 @@
 <li class="page-item"><a class="page-link" href="/website/schedule/week10/tutorial.html"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li>
 <li class="page-item">&nbsp;&nbsp;&nbsp;</li><li class="page-item"><a class="page-link" href="/website/schedule/week11"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav>
 <p></p>
-<h1 id="week-10-fri-mar-19th-topics">Week 10 <small><small><span class="dimmed">[Fri, Mar 19th]</span> - Topics</small></small><span id="week-10-fri-mar-19th-topics" class="anchor"></span><a class="fa fa-anchor" href="#week-10-fri-mar-19th-topics" onclick="event.stopPropagation()"></a></h1>
+<h1 id="week-10-fri-mar-19th-topics"><span id="week-10-fri-mar-19th-topics" class="anchor"></span>Week 10 <small><small><span class="dimmed">[Fri, Mar 19th]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-10-fri-mar-19th-topics" onclick="event.stopPropagation()"></a></h1>
 <div></div>
-<panel type="seamless" class="algolia-no-index"><template slot="_header"><p><span class="dimmed"><span aria-hidden="true" class="fas fa-list-ol"></span> Detailed Table of Contents</span></p></template>
+<panel type="seamless" class="algolia-no-index"><template slot="header"><p><span class="dimmed"><span aria-hidden="true" class="fas fa-list-ol"></span> Detailed Table of Contents</span></p></template>
 <span id="toc">
 <ul>
 <li>[<a href="/website/schedule/week10/topics.html#W10-1">W10.1</a>] <strong>Sequence Diagrams: Basics</strong> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li></ul>
@@ -168,47 +172,72 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 
 </div></div></div></div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w10-1-sequence-diagrams-basics">
-<span slot="header" class="card-title"><div><h2 id="w10-1-sequence-diagrams-basics"><span class="dimmed">[W10.1]</span> <strong>Sequence Diagrams: Basics</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w10-1-sequence-diagrams-basics" class="anchor"></span><a class="fa fa-anchor" href="#w10-1-sequence-diagrams-basics" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w10-1-sequence-diagrams-basics"><span id="w10-1-sequence-diagrams-basics" class="anchor"></span><span class="dimmed">[W10.1]</span> <strong>Sequence Diagrams: Basics</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-1-sequence-diagrams-basics" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <p><span id="W10-1a"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/sequenceDiagramsBasic" id="design-modelling-modelling-behaviors-sequence-diagrams-basic">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.1a</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-modelling-modelling-behaviors-sequence-diagrams-basic"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Sequence diagrams - basic</span></strong><span id="design-modelling-modelling-behaviors-sequence-diagrams-basic" class="anchor"></span><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-sequence-diagrams-basic" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-modelling-modelling-behaviors-sequence-diagrams-basic"><span id="design-modelling-modelling-behaviors-sequence-diagrams-basic" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Sequence diagrams - basic</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-sequence-diagrams-basic" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
 <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can draw basic sequence diagrams</span></span></span></span></p><p></p><p></p>
 <p></p>
 <div>
-<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/introduction/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Introduction</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SequenceDiagrams</p></template></panel></p>
-<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/basic/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Basic Notation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Basic</p></template></panel></p>
-<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/loops/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Loops</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Loops</p></template></panel>
-<panel type="seamless" src="/website/book/uml/sequenceDiagrams/objectCreation/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Object Creation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Creation</p></template></panel></p>
-<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/minimalNotation/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Minimal Notation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Minimal</p></template></panel></p></div>
+<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/introduction/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Introduction</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SequenceDiagrams</p></template></panel></p>
+<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/basic/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Basic Notation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Basic</p></template></panel></p>
+<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/loops/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Loops</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Loops</p></template></panel>
+<panel type="seamless" src="/website/book/uml/sequenceDiagrams/objectCreation/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Object Creation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Creation</p></template></panel></p>
+<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/minimalNotation/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Minimal Notation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Minimal</p></template></panel></p></div>
 <div>
   <div>
-<panel expanded><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expanded><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
 <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Explain Sequence Diagram about Machine</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Explain Sequence Diagram about Machine</p></template>
 <question>
 <p>Explain in your own words the interactions illustrated by this Sequence Diagram:</p>
 <img src="/website/book/uml/sequenceDiagrams/introduction/images/Machine.png" width="500"></question></panel></div>
 <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Draw a Sequence Diagram for the code (<code v-pre>PersonList</code>, <code v-pre>Person</code>, <code v-pre>Tag</code>)</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Draw a Sequence Diagram for the code (<code class="hljs inline no-lang" v-pre>PersonList</code>, <code class="hljs inline no-lang" v-pre>Person</code>, <code class="hljs inline no-lang" v-pre>Tag</code>)</p></template>
 <question>
 <p>Consider the code below:</p>
 <div class="row">
   <div class="col-sm-7">
-<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{<br></span><span>    Tag tag;<br></span><span>    String name;<br></span><span><br></span><span>    Person(String personName, String tagName) {<br></span><span>        name = personName;<br></span><span>        tag = <span class="hljs-keyword">new</span> Tag(tagName);<br></span><span>    }<br></span><span>}<br></span></code></pre></div>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+</span><span>    Tag tag;
+</span><span>    String name;
+</span><span>
+</span><span>    Person(String personName, String tagName) {
+</span><span>        name = personName;
+</span><span>        tag = <span class="hljs-keyword">new</span> Tag(tagName);
+</span><span>    }
+</span><span>}
+</span></code></pre></div>
   <div class="col-sm-5">
-<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tag</span> </span>{<br></span><span>    Tag(String value) {<br></span><span>        <span class="hljs-comment">// ...</span><br></span><span>    }<br></span><span>}<br></span><span><br></span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonList</span> </span>{<br></span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">addPerson</span><span class="hljs-params">(Person p)</span> </span>{<br></span><span>        <span class="hljs-comment">// ...</span><br></span><span>    }<br></span><span>}<br></span></code></pre></div></div>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tag</span> </span>{
+</span><span>    Tag(String value) {
+</span><span>        <span class="hljs-comment">// ...</span>
+</span><span>    }
+</span><span>}
+</span><span>
+</span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonList</span> </span>{
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">addPerson</span><span class="hljs-params">(Person p)</span> </span>{
+</span><span>        <span class="hljs-comment">// ...</span>
+</span><span>    }
+</span><span>}
+</span></code></pre></div></div>
 <p>Draw a sequence diagram to illustrate the object interactions that happen in the code snippet below:</p>
-<pre><code class="hljs java" v-pre><span>PersonList personList = <span class="hljs-keyword">new</span> PersonList();<br></span><span><span class="hljs-keyword">while</span> (hasRoom) {<br></span><span>    Person p = <span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Adam"</span>, <span class="hljs-string">"friend"</span>);<br></span><span>    personList.addPerson(p);<br></span><span>}<br></span></code></pre></question></panel></div>
+<pre><code class="hljs java" v-pre><span>PersonList personList = <span class="hljs-keyword">new</span> PersonList();
+</span><span><span class="hljs-keyword">while</span> (hasRoom) {
+</span><span>    Person p = <span class="hljs-keyword">new</span> Person(<span class="hljs-string">&quot;Adam&quot;</span>, <span class="hljs-string">&quot;friend&quot;</span>);
+</span><span>    personList.addPerson(p);
+</span><span>}
+</span></code></pre></question></panel></div>
 <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Find notation errors in Sequence Diagram</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Find notation errors in Sequence Diagram</p></template>
 <question>
 <p>Find notation mistakes in the sequence diagram below:</p>
 <img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsBasic/images/notationMistakes.png" width="500"></question></panel></div></div></panel></div></div></div></div></panel>
@@ -221,70 +250,90 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <p><span id="W10-2"></span></p>
 <div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w10-2-sequence-diagrams-intermediate-level">
-<span slot="header" class="card-title"><div><h2 id="w10-2-sequence-diagrams-intermediate-level"><span class="dimmed">[W10.2]</span> <strong>Sequence Diagrams: Intermediate-Level</strong> <small><small><span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w10-2-sequence-diagrams-intermediate-level" class="anchor"></span><a class="fa fa-anchor" href="#w10-2-sequence-diagrams-intermediate-level" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w10-2-sequence-diagrams-intermediate-level"><span id="w10-2-sequence-diagrams-intermediate-level" class="anchor"></span><span class="dimmed">[W10.2]</span> <strong>Sequence Diagrams: Intermediate-Level</strong> <small><small><span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-2-sequence-diagrams-intermediate-level" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <p><span id="W10-2a"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate" id="design-modelling-modelling-behaviors-sequence-diagrams-intermediate">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.2a</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-modelling-modelling-behaviors-sequence-diagrams-intermediate"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Sequence diagrams - intermediate</span></strong><span id="design-modelling-modelling-behaviors-sequence-diagrams-intermediate" class="anchor"></span><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-sequence-diagrams-intermediate" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-modelling-modelling-behaviors-sequence-diagrams-intermediate"><span id="design-modelling-modelling-behaviors-sequence-diagrams-intermediate" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Sequence diagrams - intermediate</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-sequence-diagrams-intermediate" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
 <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can draw intermediate-level sequence diagrams</span></span></span></span></p><p></p><p></p>
 <p></p>
 <div>
-<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/objectDeletion/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Object Deletion</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Deletion</p></template></panel>
-<panel type="seamless" src="/website/book/uml/sequenceDiagrams/selfInvocation/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Self-Invocation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Self-Invocation</p></template></panel>
-<panel type="seamless" src="/website/book/uml/sequenceDiagrams/alternativePaths/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Alternative Paths</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Alternative</p></template></panel>
-<panel type="seamless" src="/website/book/uml/sequenceDiagrams/optionalPaths/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Optional Paths</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Optional</p></template></panel></p>
-<panel type="seamless" class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Calls to Static Methods</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/StaticMethods</p></template>
+<p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/objectDeletion/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Object Deletion</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Deletion</p></template></panel>
+<panel type="seamless" src="/website/book/uml/sequenceDiagrams/selfInvocation/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Self-Invocation</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Self-Invocation</p></template></panel>
+<panel type="seamless" src="/website/book/uml/sequenceDiagrams/alternativePaths/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Alternative Paths</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Alternative</p></template></panel>
+<panel type="seamless" src="/website/book/uml/sequenceDiagrams/optionalPaths/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Optional Paths</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Optional</p></template></panel></p>
+<panel type="seamless" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Calls to Static Methods</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/StaticMethods</p></template>
 <div>
 <div>
-<p>Method calls to <code v-pre>static</code> (i.e., class-level) methods are received by the class itself, not an instance of that class. You can use <code v-pre>&lt;&lt;class&gt;&gt;</code> to show that a participant is the class itself.</p>
+<p>Method calls to <code class="hljs inline no-lang" v-pre>static</code> (i.e., class-level) methods are received by the class itself, not an instance of that class. You can use <code class="hljs inline no-lang" v-pre>&lt;&lt;class&gt;&gt;</code> to show that a participant is the class itself.</p>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, <code v-pre>m</code> calls the static method <code v-pre>Person.getMaxAge()</code> and also the <code v-pre>setAge()</code> method of a <code v-pre>Person</code> object <code v-pre>p</code>.</p>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, <code class="hljs inline no-lang" v-pre>m</code> calls the static method <code class="hljs inline no-lang" v-pre>Person.getMaxAge()</code> and also the <code class="hljs inline no-lang" v-pre>setAge()</code> method of a <code class="hljs inline no-lang" v-pre>Person</code> object <code class="hljs inline no-lang" v-pre>p</code>.</p>
 <p><pic src="/website/book/uml/sequenceDiagrams/staticMethods/images/staticMethodCall.png"></pic></p>
 <p></p>
-<p>Here is the <code v-pre>Person</code> class, for reference:<br>
+<p>Here is the <code class="hljs inline no-lang" v-pre>Person</code> class, for reference:<br>
 <pic src="/website/book/uml/sequenceDiagrams/staticMethods/images/personClass.png"></pic></p></box><p></p></div>
 <div></div></div></panel></div>
 <div>
 <div>
-<panel expanded><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expanded><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
 <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> What’s going on here?</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> What’s going on here?</p></template>
 <question>
 <p>What’s going on here?</p>
 <img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/images/exerciseDiagram.png" height="170">
 <p></p>
 <ul class="contains-task-list">
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> a. <code v-pre>Logic</code> object is executing a parallel thread.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> b. <code v-pre>Logic</code> object is executing a loop.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> c. <code v-pre>Logic</code> object  is creating another <code v-pre>Logic</code> instance.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> d. One of <code v-pre>Logic</code> object’s methods is calling another of its methods.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> e. <code v-pre>Minefield</code> object is calling a method of <code v-pre>Logic</code>.</li></ul>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> a. <code class="hljs inline no-lang" v-pre>Logic</code> object is executing a parallel thread.</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> b. <code class="hljs inline no-lang" v-pre>Logic</code> object is executing a loop.</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> c. <code class="hljs inline no-lang" v-pre>Logic</code> object  is creating another <code class="hljs inline no-lang" v-pre>Logic</code> instance.</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> d. One of <code class="hljs inline no-lang" v-pre>Logic</code> object’s methods is calling another of its methods.</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> e. <code class="hljs inline no-lang" v-pre>Minefield</code> object is calling a method of <code class="hljs inline no-lang" v-pre>Logic</code>.</li></ul>
 <div slot="answer" class="algolia-no-index">
 <p>(d)</p></div></question></panel></div>
 <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Explain Sequence Diagram (<code v-pre>ParserFactory</code>)</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Explain Sequence Diagram (<code class="hljs inline no-lang" v-pre>ParserFactory</code>)</p></template>
 <question>
 <p>Explain the interactions depicted in this sequence diagram.</p>
 <img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/images/parserFactory.png" height="300">
 <p></p>
 <div slot="hint" class="algolia-no-index">
-<p>First, the <code v-pre>createParser()</code> method of an existing <code v-pre>ParserFactory</code> object is called. Then, ...</p></div></question></panel></div>
+<p>First, the <code class="hljs inline no-lang" v-pre>createParser()</code> method of an existing <code class="hljs inline no-lang" v-pre>ParserFactory</code> object is called. Then, ...</p></div></question></panel></div>
 <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Draw Sequence Diagram for printing a quote</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Draw Sequence Diagram for printing a quote</p></template>
 <question>
 <p>Draw a sequence diagram to represent this code snippet.</p>
-<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">if</span> (isFirstPage) {<br></span><span>    <span class="hljs-keyword">new</span> Quote().print();<br></span><span>}<br></span></code></pre><p>The <code v-pre>Quote</code> class:</p>
-<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Quote</span> </span>{<br></span><span><br></span><span>    String q;<br></span><span><br></span><span>    Quote() {<br></span><span>        q = generate();<br></span><span>    }<br></span><span><br></span><span>    <span class="hljs-function">String <span class="hljs-title">generate</span><span class="hljs-params">()</span> </span>{<br></span><span>        <span class="hljs-comment">// ...</span><br></span><span>    }<br></span><span><br></span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span> </span>{<br></span><span>        System.out.println(q);<br></span><span>    }<br></span><span><br></span><span>}<br></span></code></pre><div slot="hint" class="algolia-no-index">
+<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">if</span> (isFirstPage) {
+</span><span>    <span class="hljs-keyword">new</span> Quote().print();
+</span><span>}
+</span></code></pre><p>The <code class="hljs inline no-lang" v-pre>Quote</code> class:</p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Quote</span> </span>{
+</span><span>
+</span><span>    String q;
+</span><span>
+</span><span>    Quote() {
+</span><span>        q = generate();
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function">String <span class="hljs-title">generate</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-comment">// ...</span>
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span> </span>{
+</span><span>        System.out.println(q);
+</span><span>    }
+</span><span>
+</span><span>}
+</span></code></pre><div slot="hint" class="algolia-no-index">
 <ul>
-<li>Show <code v-pre>new Quote().print();</code> as two method calls.</li>
-<li>As the created Quote object is not assigned to a variable, it can be considered as 'deleted' soon after its <code v-pre>print()</code> method is called.</li></ul></div></question></panel></div></div></panel></div></div></div></div></panel>
+<li>Show <code class="hljs inline no-lang" v-pre>new Quote().print();</code> as two method calls.</li>
+<li>As the created Quote object is not assigned to a variable, it can be considered as 'deleted' soon after its <code class="hljs inline no-lang" v-pre>print()</code> method is called.</li></ul></div></question></panel></div></div></panel></div></div></div></div></panel>
 <p></p>
 <div class="indented">
 <div></div></div>
@@ -293,19 +342,19 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <panel type="seamless" expanded popup-url="/website/book/uml/sequenceDiagrams/parallelPaths" id="tools-uml-sequence-diagrams-parallel-paths">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.2b</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="tools-uml-sequence-diagrams-parallel-paths"><small><span class="font-weight-bold text-muted"><span>Tools → UML → Sequence Diagrams →</span></span></small> <strong><span>Parallel paths</span></strong><span id="tools-uml-sequence-diagrams-parallel-paths" class="anchor"></span><a class="fa fa-anchor" href="#tools-uml-sequence-diagrams-parallel-paths" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="tools-uml-sequence-diagrams-parallel-paths"><span id="tools-uml-sequence-diagrams-parallel-paths" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Tools → UML → Sequence Diagrams →</span></span></small> <strong><span>Parallel paths</span></strong><a class="fa fa-anchor" href="#tools-uml-sequence-diagrams-parallel-paths" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
 <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can interpret sequence diagrams with parallel paths</span></span></span></span></p><p></p><p></p>
 <p></p>
 <div>
-<p><strong>UML uses <code v-pre>par</code> frames to indicate parallel paths.</strong></p>
+<p><strong>UML uses <code class="hljs inline no-lang" v-pre>par</code> frames to indicate parallel paths.</strong></p>
 <p>Notation:</p>
 <img src="/website/book/uml/sequenceDiagrams/parallelPaths/images/notation.png" height="100">
 <p></p>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code v-pre>Logic</code> is calling methods <code v-pre>CloudServer#poll()</code> and <code v-pre>LocalServer#poll()</code> in parallel.</p>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code class="hljs inline no-lang" v-pre>Logic</code> is calling methods <code class="hljs inline no-lang" v-pre>CloudServer#poll()</code> and <code class="hljs inline no-lang" v-pre>LocalServer#poll()</code> in parallel.</p>
 <img src="/website/book/uml/sequenceDiagrams/parallelPaths/images/logicServerData.png" height="150">
 <p></p>
 <box>
@@ -319,7 +368,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <panel type="seamless" popup-url="/website/book/uml/sequenceDiagrams/referenceFrames" id="tools-uml-sequence-diagrams-reference-frames" class="algolia-no-index">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.2c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>: OPTIONAL</span>
-<h4 id="tools-uml-sequence-diagrams-reference-frames"><small><span class="font-weight-bold text-muted"><span>Tools → UML → Sequence Diagrams →</span></span></small> <strong><span>Reference frames</span></strong><span id="tools-uml-sequence-diagrams-reference-frames" class="anchor"></span><a class="fa fa-anchor" href="#tools-uml-sequence-diagrams-reference-frames" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="tools-uml-sequence-diagrams-reference-frames"><span id="tools-uml-sequence-diagrams-reference-frames" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Tools → UML → Sequence Diagrams →</span></span></small> <strong><span>Reference frames</span></strong><a class="fa fa-anchor" href="#tools-uml-sequence-diagrams-reference-frames" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -331,7 +380,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/notation.png" height="100">
 <p></p>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The details of the <code v-pre>get minefield appearance</code> interactions have been omitted from the diagram.</p>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The details of the <code class="hljs inline no-lang" v-pre>get minefield appearance</code> interactions have been omitted from the diagram.</p>
 <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/playerTextLogic.png" height="250">
 <p></p>
 <p>Those details are shown in a separate sequence diagram given below.<br>
@@ -364,11 +413,11 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <li>Some design principles that aims to improve those aspects (e.g., Single Responsibility Principle). <span tags="m--cs2113">There are many more principles but we covered only two (to reduce workload) just to give you a taste only.</span></li></ul>
 <p><strong>This week, we cover <em>design patterns</em>, a concept that builds upon the above</strong>. <span tags="m--cs2113">Again, we limit to only two of them, for similar reasons.</span></p></div></div></div></div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w10-3-design-patterns">
-<span slot="header" class="card-title"><div><h2 id="w10-3-design-patterns"><span class="dimmed">[W10.3]</span> <strong>Design Patterns</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w10-3-design-patterns" class="anchor"></span><a class="fa fa-anchor" href="#w10-3-design-patterns" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w10-3-design-patterns"><span id="w10-3-design-patterns" class="anchor"></span><span class="dimmed">[W10.3]</span> <strong>Design Patterns</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-3-design-patterns" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <br>
 <div></div>
-<h3 id="introduction"><span class="dimmed"><strong>Introduction</strong></span><span id="introduction" class="anchor"></span><a class="fa fa-anchor" href="#introduction" onclick="event.stopPropagation()"></a></h3>
+<h3 id="introduction"><span id="introduction" class="anchor"></span><span class="dimmed"><strong>Introduction</strong></span><a class="fa fa-anchor" href="#introduction" onclick="event.stopPropagation()"></a></h3>
 <p><span id="W10-3a"></span></p>
 <div>
 <div>
@@ -380,7 +429,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <panel type="seamless" expanded popup-url="/website/book/designPatterns/introduction/what" id="design-design-patterns-introduction-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.3a</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-design-patterns-introduction-what"><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Introduction →</span></span></small> <strong><span>What</span></strong><span id="design-design-patterns-introduction-what" class="anchor"></span><a class="fa fa-anchor" href="#design-design-patterns-introduction-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-design-patterns-introduction-what"><span id="design-design-patterns-introduction-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-design-patterns-introduction-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -407,9 +456,9 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <p>After repeated attempts at solving such problems, better solutions are discovered and refined over time. These solutions are known as design patterns, <strong>a term popularized by the seminal book</strong> <a href="https://en.wikipedia.org/wiki/Design_Patterns"><strong><em>Design Patterns: Elements of Reusable Object-Oriented Software</em> by the so-called &quot;Gang of Four&quot; (GoF)</strong></a> written by Eric Gamma, Richard Helm, Ralph Johnson, and John Vlissides.</p></div>
 <div>
 <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Definition of design patterns</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Definition of design patterns</p></template>
 <question>
 <p>Which one of these describes the ‘software design patterns’ concept best?</p>
 <ul radio-group="a7255" class="radio-list">
@@ -427,7 +476,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <panel type="seamless" expanded popup-url="/website/book/designPatterns/introduction/format" id="design-design-patterns-introduction-format">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.3b</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-design-patterns-introduction-format"><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Introduction →</span></span></small> <strong><span>Format</span></strong><span id="design-design-patterns-introduction-format" class="anchor"></span><a class="fa fa-anchor" href="#design-design-patterns-introduction-format" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-design-patterns-introduction-format"><span id="design-design-patterns-introduction-format" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Introduction →</span></span></small> <strong><span>Format</span></strong><a class="fa fa-anchor" href="#design-design-patterns-introduction-format" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -444,9 +493,9 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <li><strong>Other useful information</strong> (optional): Code examples, known uses, other related patterns, etc.</li></ul></div>
 <div>
 <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Anti-patterns required?</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Anti-patterns required?</p></template>
 <question>
 <p>When we describe a pattern, we must also specify anti-patterns.</p>
 <ul radio-group="2350f" class="radio-list">
@@ -466,13 +515,13 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <div class="indented">
 <div>
 <p>Now that you know what <em>design pattern</em> is, let's learn a few example design patterns.</p></div></div></div></div></div>
-<h3 id="singleton-pattern"><span class="dimmed"><strong>Singleton pattern</strong></span><span id="singleton-pattern" class="anchor"></span><a class="fa fa-anchor" href="#singleton-pattern" onclick="event.stopPropagation()"></a></h3>
+<h3 id="singleton-pattern"><span id="singleton-pattern" class="anchor"></span><span class="dimmed"><strong>Singleton pattern</strong></span><a class="fa fa-anchor" href="#singleton-pattern" onclick="event.stopPropagation()"></a></h3>
 <p><span id="W10-3c"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/designPatterns/singleton/what" id="design-design-patterns-singleton-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.3c</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-design-patterns-singleton-what"><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Singleton →</span></span></small> <strong><span>What</span></strong><span id="design-design-patterns-singleton-what" class="anchor"></span><a class="fa fa-anchor" href="#design-design-patterns-singleton-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-design-patterns-singleton-what"><span id="design-design-patterns-singleton-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Singleton →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-design-patterns-singleton-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -484,16 +533,16 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <p><strong>Problem</strong></p>
 <p>A normal class can be instantiated multiple times by invoking the constructor.</p>
 <p><strong>Solution</strong></p>
-<p>Make the constructor of the singleton class <code v-pre>private</code>, <span class="dimmed">because a <code v-pre>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code v-pre>public</code> class-level method to access the <em>single instance</em>.</p>
+<p>Make the constructor of the singleton class <code class="hljs inline no-lang" v-pre>private</code>, <span class="dimmed">because a <code class="hljs inline no-lang" v-pre>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code class="hljs inline no-lang" v-pre>public</code> class-level method to access the <em>single instance</em>.</p>
 <box>
 <p>Example:</p>
 <p><pic src="/website/book/designPatterns/singleton/what/images/singleton.png"></pic></p>
 <p></p></box></div>
 <div>
 <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about the Singleton pattern</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about the Singleton pattern</p></template>
 <question>
 <p>You use the Singleton pattern when</p>
 <ul radio-group="651b5" class="radio-list">
@@ -511,7 +560,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <panel type="seamless" expanded popup-url="/website/book/designPatterns/singleton/implementation" id="design-design-patterns-singleton-implementation">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.3d</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-design-patterns-singleton-implementation"><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Singleton →</span></span></small> <strong><span>Implementation</span></strong><span id="design-design-patterns-singleton-implementation" class="anchor"></span><a class="fa fa-anchor" href="#design-design-patterns-singleton-implementation" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-design-patterns-singleton-implementation"><span id="design-design-patterns-singleton-implementation" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Singleton →</span></span></small> <strong><span>Implementation</span></strong><a class="fa fa-anchor" href="#design-design-patterns-singleton-implementation" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -519,14 +568,30 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <p></p>
 <div>
 <p>Here is the typical implementation of how the Singleton pattern is applied to a class:</p>
-<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Logic</span> </span>{<br></span><span>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Logic theOne = <span class="hljs-keyword">null</span>;<br></span><span><br></span><span>    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-title">Logic</span><span class="hljs-params">()</span> </span>{<br></span><span>        ...<br></span><span>    }<br></span><span><br></span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Logic <span class="hljs-title">getInstance</span><span class="hljs-params">()</span> </span>{<br></span><span>        <span class="hljs-keyword">if</span> (theOne == <span class="hljs-keyword">null</span>) {<br></span><span>            theOne = <span class="hljs-keyword">new</span> Logic();<br></span><span>        }<br></span><span>        <span class="hljs-keyword">return</span> theOne;<br></span><span>    }<br></span><span>}<br></span></code></pre><p>Notes:</p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Logic</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Logic theOne = <span class="hljs-keyword">null</span>;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-title">Logic</span><span class="hljs-params">()</span> </span>{
+</span><span>        ...
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Logic <span class="hljs-title">getInstance</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-keyword">if</span> (theOne == <span class="hljs-keyword">null</span>) {
+</span><span>            theOne = <span class="hljs-keyword">new</span> Logic();
+</span><span>        }
+</span><span>        <span class="hljs-keyword">return</span> theOne;
+</span><span>    }
+</span><span>}
+</span></code></pre><p>Notes:</p>
 <ul>
-<li>The constructor is <code v-pre>private</code>, which prevents instantiation from outside the class.</li>
-<li>The single instance of the singleton class is maintained by a <code v-pre>private</code> class-level variable.</li>
-<li>Access to this object is provided by a <code v-pre>public</code> class-level operation <code v-pre>getInstance()</code> which instantiates a single copy of the singleton class when it is executed for the first time. Subsequent calls to this operation return the single instance of the class.</li></ul>
-<p>If <code v-pre>Logic</code> was not a Singleton class, an object is created like this:</p>
-<pre><code class="hljs java" v-pre><span>Logic m = <span class="hljs-keyword">new</span> Logic();<br></span></code></pre><p>But now, the <code v-pre>Logic</code> object needs to be accessed like this:</p>
-<pre><code class="hljs java" v-pre><span>Logic m = Logic.getInstance();<br></span></code></pre></div>
+<li>The constructor is <code class="hljs inline no-lang" v-pre>private</code>, which prevents instantiation from outside the class.</li>
+<li>The single instance of the singleton class is maintained by a <code class="hljs inline no-lang" v-pre>private</code> class-level variable.</li>
+<li>Access to this object is provided by a <code class="hljs inline no-lang" v-pre>public</code> class-level operation <code class="hljs inline no-lang" v-pre>getInstance()</code> which instantiates a single copy of the singleton class when it is executed for the first time. Subsequent calls to this operation return the single instance of the class.</li></ul>
+<p>If <code class="hljs inline no-lang" v-pre>Logic</code> was not a Singleton class, an object is created like this:</p>
+<pre><code class="hljs java" v-pre><span>Logic m = <span class="hljs-keyword">new</span> Logic();
+</span></code></pre><p>But now, the <code class="hljs inline no-lang" v-pre>Logic</code> object needs to be accessed like this:</p>
+<pre><code class="hljs java" v-pre><span>Logic m = Logic.getInstance();
+</span></code></pre></div>
 <div></div></div></div></panel>
 <p></p>
 <div class="indented">
@@ -536,7 +601,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <panel type="seamless" expanded popup-url="/website/book/designPatterns/singleton/evaluation" id="design-design-patterns-singleton-evaluation">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.3e</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-design-patterns-singleton-evaluation"><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Singleton →</span></span></small> <strong><span>Evaluation</span></strong><span id="design-design-patterns-singleton-evaluation" class="anchor"></span><a class="fa fa-anchor" href="#design-design-patterns-singleton-evaluation" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-design-patterns-singleton-evaluation"><span id="design-design-patterns-singleton-evaluation" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Singleton →</span></span></small> <strong><span>Evaluation</span></strong><a class="fa fa-anchor" href="#design-design-patterns-singleton-evaluation" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -560,13 +625,13 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <div></div></div>
 <br>
 <div></div>
-<h3 id="facade-pattern"><span class="dimmed"><strong>Facade pattern</strong></span><span id="facade-pattern" class="anchor"></span><a class="fa fa-anchor" href="#facade-pattern" onclick="event.stopPropagation()"></a></h3>
+<h3 id="facade-pattern"><span id="facade-pattern" class="anchor"></span><span class="dimmed"><strong>Facade pattern</strong></span><a class="fa fa-anchor" href="#facade-pattern" onclick="event.stopPropagation()"></a></h3>
 <p><span id="W10-3f"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/designPatterns/facade/what" id="design-design-patterns-facade-pattern-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.3f</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="design-design-patterns-facade-pattern-what"><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Facade Pattern →</span></span></small> <strong><span>What</span></strong><span id="design-design-patterns-facade-pattern-what" class="anchor"></span><a class="fa fa-anchor" href="#design-design-patterns-facade-pattern-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="design-design-patterns-facade-pattern-what"><span id="design-design-patterns-facade-pattern-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Design → Design Patterns → Facade Pattern →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-design-patterns-facade-pattern-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -576,32 +641,32 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <p><strong>Context</strong></p>
 <p>Components need to access functionality deep inside other components.</p>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code v-pre>UI</code> component of a <code v-pre>Library</code> system might want to access functionality of the <code v-pre>Book</code> class contained inside the <code v-pre>Logic</code> component.</p>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code class="hljs inline no-lang" v-pre>UI</code> component of a <code class="hljs inline no-lang" v-pre>Library</code> system might want to access functionality of the <code class="hljs inline no-lang" v-pre>Book</code> class contained inside the <code class="hljs inline no-lang" v-pre>Logic</code> component.</p>
 <img src="/website/book/designPatterns/facade/what/images/textBook.png" height="120">
 <p></p></box>
 <p><strong>Problem</strong></p>
-<p>Access to the component should be allowed without exposing its internal details. <span class="dimmed">e.g.  the <code v-pre>UI</code> component should access the functionality of the <code v-pre>Logic</code> component without knowing that it contains a <code v-pre>Book</code> class within it.</span></p>
+<p>Access to the component should be allowed without exposing its internal details. <span class="dimmed">e.g.  the <code class="hljs inline no-lang" v-pre>UI</code> component should access the functionality of the <code class="hljs inline no-lang" v-pre>Logic</code> component without knowing that it contains a <code class="hljs inline no-lang" v-pre>Book</code> class within it.</span></p>
 <p><strong>Solution</strong></p>
-<p>Include a <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">a French word that means 'front of a building'</span>Façade</span> class that sits between the component internals and users of the component such that all access to the component happens through the Facade class.</p>
+<p>Include a <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">a French word that means 'front of a building'</span>Façade</span> class that sits between the component internals and users of the component such that all access to the component happens through the Facade class.</p>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following class diagram applies the Facade pattern to the <code v-pre>Library System</code> example. The <code v-pre>LibraryLogic</code> class is the Facade class.</p>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following class diagram applies the Facade pattern to the <code class="hljs inline no-lang" v-pre>Library System</code> example. The <code class="hljs inline no-lang" v-pre>LibraryLogic</code> class is the Facade class.</p>
 <img src="/website/book/designPatterns/facade/what/images/textLibraryBook.png" height="120">
 <p></p></box></div>
 <div>
 <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Is this Facade?</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Is this Facade?</p></template>
 <question>
 <p>Is the design below likely to use the Facade pattern?</p>
 <img src="/website/book/designPatterns/facade/what/images/textStorage.png" height="150">
 <p></p>
-<ul radio-group="165a5" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="165a5" type="radio"> True</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="165a5" type="radio"> False</label></li></ul>
+<ul radio-group="8b0ed" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="8b0ed" type="radio"> True</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="8b0ed" type="radio"> False</label></li></ul>
 <div slot="answer" class="algolia-no-index">
 <p>True.</p>
-<p>Facade is clearly visible (Storage is the <code v-pre>&lt;&lt;Facade&gt;&gt;</code> class).</p></div></question></panel></div></panel></div></div></div></div></panel>
+<p>Facade is clearly visible (Storage is the <code class="hljs inline no-lang" v-pre>&lt;&lt;Facade&gt;&gt;</code> class).</p></div></question></panel></div></panel></div></div></div></div></panel>
 <p></p>
 <div class="indented">
 <div>
@@ -623,14 +688,14 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <div>
 <p>Previously, you learned how to write JUnit tests. <strong>How do you know which parts of the code is being tested by your tests? That's where <em>test coverage</em> comes in.</strong></p></div></div></div></div></div>
 <panel type="seamless" no-close expandable="true" expanded id="w10-4-testing-test-coverage">
-<span slot="header" class="card-title"><div><h2 id="w10-4-testing-test-coverage"><span class="dimmed">[W10.4]</span> <strong>Testing: Test Coverage</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><span id="w10-4-testing-test-coverage" class="anchor"></span><a class="fa fa-anchor" href="#w10-4-testing-test-coverage" onclick="event.stopPropagation()"></a></h2></div></span>
+<span slot="header" class="card-title"><div><h2 id="w10-4-testing-test-coverage"><span id="w10-4-testing-test-coverage" class="anchor"></span><span class="dimmed">[W10.4]</span> <strong>Testing: Test Coverage</strong> <small><small><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-4-testing-test-coverage" onclick="event.stopPropagation()"></a></h2></div></span>
 <div class="indented-level1">
 <p><span id="W10-4a"></span></p>
 <div></div>
 <panel type="seamless" expanded popup-url="/website/book/testing/testCoverage/what" id="quality-assurance-testing-test-coverage-what">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.4a</span> <span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-testing-test-coverage-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Coverage →</span></span></small> <strong><span>What</span></strong><span id="quality-assurance-testing-test-coverage-what" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-testing-test-coverage-what" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-testing-test-coverage-what"><span id="quality-assurance-testing-test-coverage-what" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Coverage →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-test-coverage-what" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -642,27 +707,27 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <ul>
 <li><strong>Function/method coverage</strong> : based on functions executed <span class="dimmed">e.g., testing executed 90 out of 100 functions</span>.</li>
 <li><strong>Statement coverage</strong> : based on the number of lines of code executed <span class="dimmed">e.g., testing executed 23k out of 25k LOC</span>.</li>
-<li><strong>Decision/branch coverage</strong> : based on the decision points exercised <span class="dimmed">e.g., an <code v-pre>if</code> statement evaluated to both <code v-pre>true</code> and <code v-pre>false</code> with separate test cases during testing is considered 'covered'</span>.</li>
+<li><strong>Decision/branch coverage</strong> : based on the decision points exercised <span class="dimmed">e.g., an <code class="hljs inline no-lang" v-pre>if</code> statement evaluated to both <code class="hljs inline no-lang" v-pre>true</code> and <code class="hljs inline no-lang" v-pre>false</code> with separate test cases during testing is considered 'covered'</span>.</li>
 <li><strong>Condition coverage</strong> : based on the boolean sub-expressions, each evaluated to both true and false with different test cases. Condition coverage is not the same as the decision coverage.</li></ul>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code v-pre>if(x &gt; 2 &amp;&amp; x &lt; 44)</code> is considered one decision point but two conditions.</p>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code class="hljs inline no-lang" v-pre>if(x &gt; 2 &amp;&amp; x &lt; 44)</code> is considered one decision point but two conditions.</p>
 <p>For 100% branch or decision coverage, two test cases are required:</p>
 <ul>
-<li><code v-pre>(x &gt; 2 &amp;&amp; x &lt; 44) == true</code> :  [e.g. <code v-pre>x == 4</code>]</li>
-<li><code v-pre>(x &gt; 2 &amp;&amp; x &lt; 44) == false</code> :  [e.g. <code v-pre>x == 100</code>]</li></ul>
+<li><code class="hljs inline no-lang" v-pre>(x &gt; 2 &amp;&amp; x &lt; 44) == true</code> :  [e.g. <code class="hljs inline no-lang" v-pre>x == 4</code>]</li>
+<li><code class="hljs inline no-lang" v-pre>(x &gt; 2 &amp;&amp; x &lt; 44) == false</code> :  [e.g. <code class="hljs inline no-lang" v-pre>x == 100</code>]</li></ul>
 <p>For 100% condition coverage, three test cases are required:</p>
 <ul>
-<li><code v-pre>(x &gt; 2) == true</code> , <code v-pre>(x &lt; 44) == true</code> : [e.g. <code v-pre>x == 4</code>]</li>
-<li><code v-pre>(x &lt; 44) == false</code> : [e.g. <code v-pre>x == 100</code>]</li>
-<li><code v-pre>(x &gt; 2) == false</code> : [e.g. <code v-pre>x == 0</code>]</li></ul></box>
+<li><code class="hljs inline no-lang" v-pre>(x &gt; 2) == true</code> , <code class="hljs inline no-lang" v-pre>(x &lt; 44) == true</code> : [e.g. <code class="hljs inline no-lang" v-pre>x == 4</code>]</li>
+<li><code class="hljs inline no-lang" v-pre>(x &lt; 44) == false</code> : [e.g. <code class="hljs inline no-lang" v-pre>x == 100</code>]</li>
+<li><code class="hljs inline no-lang" v-pre>(x &gt; 2) == false</code> : [e.g. <code class="hljs inline no-lang" v-pre>x == 0</code>]</li></ul></box>
 <ul>
 <li><strong>Path coverage</strong> measures coverage in terms of possible paths through a given part of the code executed. 100% path coverage means all possible paths have been executed. A commonly used notation for path analysis is called the <em>Control Flow Graph (CFG)</em>.</li>
 <li><strong>Entry/exit coverage</strong> measures coverage in terms of possible <em>calls to</em> and <em>exits</em> from the operations in the SUT.</li></ul></div>
 <div>
 <div>
-<panel expandable class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
+<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
   <div>
-<panel class="algolia-no-index"><template slot="_header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Highest intensity coverage</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Highest intensity coverage</p></template>
 <question>
 <p>Which of these gives us the highest intensity of testing?</p>
 <ul radio-group="3db75" class="radio-list">
@@ -687,7 +752,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <panel type="seamless" expanded popup-url="/website/book/testing/testCoverage/how" id="quality-assurance-testing-test-coverage-how">
 <span slot="header" class="card-title">
 <span class="badge badge-pill badge-light text-mute">W10.4b</span> <span class="badge badge-pill badge-light text-primary"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-<h4 id="quality-assurance-testing-test-coverage-how"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Coverage →</span></span></small> <strong><span>How</span></strong><span id="quality-assurance-testing-test-coverage-how" class="anchor"></span><a class="fa fa-anchor" href="#quality-assurance-testing-test-coverage-how" onclick="event.stopPropagation()"></a></h4></span>
+<h4 id="quality-assurance-testing-test-coverage-how"><span id="quality-assurance-testing-test-coverage-how" class="anchor"></span><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Coverage →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-test-coverage-how" onclick="event.stopPropagation()"></a></h4></span>
   <div>
 <div class="indented">
 <div></div><p></p>
@@ -707,8 +772,8 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
 <p></p>
 <div class="indented">
 <div></div></div>
-<p></p></div></div>
-
+<p></p></div>
+<p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
@@ -733,18 +798,13 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Mon, Feb 15, 2021, 10:11:15 PM GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Feb 2021, 22:39:07 GMT+8]</small></div></footer></div>
 </body>
-<script src="../../markbind/js/vue.min.js"></script>
-<script src="../../markbind/js/components.min.js"></script>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
-<script src="../../markbind/js/polyfill.min.js"></script>
-<script src="../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
   const baseUrl = '/website'
-  const enableSearch = false
+  MarkBind.setup()
 </script>
-<script src="../../markbind/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
     function initAlgolia() {
@@ -756,7 +816,7 @@ Bad news: we are going to cover an entire new diagram type in one go (reason: to
         debug: false,
       });
     }
-    MarkBind.afterSetup(initAlgolia);
+    initAlgolia();
   </script>
-<script src="../../markbind/layouts/default/scripts.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
 </html>

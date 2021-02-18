@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.15.2">
+    <meta name="generator" content="MarkBind 2.17.3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Admin: Java exercises</title>
     <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="../markbind/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
     <link rel="stylesheet" href="../markbind/css/octicons.css">
-    <link rel="stylesheet" href="../markbind/css/github.min.css">
-    <link rel="stylesheet" href="../markbind/css/markbind.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../markbind/layouts/default/styles.css"><link rel="stylesheet" href="../markbind/css/site-nav.css"><link rel="stylesheet" href="../markbind/css/page-nav.css"><link rel="stylesheet" href="/website/css/main.css">
+    <link rel="stylesheet" href="../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../markbind/css/markbind.min.css"><script src="../markbind/js/polyfill.min.js"></script>
+    <script src="../markbind/js/vue.min.js"></script>
+    <script src="../markbind/js/markbind.min.js"></script>
+    <script src="../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/css/main.css">
     <link rel="stylesheet" href="/website/css/admin.css"><link rel="icon" href="/website/favicon.ico"></head>
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
 <div id="app">
@@ -140,15 +142,17 @@
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/appendixE-gitHub.html"><small>Apdx E: Using GitHub</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/appendixF-teamworkIssues.html"><small>Apdx F: Handling Team Issues</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li></ul></li></ul></div></nav>
 
+
+
 <div id="content-wrapper">
 <div class="website-content">
 <p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/standardsAndConventions.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> Standards/Conventions</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/ip-overview.html"><span>iP (Individual Project): Overview <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p>
 <br>
-<h1 id="java-exercises"><span class="display-4">Java exercises</span> <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span><span id="java-exercises" class="anchor"></span><a class="fa fa-anchor" href="#java-exercises" onclick="event.stopPropagation()"></a></h1>
+<h1 id="java-exercises"><span id="java-exercises" class="anchor"></span><span class="display-4">Java exercises</span> <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-light text-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span><a class="fa fa-anchor" href="#java-exercises" onclick="event.stopPropagation()"></a></h1>
 <div id="main">
 <p>We will use GitHub Classroom to run the basic Java exercises. It will give you additional opportunities to work with Git and GitHub and get familiar with version control.</p>
 <div tags="m--cs2113" id="ghclassroom-prerequsites">
-<h2 id="github-classroom-prerequsites">GitHub Classroom Prerequsites<span id="github-classroom-prerequsites" class="anchor"></span><a class="fa fa-anchor" href="#github-classroom-prerequsites" onclick="event.stopPropagation()"></a></h2>
+<h2 id="github-classroom-prerequsites"><span id="github-classroom-prerequsites" class="anchor"></span>GitHub Classroom Prerequsites<a class="fa fa-anchor" href="#github-classroom-prerequsites" onclick="event.stopPropagation()"></a></h2>
 <ul>
 <li>
 <p>Before you start the exercises, you will require two things:</p>
@@ -158,9 +162,9 @@
 <li>
 <p>Next, you need to <em>register</em> on the Classroom.</p></li></ul>
 <div class="indented-level1">
-<panel type class="embedding algolia-no-index" collapsed><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Registering in GitHub Classroom</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" collapsed><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Registering in GitHub Classroom</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h4 id="registering-in-github-classroom">Registering in GitHub Classroom<span id="registering-in-github-classroom" class="anchor"></span><a class="fa fa-anchor" href="#registering-in-github-classroom" onclick="event.stopPropagation()"></a></h4>
+<h4 id="registering-in-github-classroom"><span id="registering-in-github-classroom" class="anchor"></span>Registering in GitHub Classroom<a class="fa fa-anchor" href="#registering-in-github-classroom" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li><mark><strong>When you start the assignments, for the first time</strong></mark> you will be asked to select your identifier to associate your GitHub username to you.<br>
 <img src="/website/admin/images/gitHubClassroomInvite.png" width="700"><br>
@@ -171,52 +175,52 @@ Find your identifier correctly and click on it. GitHub Classroom will ask you to
 <li>You need to associate the identifier with your GitHub username <em>only once</em>; once you have linked the two, nothing needs to be done for future assignments.</li>
 <li>Upon linking, we can track your progress, <em>including the past submissions</em>.</li></ul></li></ul></div></panel></div><p></p></div>
 <div tags="m--cs2113" id="ghclassroom-exercises-list">
-<h2 id="list-of-exercises">List of exercises<span id="list-of-exercises" class="anchor"></span><a class="fa fa-anchor" href="#list-of-exercises" onclick="event.stopPropagation()"></a></h2>
+<h2 id="list-of-exercises"><span id="list-of-exercises" class="anchor"></span>List of exercises<a class="fa fa-anchor" href="#list-of-exercises" onclick="event.stopPropagation()"></a></h2>
 <p>Note: As such the exercises are open until end of Week 6. The suggested deadline will help you to keep up with the weekly activities that counts for participation points.</p>
 <iframe src="https://docs.google.com/document/d/e/2PACX-1vRyqtD6Q6FLpcDkvSdKABDl3Jf7aP4KckhlE30V5RG_q0zwA_Ezk16D26C_YClnwcBqOA5MKwfOdNPi/pub?embedded=true" width="800" height="500"></iframe>
 <br>
 <div tags="m--cs2113" id="working-with-ghclassroom-assignments">
-<h2 id="working-on-the-assignments">Working on the assignments<span id="working-on-the-assignments" class="anchor"></span><a class="fa fa-anchor" href="#working-on-the-assignments" onclick="event.stopPropagation()"></a></h2>
+<h2 id="working-on-the-assignments"><span id="working-on-the-assignments" class="anchor"></span>Working on the assignments<a class="fa fa-anchor" href="#working-on-the-assignments" onclick="event.stopPropagation()"></a></h2>
 <div class="indented-level1">
-<panel type class="embedding algolia-no-index" collapsed><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Accepting an assignment</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" collapsed><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Accepting an assignment</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h4 id="accepting-an-assignment">Accepting an assignment<span id="accepting-an-assignment" class="anchor"></span><a class="fa fa-anchor" href="#accepting-an-assignment" onclick="event.stopPropagation()"></a></h4>
+<h4 id="accepting-an-assignment"><span id="accepting-an-assignment" class="anchor"></span>Accepting an assignment<a class="fa fa-anchor" href="#accepting-an-assignment" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>
 <p>Upon opening the assignment, you will be presented with a screen to accept it. <br>
 <img src="/website/admin/images/gitHubClassroomAccept.png" width="700"><br></p></li>
 <li>
-<p>Click <code v-pre>Accept this assignment</code>; wait for a moment and refresh the subsequent page.</p></li>
+<p>Click <code class="hljs inline no-lang" v-pre>Accept this assignment</code>; wait for a moment and refresh the subsequent page.</p></li>
 <li>
 <p>Here you will be presented with the link to your assignment repository <br>
 <img src="/website/admin/images/gitHubClassroomReady.png" width="700"><br></p></li></ul></div></panel></div><p></p>
 <div class="indented-level1">
-<panel type class="embedding algolia-no-index" collapsed><template slot="_header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Working on the assignment</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<panel type class="embedding algolia-no-index" collapsed><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Working on the assignment</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
-<h4 id="working-on-the-assignment">Working on the assignment<span id="working-on-the-assignment" class="anchor"></span><a class="fa fa-anchor" href="#working-on-the-assignment" onclick="event.stopPropagation()"></a></h4>
+<h4 id="working-on-the-assignment"><span id="working-on-the-assignment" class="anchor"></span>Working on the assignment<a class="fa fa-anchor" href="#working-on-the-assignment" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>
 <p>Click on the assignment repository, and you will land in the familiar GitHub repository page.</p></li>
 <li>
 <p>Clone the repository to your machine.</p></li>
 <li>
-<p>Open the project as a <code v-pre>gradle project</code> in IntelliJ<br>
+<p>Open the project as a <code class="hljs inline no-lang" v-pre>gradle project</code> in IntelliJ<br>
 <img src="/website/admin/images/importAsGradle.png" width="700"><br>
-and select <code v-pre>Open as Project</code><br>
+and select <code class="hljs inline no-lang" v-pre>Open as Project</code><br>
 <img src="/website/admin/images/openAsProject.png" width="320"><br></p></li>
 <li>
 <p>Complete the assignment by adding necessary code/additional files.</p></li>
 <li>
-<p>Test using the given <code v-pre>TestMain.java</code> file under <code v-pre>src/test/java</code> <br>
+<p>Test using the given <code class="hljs inline no-lang" v-pre>TestMain.java</code> file under <code class="hljs inline no-lang" v-pre>src/test/java</code> <br>
 <img src="/website/admin/images/clickTestMain.png" width="400"><br>
-If <code v-pre>Run 'TestMain'</code> doesn't appear for you, open the <code v-pre>TestMain.java</code> file and select Run (from the menubar on top) -&gt; Run<br>
+If <code class="hljs inline no-lang" v-pre>Run 'TestMain'</code> doesn't appear for you, open the <code class="hljs inline no-lang" v-pre>TestMain.java</code> file and select Run (from the menubar on top) -&gt; Run<br>
 You will be asked to select the configuration. Here select the Gradle configuration (the one with an elephant icon)<br>
 <img src="/website/admin/images/testMainConfiguration.png"><br></p></li>
 <li>
 <p>Once the tests pass, you can commit and push to your assignment repository. That would be a complete submission.</p></li></ul></div></panel></div><p></p></div></div>
 <br>
-<p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/standardsAndConventions.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> Standards/Conventions</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/ip-overview.html"><span>iP (Individual Project): Overview <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div></div></div>
-
+<p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/standardsAndConventions.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> Standards/Conventions</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/ip-overview.html"><span>iP (Individual Project): Overview <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div></div>
+<i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
@@ -235,18 +239,13 @@ You will be asked to select the configuration. Here select the Gradle configurat
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Mon, Feb 15, 2021, 10:11:15 PM GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Feb 2021, 22:39:07 GMT+8]</small></div></footer></div>
 </body>
-<script src="../markbind/js/vue.min.js"></script>
-<script src="../markbind/js/components.min.js"></script>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
-<script src="../markbind/js/polyfill.min.js"></script>
-<script src="../markbind/js/bootstrap-vue.min.js"></script>
 <script>
   const baseUrl = '/website'
-  const enableSearch = false
+  MarkBind.setup()
 </script>
-<script src="../markbind/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
     function initAlgolia() {
@@ -258,7 +257,7 @@ You will be asked to select the configuration. Here select the Gradle configurat
         debug: false,
       });
     }
-    MarkBind.afterSetup(initAlgolia);
+    initAlgolia();
   </script>
-<script src="../markbind/layouts/default/scripts.js"></script>
+<script src="../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
 </html>
