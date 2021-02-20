@@ -1,2 +1,248 @@
 2021-02-19T10:56:50.119Z - info: Website generation started at 6:56:49 PM
 2021-02-19T10:56:52.240Z - info: Building assets...
+2021-02-19T10:56:53.454Z - info: Assets built
+2021-02-19T10:56:53.455Z - info: Generating pages...
+2021-02-19T10:57:02.148Z - debug:  
+2021-02-19T10:57:02.148Z - debug:  
+2021-02-19T10:57:02.148Z - debug:  
+2021-02-19T10:57:02.148Z - debug:  
+2021-02-19T10:57:02.148Z - debug:  
+2021-02-19T10:57:02.180Z - debug:  
+2021-02-19T10:57:28.775Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.777Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.779Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.780Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.781Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.781Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.782Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.783Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.784Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.785Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.786Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.786Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.788Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.789Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.790Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.790Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.791Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.792Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.793Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.794Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.795Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.795Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.797Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.797Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.798Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.800Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.802Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.804Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.805Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.807Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.808Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.809Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.810Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.811Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:57:28.812Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T10:58:23.861Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/week7/topics.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\admin\common-commentary.mbdf'
+2021-02-19T10:58:49.803Z - debug:  
+2021-02-19T10:59:00.935Z - debug:  
+2021-02-19T10:59:00.935Z - debug:  
+2021-02-19T10:59:07.332Z - info: Pages built
+2021-02-19T10:59:07.457Z - info: Site data built
+2021-02-19T10:59:07.458Z - info: Website generation complete! Total build time: 138.143s
+2021-02-19T10:59:07.458Z - info: Build success!
+2021-02-19T10:59:09.929Z - info: Deployed at https://nus-cs2113-ay2021s2.github.io/website!
+2021-02-19T13:00:17.548Z - info: Website generation (lazy) started at 9:00:16 PM
+2021-02-19T13:00:19.295Z - info: Building assets...
+2021-02-19T13:00:20.247Z - info: Assets built
+2021-02-19T13:00:20.248Z - info: Generating landing page...
+2021-02-19T13:00:21.016Z - warn:  Template render error: (unknown path)
+  parseIf: expected elif, else, or endif, got end of file
+    at Object._prettifyError (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at Page.insertHeaderFile (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:568:62)
+    at C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:893:28
+2021-02-19T13:00:21.277Z - info: Site data built
+2021-02-19T13:00:21.278Z - info: Website generation (lazy) complete! Total build time: 4.453s
+2021-02-19T13:00:21.313Z - info: Serving "F:\Teaching\CS2113\AY2021S2\ay2021s2-website\_site" at http://127.0.0.1:8080
+2021-02-19T13:00:21.314Z - info: Press CTRL+C to stop ...
+2021-02-19T14:02:36.917Z - info: Website generation started at 10:02:36 PM
+2021-02-19T14:02:38.487Z - info: Building assets...
+2021-02-19T14:02:39.430Z - info: Assets built
+2021-02-19T14:02:39.430Z - info: Generating pages...
+2021-02-19T14:02:39.730Z - error:  Template render error: (unknown path)
+  parseIf: expected elif, else, or endif, got end of file
+    at Object._prettifyError (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at Page.insertHeaderFile (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:568:62)
+    at C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:893:28
+2021-02-19T14:02:40.034Z - error:  Template render error: (unknown path)
+  parseIf: expected elif, else, or endif, got end of file
+    at Object._prettifyError (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at Page.insertHeaderFile (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:568:62)
+    at C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:893:28
+2021-02-19T14:02:40.035Z - warn:  Error: Error while generating undefined
+    at C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1044:18
+2021-02-19T14:02:40.142Z - error:  Template render error: (unknown path)
+  parseIf: expected elif, else, or endif, got end of file
+    at Object._prettifyError (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at Page.insertHeaderFile (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:568:62)
+    at C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:893:28
+2021-02-19T14:02:40.183Z - error:  Template render error: (unknown path)
+  parseIf: expected elif, else, or endif, got end of file
+    at Object._prettifyError (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at Page.insertHeaderFile (C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:568:62)
+    at C:\Users\aksha\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:893:28
+2021-02-19T14:02:40.388Z - info: Site data built
+2021-02-19T14:02:40.388Z - info: Website generation complete! Total build time: 3.513s
+2021-02-19T14:02:40.421Z - info: Serving "F:\Teaching\CS2113\AY2021S2\ay2021s2-website\_site" at http://127.0.0.1:8080
+2021-02-19T14:02:40.422Z - info: Press CTRL+C to stop ...
+2021-02-19T14:03:02.769Z - info: [10:03:02 PM] Reload for file change: F:\Teaching\CS2113\AY2021S2\ay2021s2-website\_markbind\headers\header.md
+2021-02-19T14:03:03.782Z - info: Rebuilding 4 pages
+2021-02-19T14:03:05.297Z - info: Site data built
+2021-02-19T14:03:05.298Z - info: Pages rebuilt
+2021-02-19T14:03:05.298Z - info: Website regeneration complete! Total build time: 1.52s
+2021-02-19T14:03:12.603Z - info: Website generation started at 10:03:12 PM
+2021-02-19T14:03:14.182Z - info: Building assets...
+2021-02-19T14:03:15.092Z - info: Assets built
+2021-02-19T14:03:15.092Z - info: Generating pages...
+2021-02-19T14:03:23.572Z - debug:  
+2021-02-19T14:03:23.572Z - debug:  
+2021-02-19T14:03:23.573Z - debug:  
+2021-02-19T14:03:23.573Z - debug:  
+2021-02-19T14:03:23.573Z - debug:  
+2021-02-19T14:03:23.648Z - debug:  
+2021-02-19T14:03:48.117Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.119Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.120Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.122Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.122Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.124Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.125Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.126Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.127Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.127Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.128Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.129Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.130Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.131Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.132Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.132Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.133Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.134Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.135Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.136Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.137Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.137Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.139Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.140Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.141Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.143Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.144Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.145Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.146Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.147Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.148Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.149Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.150Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.151Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:03:48.152Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\book\index.md'
+2021-02-19T14:04:39.218Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/week7/topics.html' found in file 'F:\Teaching\CS2113\AY2021S2\ay2021s2-website\admin\common-commentary.mbdf'
+2021-02-19T14:05:04.172Z - debug:  
+2021-02-19T14:05:16.603Z - debug:  
+2021-02-19T14:05:16.603Z - debug:  
+2021-02-19T14:05:23.715Z - info: Pages built
+2021-02-19T14:05:23.846Z - info: Site data built
+2021-02-19T14:05:23.846Z - info: Website generation complete! Total build time: 131.291s
+2021-02-19T14:05:23.875Z - info: Serving "F:\Teaching\CS2113\AY2021S2\ay2021s2-website\_site" at http://127.0.0.1:8080
+2021-02-19T14:05:23.876Z - info: Press CTRL+C to stop ...
