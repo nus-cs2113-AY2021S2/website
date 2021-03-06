@@ -19,7 +19,7 @@ public class Task {
     }
 
     public String getStatusIcon() {
-        return (isDone ? "\u2713" : "\u2718"); //return tick or X symbols
+        return (isDone ? "X" : " "); // mark done task with X
     }
 
     //...
@@ -27,8 +27,8 @@ public class Task {
 ```
 
 ```java
-Task t = new Taks("read book");
-t.markAsDone()
+Task t = new Task("read book");
+t.markAsDone();
 ```
 </panel>
 

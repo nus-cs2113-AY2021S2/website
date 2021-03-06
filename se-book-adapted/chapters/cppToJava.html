@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Textbook Chapter : C++ to Java</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -51,7 +51,6 @@
     <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
     
     <li tags="m--cs2113"><a href="https://github.com/nus-cs2113-AY2021S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Reference AB3</span></a></li>
-    <li><a href="https://github.com/nus-cs2113-AY2021S2/tp" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo</span></a></li>
     <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
     <li><a href="https://nus-cs2113-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
     <li><a href="https://nus-cs2113-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
@@ -1964,7 +1963,7 @@ Returns the area of the circle as an <code class="hljs inline no-lang" v-pre>int
 <pre><code class="hljs java" v-pre><span>String name1 = <span class="hljs-string">&quot;Alan Turing&quot;</span>;
 </span><span>String name2 = <span class="hljs-string">&quot;Alan Turing&quot;</span>;
 </span><span>System.out.println(name1 == name2);
-</span></code></pre><p>This code compiles and runs, and most of the time it shows <code class="hljs inline no-lang" v-pre>true</code>. But it is not correct. The problem is, <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., as opposed to comparing primitive values e.g., <code class="hljs inline no-lang" v-pre>2 == 2</code></span>when used for comparing objects</span>, the <code class="hljs inline no-lang" v-pre>==</code> operator checks whether the two variables refer to the same object (by comparing the references). If you give it two different string objects that contain the same letters, it is supposed to yield <code class="hljs inline no-lang" v-pre>true</code> because they are two distinct objects even if they contain the same text. However, because Java strings are immutable, <mark>in some cases (but not always)</mark> Java reuses existing string objects instead of creating multiple objects, which can cause the above code to yield <code class="hljs inline no-lang" v-pre>true</code>. Therefore, it is not safe to use <code class="hljs inline no-lang" v-pre>==</code> to compare strings if your intention is to check if they contain the same text.</p>
+</span></code></pre><p>This code compiles and runs, and most of the time it shows <code class="hljs inline no-lang" v-pre>true</code>. But it is not correct. The problem is, <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., as opposed to comparing primitive values e.g., <code class="hljs inline no-lang" v-pre>2 == 2</code></span>when used for comparing objects</span>, the <code class="hljs inline no-lang" v-pre>==</code> operator checks whether the two variables refer to the same object (by comparing the references). If you give it two different string objects that contain the same letters, it is supposed to yield <code class="hljs inline no-lang" v-pre>false</code> because they are two distinct objects even if they contain the same text. However, because Java strings are immutable, <mark>in some cases (but not always)</mark> Java reuses existing string objects instead of creating multiple objects, which can cause the above code to yield <code class="hljs inline no-lang" v-pre>true</code>. Therefore, it is not safe to use <code class="hljs inline no-lang" v-pre>==</code> to compare strings if your intention is to check if they contain the same text.</p>
 <p><strong>The right way to compare strings is with the <code class="hljs inline no-lang" v-pre>equals</code> method.</strong></p>
 <box>
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example invokes <code class="hljs inline no-lang" v-pre>equals</code> on <code class="hljs inline no-lang" v-pre>name1</code> and passes <code class="hljs inline no-lang" v-pre>name2</code> as an argument. The <code class="hljs inline no-lang" v-pre>equals</code> method returns <code class="hljs inline no-lang" v-pre>true</code> if the strings contain the same characters; otherwise it returns <code class="hljs inline no-lang" v-pre>false</code>.</p>
@@ -2992,8 +2991,10 @@ The syntax for calling a superclass constructor is <code class="hljs inline no-l
 </span><span>Snowball: Meow
 </span></code></pre><panel type="seamless" class="algolia-no-index"><template slot="header"><p><span class="dimmed">The <code class="hljs inline no-lang" v-pre>Cat</code> class</span></p></template>
 <pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> String name;
+</span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Cat</span><span class="hljs-params">(String name)</span> </span>{
-</span><span>        <span class="hljs-keyword">super</span>(name);
+</span><span>        <span class="hljs-keyword">this</span>.name = name;
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">speak</span><span class="hljs-params">()</span> </span>{
@@ -3026,8 +3027,10 @@ The syntax for calling a superclass constructor is <code class="hljs inline no-l
 </span><span>Spot: Woof
 </span></code></pre><panel type="seamless" class="algolia-no-index"><template slot="header"><p><span class="dimmed">The <code class="hljs inline no-lang" v-pre>Dog</code> class</span></p></template>
 <pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> String name;
+</span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Dog</span><span class="hljs-params">(String name)</span> </span>{
-</span><span>        <span class="hljs-keyword">super</span>(name);
+</span><span>        <span class="hljs-keyword">this</span>.name = name;
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">speak</span><span class="hljs-params">()</span> </span>{
@@ -4756,7 +4759,7 @@ The syntax for calling a superclass constructor is <code class="hljs inline no-l
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 20 Feb 2021, 20:11:48 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.0</a>, generated on Sat, 6 Mar 2021, 21:06:05 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

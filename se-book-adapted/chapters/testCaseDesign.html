@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Textbook Chapter : Test Case Design</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -51,7 +51,6 @@
     <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
     
     <li tags="m--cs2113"><a href="https://github.com/nus-cs2113-AY2021S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Reference AB3</span></a></li>
-    <li><a href="https://github.com/nus-cs2113-AY2021S2/tp" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo</span></a></li>
     <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
     <li><a href="https://nus-cs2113-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
     <li><a href="https://nus-cs2113-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
@@ -764,7 +763,7 @@ No specific boundary</p></td></tr>
 <p>Consider the following scenario.</p>
 <box>
 <p>SUT:  <code class="hljs inline no-lang" v-pre>printLabel(String fruitName, int unitPrice)</code></p>
-<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <ins>underlined</ins>):</p>
+<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <span class="underline">underlined</span>):</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Values</th>
@@ -780,7 +779,7 @@ No specific boundary</p></td></tr>
 <td>Cherry</td>
 <td>Label format is square</td></tr>
 <tr>
-<td><ins>Dog</ins></td>
+<td><span class="underline">Dog</span></td>
 <td>Not a valid fruit</td></tr></tbody></table></div><p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>unitPrice</code>:</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -794,10 +793,10 @@ No specific boundary</p></td></tr>
 <td>20</td>
 <td>Two digits</td></tr>
 <tr>
-<td><ins>0</ins></td>
+<td><span class="underline">0</span></td>
 <td>Invalid because 0 is not a valid price</td></tr>
 <tr>
-<td><ins>-1</ins></td>
+<td><span class="underline">-1</span></td>
 <td>Invalid because negative prices are not allowed</td></tr></tbody></table></div></box>
 <p>Suppose these are the test cases being considered.</p>
 <box>
@@ -821,12 +820,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">Cherry</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div></box>
 <p>It looks like the test cases were created using the <em>at least once</em> strategy. After running these tests, can you confirm that the square-format label printing is done correctly?</p>
 <ul>
@@ -860,12 +859,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></div></box></div>
   <div></div></div></panel>
 <panel type="seamless" expanded id="heuristic-no-more-than-one-invalid-input-in-a-test-case"><template slot="header"><h4 id="heuristic-no-more-than-one-invalid-input-in-a-test-case"><span id="heuristic-no-more-than-one-invalid-input-in-a-test-case" class="anchor"></span>Heuristic: No More Than One Invalid Input In A Test Case<a class="fa fa-anchor" href="#heuristic-no-more-than-one-invalid-input-in-a-test-case" onclick="event.stopPropagation()"></a></h4></template>
@@ -902,12 +901,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></div></b-modal>
 <p>After running these test cases, can you be sure that the error message “invalid price” is shown for negative prices?</p>
 <ul>
@@ -940,16 +939,16 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid price&quot;</td></tr>
 <tr>
 <td style="text-align:center">4.1</td>
-<td style="text-align:center"><ins>Dog</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></box></div>
   <div>
@@ -1086,7 +1085,7 @@ But before that, you should give a good test run to feature y because users can 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 20 Feb 2021, 20:11:48 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.0</a>, generated on Sat, 6 Mar 2021, 21:06:05 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

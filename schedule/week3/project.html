@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2113/T - Week 3 - Project</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -53,7 +53,6 @@
     <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
     
     <li tags="m--cs2113"><a href="https://github.com/nus-cs2113-AY2021S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Reference AB3</span></a></li>
-    <li><a href="https://github.com/nus-cs2113-AY2021S2/tp" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo</span></a></li>
     <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
     <li><a href="https://nus-cs2113-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
     <li><a href="https://nus-cs2113-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
@@ -253,13 +252,13 @@ Example:</p>
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatusIcon</span><span class="hljs-params">()</span> </span>{
-</span><span>        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">&quot;\u2713&quot;</span> : <span class="hljs-string">&quot;\u2718&quot;</span>); <span class="hljs-comment">//return tick or X symbols</span>
+</span><span>        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">&quot;X&quot;</span> : <span class="hljs-string">&quot; &quot;</span>); <span class="hljs-comment">// mark done task with X</span>
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-comment">//...</span>
 </span><span>}
-</span></code></pre><pre><code class="hljs java" v-pre><span>Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">&quot;read book&quot;</span>);
-</span><span>t.markAsDone()
+</span></code></pre><pre><code class="hljs java" v-pre><span>Task t = <span class="hljs-keyword">new</span> Task(<span class="hljs-string">&quot;read book&quot;</span>);
+</span><span>t.markAsDone();
 </span></code></pre></panel></div></panel></div></div></div></panel></div></div></div>
 <div></div>
 <div></div>
@@ -322,7 +321,7 @@ Example:</p>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 20 Feb 2021, 20:11:48 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.0</a>, generated on Sat, 6 Mar 2021, 21:06:05 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
