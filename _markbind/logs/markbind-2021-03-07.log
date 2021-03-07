@@ -1,0 +1,34 @@
+2021-03-07T14:16:01.267Z - info: Website generation (lazy) started at 10:15:52 pm
+2021-03-07T14:16:07.573Z - info: Building assets...
+2021-03-07T14:16:12.773Z - info: Assets built
+2021-03-07T14:16:12.774Z - info: Generating landing page...
+2021-03-07T14:16:15.365Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-03-07T14:16:17.047Z - info: Site data built
+2021-03-07T14:16:17.048Z - info: Website generation (lazy) complete! Total build time: 24.59s
+2021-03-07T14:16:18.197Z - info: Serving "D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\_site" at http://127.0.0.1:8080
+2021-03-07T14:16:18.198Z - info: Press CTRL+C to stop ...
+2021-03-07T14:16:40.434Z - info: [10:16:40 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-03-07T14:16:41.455Z - info: Assets built
+2021-03-07T14:17:02.125Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\index as some of its dependencies were changed since the last visit
+2021-03-07T14:17:03.203Z - info: Site data built
+2021-03-07T14:17:03.204Z - info: Lazy website regeneration complete! Total build time: 1.078s
+2021-03-07T14:17:15.737Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-03-07T14:17:17.886Z - info: Site data built
+2021-03-07T14:17:17.887Z - info: Lazy website regeneration complete! Total build time: 2.15s
+2021-03-07T14:17:48.869Z - info: [10:17:48 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-03-07T14:17:49.875Z - info: Rebuilding 1 pages
+2021-03-07T14:17:52.809Z - info: Site data built
+2021-03-07T14:17:52.810Z - info: Pages rebuilt
+2021-03-07T14:17:52.810Z - info: Website regeneration complete! Total build time: 2.936s
+2021-03-07T14:18:08.859Z - info: [10:18:08 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-03-07T14:18:09.864Z - info: Rebuilding 1 pages
+2021-03-07T14:18:12.596Z - info: Site data built
+2021-03-07T14:18:12.597Z - info: Pages rebuilt
+2021-03-07T14:18:12.598Z - info: Website regeneration complete! Total build time: 2.735s
+2021-03-07T14:18:35.708Z - info: [10:18:35 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-03-07T14:18:36.713Z - info: Rebuilding 1 pages
+2021-03-07T14:18:39.651Z - info: Site data built
+2021-03-07T14:18:39.652Z - info: Pages rebuilt
+2021-03-07T14:18:39.653Z - info: Website regeneration complete! Total build time: 2.941s
+2021-03-07T14:21:51.321Z - info: Website generation started at 10:21:47 pm
+2021-03-07T14:21:56.512Z - info: Building assets...
