@@ -8,7 +8,7 @@
 <variable name="S">2</variable>
 <variable name="semester">AY2021S{{ S }}</variable>
 <variable name="period">2021 Jan-May</variable>
-<variable name="current_week">6</variable>
+<variable name="current_week">9</variable>
 
 <variable name="algolia">yes</variable>
 
@@ -39,7 +39,7 @@
 <variable name="version_future">v3.0</variable>
 <variable name="example_team_id">{{ module }}-T09-2</variable>
 
-<variable name="date_final_submission">2020-04-12</variable>
+<variable name="date_final_submission">2021-04-12</variable>
 <variable name="ug_pages_per_person">1</variable>
 <variable name="dg_pages_per_person">3</variable>
 <variable name="uml_diagrams_per_person">2 types of</variable>
