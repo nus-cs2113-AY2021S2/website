@@ -1,0 +1,101 @@
+2021-04-01T14:25:00.329Z - info: Website generation (lazy) started at 10:24:47 pm
+2021-04-01T14:25:08.578Z - info: Building assets...
+2021-04-01T14:25:15.866Z - info: Assets built
+2021-04-01T14:25:15.867Z - info: Generating landing page...
+2021-04-01T14:25:18.546Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-04-01T14:25:20.589Z - info: Site data built
+2021-04-01T14:25:20.590Z - info: Website generation (lazy) complete! Total build time: 32.885s
+2021-04-01T14:25:22.657Z - info: Serving "D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\_site" at http://127.0.0.1:8080
+2021-04-01T14:25:22.660Z - info: Press CTRL+C to stop ...
+2021-04-01T14:26:28.001Z - info: [10:26:27 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:26:29.063Z - info: Assets built
+2021-04-01T14:26:53.704Z - info: [10:26:53 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:26:54.755Z - info: Assets built
+2021-04-01T14:27:05.567Z - info: [10:27:05 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:27:06.612Z - info: Assets built
+2021-04-01T14:27:16.065Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\schedule\week12\index as some of its dependencies were changed since the last visit
+2021-04-01T14:27:18.936Z - info: Site data built
+2021-04-01T14:27:18.938Z - info: Lazy website regeneration complete! Total build time: 2.873s
+2021-04-01T14:27:25.210Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\index as some of its dependencies were changed since the last visit
+2021-04-01T14:27:26.184Z - info: Site data built
+2021-04-01T14:27:26.185Z - info: Lazy website regeneration complete! Total build time: 0.976s
+2021-04-01T14:27:37.165Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-04-01T14:27:40.937Z - info: Site data built
+2021-04-01T14:27:40.939Z - info: Lazy website regeneration complete! Total build time: 3.775s
+2021-04-01T14:28:47.949Z - info: [10:28:47 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:28:48.964Z - info: Rebuilding 1 pages
+2021-04-01T14:28:52.118Z - info: Site data built
+2021-04-01T14:28:52.122Z - info: Pages rebuilt
+2021-04-01T14:28:52.123Z - info: Website regeneration complete! Total build time: 3.16s
+2021-04-01T14:29:06.696Z - info: [10:29:06 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:29:07.726Z - info: Rebuilding 1 pages
+2021-04-01T14:29:10.089Z - info: Site data built
+2021-04-01T14:29:10.090Z - info: Pages rebuilt
+2021-04-01T14:29:10.091Z - info: Website regeneration complete! Total build time: 2.367s
+2021-04-01T14:31:17.261Z - info: [10:31:17 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:31:18.280Z - info: Rebuilding 1 pages
+2021-04-01T14:31:22.621Z - info: Site data built
+2021-04-01T14:31:22.626Z - info: Pages rebuilt
+2021-04-01T14:31:22.627Z - info: Website regeneration complete! Total build time: 4.35s
+2021-04-01T14:43:04.384Z - info: [10:43:04 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-testing.mbdf
+2021-04-01T14:43:05.409Z - info: Rebuilding 1 pages
+2021-04-01T14:43:10.060Z - info: Site data built
+2021-04-01T14:43:10.062Z - info: Pages rebuilt
+2021-04-01T14:43:10.062Z - info: Website regeneration complete! Total build time: 4.656s
+2021-04-01T14:50:10.321Z - info: [10:50:10 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:50:11.339Z - info: Rebuilding 1 pages
+2021-04-01T14:50:14.511Z - info: Site data built
+2021-04-01T14:50:14.512Z - info: Pages rebuilt
+2021-04-01T14:50:14.514Z - info: Website regeneration complete! Total build time: 3.176s
+2021-04-01T14:56:18.348Z - info: [10:56:18 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:56:19.362Z - info: Rebuilding 1 pages
+2021-04-01T14:56:24.005Z - info: Site data built
+2021-04-01T14:56:24.025Z - info: Pages rebuilt
+2021-04-01T14:56:24.026Z - info: Website regeneration complete! Total build time: 4.666s
+2021-04-01T14:56:29.150Z - info: [10:56:29 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:56:30.166Z - info: Rebuilding 1 pages
+2021-04-01T14:56:33.508Z - info: Site data built
+2021-04-01T14:56:33.510Z - info: Pages rebuilt
+2021-04-01T14:56:33.512Z - info: Website regeneration complete! Total build time: 3.346s
+2021-04-01T14:56:50.733Z - info: [10:56:50 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:56:51.744Z - info: Rebuilding 1 pages
+2021-04-01T14:56:54.974Z - info: Site data built
+2021-04-01T14:56:54.976Z - info: Pages rebuilt
+2021-04-01T14:56:54.976Z - info: Website regeneration complete! Total build time: 3.234s
+2021-04-01T14:57:21.316Z - info: [10:57:21 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:57:22.338Z - info: Rebuilding 1 pages
+2021-04-01T14:57:24.599Z - info: Site data built
+2021-04-01T14:57:24.600Z - info: Pages rebuilt
+2021-04-01T14:57:24.601Z - info: Website regeneration complete! Total build time: 2.265s
+2021-04-01T14:57:59.296Z - info: [10:57:59 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-01T14:58:00.306Z - info: Rebuilding 1 pages
+2021-04-01T14:58:03.804Z - info: Site data built
+2021-04-01T14:58:03.805Z - info: Pages rebuilt
+2021-04-01T14:58:03.806Z - info: Website regeneration complete! Total build time: 3.501s
+2021-04-01T14:58:34.985Z - info: [10:58:34 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-04-01T14:58:36.000Z - info: Rebuilding 1 pages
+2021-04-01T14:58:40.819Z - info: Site data built
+2021-04-01T14:58:40.821Z - info: Pages rebuilt
+2021-04-01T14:58:40.823Z - info: Website regeneration complete! Total build time: 4.824s
+2021-04-01T14:59:19.858Z - info: [10:59:19 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-04-01T14:59:20.875Z - info: Rebuilding 1 pages
+2021-04-01T14:59:24.189Z - info: Site data built
+2021-04-01T14:59:24.205Z - info: Pages rebuilt
+2021-04-01T14:59:24.205Z - info: Website regeneration complete! Total build time: 3.333s
+2021-04-01T14:59:40.770Z - info: [10:59:40 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-04-01T14:59:41.789Z - info: Rebuilding 1 pages
+2021-04-01T14:59:44.248Z - info: Site data built
+2021-04-01T14:59:44.249Z - info: Pages rebuilt
+2021-04-01T14:59:44.250Z - info: Website regeneration complete! Total build time: 2.463s
+2021-04-01T15:00:01.489Z - info: [11:00:01 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-ped.mbdf
+2021-04-01T15:00:02.498Z - info: Rebuilding 1 pages
+2021-04-01T15:00:05.022Z - info: Site data built
+2021-04-01T15:00:05.024Z - info: Pages rebuilt
+2021-04-01T15:00:05.027Z - info: Website regeneration complete! Total build time: 2.528s
+2021-04-01T15:01:31.772Z - info: [11:01:31 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\teamList.md
+2021-04-01T15:01:32.776Z - info: Assets built
+2021-04-01T15:01:43.699Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\teamList as some of its dependencies were changed since the last visit
+2021-04-01T15:01:45.405Z - info: Site data built
+2021-04-01T15:01:45.410Z - info: Lazy website regeneration complete! Total build time: 1.709s
+2021-04-01T15:04:35.464Z - info: Website generation started at 11:04:29 pm
+2021-04-01T15:04:44.439Z - info: Building assets...

@@ -154,7 +154,7 @@
 <span id="tp-practicalexam-dry-run">
 <div>
 <h4 id="pe-d-overview"><span id="pe-d-overview" class="anchor"></span><span class="badge badge-primary">PE-D</span> <span class="text-primary">Overview</span><a class="fa fa-anchor" href="#pe-d-overview" onclick="event.stopPropagation()"></a></h4>
-<p><strong>What</strong>: The v2.0 is subjected to a round of peer <em>acceptance/system testing</em>, also called the <em>Practical Exam (PE) Dry Run</em> as this round of testing will be similar to the graded <trigger trigger="click" for="modal:projectDeliverablesPeDryRun-pe">Practical Exam that will be done at v2.1</trigger>.</p>
+<p><strong>What</strong>: The latest release of the v2.0 period is subjected to a round of peer <em>acceptance/system testing</em>, also called the <em>Practical Exam (PE) Dry Run</em> as this round of testing will be similar to the graded <trigger trigger="click" for="modal:projectDeliverablesPeDryRun-pe">Practical Exam that will be done at v2.1</trigger>.</p>
 <p><strong>When, where</strong>: <s>uses a 40 minute slot at the start of week 11 lecture slot (to be done online).</s> <br>
 Since the stated lecture falls on April 2, 2021, which is a public holiday, the PE-D will be conducted on <mark><strong>Saturday, April 3, 2021 between 4-6 pm.</strong></mark></p>
 <b-modal id="modal:projectDeliverablesPeDryRun-pe" hide-footer size="lg" modal-class="mb-zoom" ref="modal:projectDeliverablesPeDryRun-pe" class="algolia-no-index"><template slot="modal-title">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → Practical Exam</template>
@@ -167,8 +167,9 @@ Since the stated lecture falls on April 2, 2021, which is a public holiday, the 
 <li>The primary objective of the PE is to <mark>increase the rigor of project grading</mark>. Assessing most aspects of the project involves an element subjectivity. As the project counts for a large percentage of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</li>
 <li>PE is also <mark>used to evaluate your manual testing skills, product evaluation skills, effort estimation skills</mark> etc.</li>
 <li>Note that significant project components are <mark>not graded solely based on peer ratings</mark>. Rather, PE data are cross-validated with tutors' grades to identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutors' grades with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</li>
-<li>PE is <mark>not a means of <em>getting you to bring down each other</em></mark> because <em>bringing down</em> anyone is not the goal; it's just a means of identifying as many bugs as possible. No one <em>can</em> sabotage another person or <em>inject</em> bugs into others' products. All anyone <em>can</em> do is to point out potential problems. If those are false positives, no real harm done.<br>
-Having said that, <em>none of us</em> likes it when others point out problems of our work. <strong>We just have to learn not to take bug reports personally</strong>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</li></ul>
+<li>PE is <mark>not a means of <em>getting you to bring down each other</em></mark> because <em>bringing down</em> anyone is not the goal; it's just a means of identifying as many bugs as possible. No one <em>can</em> sabotage another person or <em>inject</em> bugs into others' products. All anyone <em>can</em> do is to point out potential problems. If those are false positives, no real harm done.<br></li>
+<li><strong>You are not taking marks from someone else</strong> -- at least, don't think of it that way. The point of contention is 'is this really a bug?' which is independent of the people involved. Furthermore, the reward for detecting a bug and the penalty for having a bug in your code are calculated independently.<br></li>
+<li>Having said that, <em>none of us</em> like it when others point out problems of our work. Some of us don't even like pointing out problems of others' work. <strong>We just have to learn not to take bug reports personally</strong>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</li></ul>
 <p><strong>Grading</strong>:</p>
 <ul>
 <li>Your performance in the practical exam will affect your final grade and your peers', as explained in <a href="/website/admin/tp-grading.html"><em>Admin: Project Grading</em></a> section.</li>
@@ -205,7 +206,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>
 <p>Ensure you have access to a <strong>computer that is able to run module projects</strong> <span class="dimmed">e.g. has the right Java version</span>.</p></li>
 <li>
-<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer.</p></li></ul>
+<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer. You should have done this when you smoke-tested CATcher earlier in the week.</p></li></ul>
 <div class="indented-level2">
 <panel minimized class="algolia-no-index"><template slot="header"><p>If not using CATcher</p></template>
 <div id="not-using-catcher-warning">
@@ -275,10 +276,10 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>the work area (i.e., the table top)<br>
 <img src="/website/admin/images/zoomCameraExample.png" width="362"></li></ul></li></ul></li>
 <li><strong>Join the Zoom waiting room <mark>15-30 minutes before the start time</mark>.</strong> Admitting you to the Zoom session can take some time.</li>
-<li><strong>In case of Zoom outage</strong>, we'll fall back on MS Teams (MST). Make sure you have MST running and have joined the matching MST Team <code class="hljs inline no-lang" v-pre>CS2103_AY2021S1_12pm_lecture</code> or <code class="hljs inline no-lang" v-pre>CS2103_AY2021S1_4pm_lecture</code>.</li>
+<li><strong>In case of Zoom outage</strong>, we'll fall back on MS Teams (MST). Make sure you have MST running; proctoring will be done via individual tutorial MST teams that we have been using.</li>
 <li><strong>Recording the screen is not required.</strong></li>
 <li><strong>You are allowed to use head/ear phones.</strong></li>
-<li><strong>Only one screen is allowed.</strong></li>
+<li><strong><mark>Only one screen</mark> is allowed.</strong> If you want to use the secondary monitor, you should switch off the primary monitor. The screen being used should be fully visible in the Zoom camera view.</li>
 <li><strong>Do not use the public chat channel to ask questions</strong> from the prof. If you do, you might accidentally reveal which team you are testing.</li>
 <li><strong>Do not use more than one CATcher instance</strong> at the same time. Our grading scripts will red-flag you if you use multiple CATcher instances in parallel.</li>
 <li><strong>Use MS Teams (not Zoom) private messages to communicate with the prof.</strong> Fall back on Zoom chat only if you didn't receive a reply via MST.</li>
@@ -289,7 +290,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>Website: Module website <span class="dimmed">(e.g., to look up PE info)</span></li>
 <li>Software: CATcher, any text editor, any screen grab software</li>
 <li>Software: PDF reader <span class="dimmed">(to read the UG/DG or other references such as the textbook)</span></li></ul></li>
-<li><strong>Do not use any other software running</strong> in the background e.g., telegram chat</li>
+<li><strong>Do not use any other software running</strong> in the background e.g., Telegram chat</li>
 <li><strong>This is a <em>manual</em> testing session</strong>. Do not use any test automation tools or custom scripts.</li></ul></box>
 <ul>
 <li><strong>When, where</strong>: Week 13 lecture slot. Use the same Zoom link used for the regular lecture.</li></ul>
@@ -308,7 +309,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <tabs active="1">
 <tab><template slot="_header">PE Dry Run (at <strong>v2.0</strong>)</template>
 <ul>
-<li>Download the jar file from the team's releases page, if you haven't done this already.</li></ul></tab>
+<li>Download the <em>latest</em> JAR file from the team's releases page, if you haven't done this already.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">PE (at <strong>v2.1</strong>)</template>
 <ul>
 <li>Download the zip file from the given location, if you haven't done that already.</li>
@@ -473,7 +474,7 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>The whole description of the bug should be in the issue description i.e., <mark>do not add comments to the issue</mark>.</li></ul></div></div></tab></tabs></div>
 <h6 id="e-bug-report-format"><span id="e-bug-report-format" class="anchor"></span><div class="text-white bg-secondary p-1">e) Bug report format</div><a class="fa fa-anchor" href="#e-bug-report-format" onclick="event.stopPropagation()"></a></h6>
 <ul>
-<li>Each bug should be a separate issue.</li>
+<li>Each bug should be a separate issue. <span class="dimmed">i.e., do not report multiple problems in the same bug report.</span></li>
 <li>Write good quality bug reports; <mark>poor quality or incorrect bug reports will not earn credit</mark>.</li>
 <li>Use a descriptive title.</li>
 <li>Give a good description of the bug with <mark>steps to reproduce, expected, actual, and screenshots</mark>. If the receiving team cannot reproduce the bug, you will not be able to get credit for it.</li>
@@ -703,7 +704,9 @@ Use the person's PPP and RepoSense page to evaluate the effort.</p>
 <box>
 <p><strong>Instructions for Reviewing Bug Reports</strong></p>
 <ul>
-<li><strong>Don't freak out if there are lot of bug reports.</strong> Many can be duplicates and some can be <em>false positives</em>. In any case, we anticipate that all of these products will have some bugs and our penalty for bugs is not harsh. Furthermore, it depends on the severity of the bug. Some bug may not even be penalized.</li></ul>
+<li><strong>Don't freak out if there are lot of bug reports.</strong> Many can be duplicates and some can be <em>false positives</em>. In any case, we anticipate that all of these products will have some bugs and our penalty for bugs is not harsh. Furthermore, it depends on the severity of the bug. Some bug may not even be penalized.</li>
+<li>The penalty for having a specific bug is not the same as the reward for reporting that bug (it's not a <em>zero-sum</em> game). For example, the reward for testers will be higher (because we don't expect the products to have that many bugs after they have gone through so much prior testing) and penalty for a minor bug (e.g., <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">an indicative value only; the actual value depends on the severity, type, and the number of assignees</span>-0.15</span>) is unlikely to make a difference in your final grade, especially given that the penalty applies only if you have more than a certain amount of bugs.<br>
+Accordingly, we hope you'll <strong>accept bug reports graciously</strong> (rather than fight tooth-and-nail to reject <em>every</em> bug report received) if you think the bug is within the ballpark of 'reasonable'.</li></ul>
 <tabs>
 <tab><template slot="_header">Using CATcher</template>
 <box type="info"><template slot="icon"><span aria-hidden="true" class="fas fa-hard-hat"></span></template>
@@ -782,7 +785,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
 <li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
-<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority that the ones that are implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
+<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority than the ones that have been implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
 <li>The user cannot attempt to use the missing feature or when the user does so, the software fails gracefully, possibly with a suitable error message i.e., the software should not crash.</li></ul></li>
@@ -792,7 +795,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
 </li></ul></box></div>
 <ul>
-<li><strong>Decide who should fix the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.</strong>
+<li><strong>Decide who should take responsibility for the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.</strong>
 <ul>
 <li>If it is not easy to decide the assignee(s), we recommend (but not enforce) that the feature owner should be assigned bugs related to the feature, Reason: The feature owner should have defended the feature against bugs using automated tests and defensive coding techniques.</li></ul></li></ul>
 <p></p>
@@ -856,7 +859,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
 <li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
-<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority that the ones that are implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
+<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority than the ones that have been implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
 <li>The user cannot attempt to use the missing feature or when the user does so, the software fails gracefully, possibly with a suitable error message i.e., the software should not crash.</li></ul></li>
@@ -885,7 +888,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>You don't need to find <em>all</em> bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
 <li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div><p></p>
 <ul>
-<li>This phase is optional. If you do not respond to a dev response, we'll assume that you agree with it.</li>
+<li>If you do not respond to a dev response, we'll assume that you agree with it.</li>
 <li>Procedure:</li></ul>
 <div class="indented-level2">
 <tabs>
@@ -895,7 +898,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> You may use <a href="https://github.com/CATcher-org/CATcher/releases">the latest version of CATcher</a> or the <a href="http://catcher-org.github.io/webapp">Web version of CATcher</a>.</li>
 <li>For each issues listed in the <code class="hljs inline no-lang" v-pre>Issues Pending Responses</code> section:,
 <ul>
-<li>Go to the details, and read the dev team's response.</li>
+<li>Click on it to go to the details, and read the dev team's response.</li>
 <li>If you disagree with any of the items listed, tick on the <code class="hljs inline no-lang" v-pre>I disagree</code> tick box and enter your justification for the disagreement, and click <code class="hljs inline no-lang" v-pre>Save</code>.</li>
 <li>If you are fine with the team's changes, click <code class="hljs inline no-lang" v-pre>Save</code> without any other changes upon which the issue will move to the <code class="hljs inline no-lang" v-pre>Issue Responded</code> section.</li></ul></li>
 <li>Note that only bugs that require your response will be shown by CATcher. <strong>Bugs already accepted <em>as reported</em> by the team will not appear in CATcher</strong> as there is nothing for you to do about them.</li></ul></tab>
@@ -910,7 +913,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <h4 id="pe-phase-4-tutor-moderation"><span id="pe-phase-4-tutor-moderation" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 4: Tutor Moderation</span><a class="fa fa-anchor" href="#pe-phase-4-tutor-moderation" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>In this phase tutors will look through all dev responses you objected to in the previous phase and decide on a final outcome.</li>
-<li>In the unlikely case we need your inputs, the tutor will contact you.</li></ul></div></div></b-modal>
+<li>In the unlikely case we need your inputs, a tutor will contact you.</li></ul></div></div></b-modal>
 <p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Grading</strong>: The PE dry run <mark>affects your grade in the following ways</mark>.</p>
 <ul>
 <li>If you scored less than half of the marks in the PE, we will consider your performance in PE dry run as well when calculating the PE marks.</li>
@@ -929,7 +932,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>
 <p>Ensure you have access to a <strong>computer that is able to run module projects</strong> <span class="dimmed">e.g. has the right Java version</span>.</p></li>
 <li>
-<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer.</p></li></ul>
+<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer. You should have done this when you smoke-tested CATcher earlier in the week.</p></li></ul>
 <div class="indented-level2">
 <panel minimized class="algolia-no-index"><template slot="header"><p>If not using CATcher</p></template>
 <div id="not-using-catcher-warning">
@@ -999,7 +1002,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <tabs active="0">
 <tab><template slot="_header">PE Dry Run (at <strong>v2.0</strong>)</template>
 <ul>
-<li>Download the jar file from the team's releases page, if you haven't done this already.</li></ul></tab>
+<li>Download the <em>latest</em> JAR file from the team's releases page, if you haven't done this already.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">PE (at <strong>v2.1</strong>)</template>
 <ul>
 <li>Download the zip file from the given location, if you haven't done that already.</li>
@@ -1164,7 +1167,7 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>The whole description of the bug should be in the issue description i.e., <mark>do not add comments to the issue</mark>.</li></ul></div></div></tab></tabs></div>
 <h6 id="e-bug-report-format-2"><span id="e-bug-report-format-2" class="anchor"></span><div class="text-white bg-secondary p-1">e) Bug report format</div><a class="fa fa-anchor" href="#e-bug-report-format-2" onclick="event.stopPropagation()"></a></h6>
 <ul>
-<li>Each bug should be a separate issue.</li>
+<li>Each bug should be a separate issue. <span class="dimmed">i.e., do not report multiple problems in the same bug report.</span></li>
 <li>Write good quality bug reports; <mark>poor quality or incorrect bug reports will not earn credit</mark>.</li>
 <li>Use a descriptive title.</li>
 <li>Give a good description of the bug with <mark>steps to reproduce, expected, actual, and screenshots</mark>. If the receiving team cannot reproduce the bug, you will not be able to get credit for it.</li>
@@ -1290,8 +1293,9 @@ However, a product is allowed to have 'known limitations' <span class="dimmed">(
 <li>The primary objective of the PE is to <mark>increase the rigor of project grading</mark>. Assessing most aspects of the project involves an element subjectivity. As the project counts for a large percentage of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</li>
 <li>PE is also <mark>used to evaluate your manual testing skills, product evaluation skills, effort estimation skills</mark> etc.</li>
 <li>Note that significant project components are <mark>not graded solely based on peer ratings</mark>. Rather, PE data are cross-validated with tutors' grades to identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutors' grades with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</li>
-<li>PE is <mark>not a means of <em>getting you to bring down each other</em></mark> because <em>bringing down</em> anyone is not the goal; it's just a means of identifying as many bugs as possible. No one <em>can</em> sabotage another person or <em>inject</em> bugs into others' products. All anyone <em>can</em> do is to point out potential problems. If those are false positives, no real harm done.<br>
-Having said that, <em>none of us</em> likes it when others point out problems of our work. <strong>We just have to learn not to take bug reports personally</strong>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</li></ul>
+<li>PE is <mark>not a means of <em>getting you to bring down each other</em></mark> because <em>bringing down</em> anyone is not the goal; it's just a means of identifying as many bugs as possible. No one <em>can</em> sabotage another person or <em>inject</em> bugs into others' products. All anyone <em>can</em> do is to point out potential problems. If those are false positives, no real harm done.<br></li>
+<li><strong>You are not taking marks from someone else</strong> -- at least, don't think of it that way. The point of contention is 'is this really a bug?' which is independent of the people involved. Furthermore, the reward for detecting a bug and the penalty for having a bug in your code are calculated independently.<br></li>
+<li>Having said that, <em>none of us</em> like it when others point out problems of our work. Some of us don't even like pointing out problems of others' work. <strong>We just have to learn not to take bug reports personally</strong>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</li></ul>
 <p><strong>Grading</strong>:</p>
 <ul>
 <li>Your performance in the practical exam will affect your final grade and your peers', as explained in <a href="/website/admin/tp-grading.html"><em>Admin: Project Grading</em></a> section.</li>
@@ -1328,7 +1332,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>
 <p>Ensure you have access to a <strong>computer that is able to run module projects</strong> <span class="dimmed">e.g. has the right Java version</span>.</p></li>
 <li>
-<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer.</p></li></ul>
+<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer. You should have done this when you smoke-tested CATcher earlier in the week.</p></li></ul>
 <div class="indented-level2">
 <panel minimized class="algolia-no-index"><template slot="header"><p>If not using CATcher</p></template>
 <div id="not-using-catcher-warning">
@@ -1398,10 +1402,10 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>the work area (i.e., the table top)<br>
 <img src="/website/admin/images/zoomCameraExample.png" width="362"></li></ul></li></ul></li>
 <li><strong>Join the Zoom waiting room <mark>15-30 minutes before the start time</mark>.</strong> Admitting you to the Zoom session can take some time.</li>
-<li><strong>In case of Zoom outage</strong>, we'll fall back on MS Teams (MST). Make sure you have MST running and have joined the matching MST Team <code class="hljs inline no-lang" v-pre>CS2103_AY2021S1_12pm_lecture</code> or <code class="hljs inline no-lang" v-pre>CS2103_AY2021S1_4pm_lecture</code>.</li>
+<li><strong>In case of Zoom outage</strong>, we'll fall back on MS Teams (MST). Make sure you have MST running; proctoring will be done via individual tutorial MST teams that we have been using.</li>
 <li><strong>Recording the screen is not required.</strong></li>
 <li><strong>You are allowed to use head/ear phones.</strong></li>
-<li><strong>Only one screen is allowed.</strong></li>
+<li><strong><mark>Only one screen</mark> is allowed.</strong> If you want to use the secondary monitor, you should switch off the primary monitor. The screen being used should be fully visible in the Zoom camera view.</li>
 <li><strong>Do not use the public chat channel to ask questions</strong> from the prof. If you do, you might accidentally reveal which team you are testing.</li>
 <li><strong>Do not use more than one CATcher instance</strong> at the same time. Our grading scripts will red-flag you if you use multiple CATcher instances in parallel.</li>
 <li><strong>Use MS Teams (not Zoom) private messages to communicate with the prof.</strong> Fall back on Zoom chat only if you didn't receive a reply via MST.</li>
@@ -1412,7 +1416,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li>Website: Module website <span class="dimmed">(e.g., to look up PE info)</span></li>
 <li>Software: CATcher, any text editor, any screen grab software</li>
 <li>Software: PDF reader <span class="dimmed">(to read the UG/DG or other references such as the textbook)</span></li></ul></li>
-<li><strong>Do not use any other software running</strong> in the background e.g., telegram chat</li>
+<li><strong>Do not use any other software running</strong> in the background e.g., Telegram chat</li>
 <li><strong>This is a <em>manual</em> testing session</strong>. Do not use any test automation tools or custom scripts.</li></ul></box>
 <ul>
 <li><strong>When, where</strong>: Week 13 lecture slot. Use the same Zoom link used for the regular lecture.</li></ul>
@@ -1431,7 +1435,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <tabs active="1">
 <tab><template slot="_header">PE Dry Run (at <strong>v2.0</strong>)</template>
 <ul>
-<li>Download the jar file from the team's releases page, if you haven't done this already.</li></ul></tab>
+<li>Download the <em>latest</em> JAR file from the team's releases page, if you haven't done this already.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">PE (at <strong>v2.1</strong>)</template>
 <ul>
 <li>Download the zip file from the given location, if you haven't done that already.</li>
@@ -1596,7 +1600,7 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>The whole description of the bug should be in the issue description i.e., <mark>do not add comments to the issue</mark>.</li></ul></div></div></tab></tabs></div>
 <h6 id="e-bug-report-format-3"><span id="e-bug-report-format-3" class="anchor"></span><div class="text-white bg-secondary p-1">e) Bug report format</div><a class="fa fa-anchor" href="#e-bug-report-format-3" onclick="event.stopPropagation()"></a></h6>
 <ul>
-<li>Each bug should be a separate issue.</li>
+<li>Each bug should be a separate issue. <span class="dimmed">i.e., do not report multiple problems in the same bug report.</span></li>
 <li>Write good quality bug reports; <mark>poor quality or incorrect bug reports will not earn credit</mark>.</li>
 <li>Use a descriptive title.</li>
 <li>Give a good description of the bug with <mark>steps to reproduce, expected, actual, and screenshots</mark>. If the receiving team cannot reproduce the bug, you will not be able to get credit for it.</li>
@@ -1826,7 +1830,9 @@ Use the person's PPP and RepoSense page to evaluate the effort.</p>
 <box>
 <p><strong>Instructions for Reviewing Bug Reports</strong></p>
 <ul>
-<li><strong>Don't freak out if there are lot of bug reports.</strong> Many can be duplicates and some can be <em>false positives</em>. In any case, we anticipate that all of these products will have some bugs and our penalty for bugs is not harsh. Furthermore, it depends on the severity of the bug. Some bug may not even be penalized.</li></ul>
+<li><strong>Don't freak out if there are lot of bug reports.</strong> Many can be duplicates and some can be <em>false positives</em>. In any case, we anticipate that all of these products will have some bugs and our penalty for bugs is not harsh. Furthermore, it depends on the severity of the bug. Some bug may not even be penalized.</li>
+<li>The penalty for having a specific bug is not the same as the reward for reporting that bug (it's not a <em>zero-sum</em> game). For example, the reward for testers will be higher (because we don't expect the products to have that many bugs after they have gone through so much prior testing) and penalty for a minor bug (e.g., <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">an indicative value only; the actual value depends on the severity, type, and the number of assignees</span>-0.15</span>) is unlikely to make a difference in your final grade, especially given that the penalty applies only if you have more than a certain amount of bugs.<br>
+Accordingly, we hope you'll <strong>accept bug reports graciously</strong> (rather than fight tooth-and-nail to reject <em>every</em> bug report received) if you think the bug is within the ballpark of 'reasonable'.</li></ul>
 <tabs>
 <tab><template slot="_header">Using CATcher</template>
 <box type="info"><template slot="icon"><span aria-hidden="true" class="fas fa-hard-hat"></span></template>
@@ -1905,7 +1911,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
 <li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
-<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority that the ones that are implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
+<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority than the ones that have been implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
 <li>The user cannot attempt to use the missing feature or when the user does so, the software fails gracefully, possibly with a suitable error message i.e., the software should not crash.</li></ul></li>
@@ -1915,7 +1921,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
 </li></ul></box></div>
 <ul>
-<li><strong>Decide who should fix the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.</strong>
+<li><strong>Decide who should take responsibility for the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.</strong>
 <ul>
 <li>If it is not easy to decide the assignee(s), we recommend (but not enforce) that the feature owner should be assigned bugs related to the feature, Reason: The feature owner should have defended the feature against bugs using automated tests and defensive coding techniques.</li></ul></li></ul>
 <p></p>
@@ -1979,7 +1985,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
 <li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
-<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority that the ones that are implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
+<li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority than the ones that have been implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
 <li>The user cannot attempt to use the missing feature or when the user does so, the software fails gracefully, possibly with a suitable error message i.e., the software should not crash.</li></ul></li>
@@ -2008,7 +2014,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>You don't need to find <em>all</em> bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
 <li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div><p></p>
 <ul>
-<li>This phase is optional. If you do not respond to a dev response, we'll assume that you agree with it.</li>
+<li>If you do not respond to a dev response, we'll assume that you agree with it.</li>
 <li>Procedure:</li></ul>
 <div class="indented-level2">
 <tabs>
@@ -2018,7 +2024,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> You may use <a href="https://github.com/CATcher-org/CATcher/releases">the latest version of CATcher</a> or the <a href="http://catcher-org.github.io/webapp">Web version of CATcher</a>.</li>
 <li>For each issues listed in the <code class="hljs inline no-lang" v-pre>Issues Pending Responses</code> section:,
 <ul>
-<li>Go to the details, and read the dev team's response.</li>
+<li>Click on it to go to the details, and read the dev team's response.</li>
 <li>If you disagree with any of the items listed, tick on the <code class="hljs inline no-lang" v-pre>I disagree</code> tick box and enter your justification for the disagreement, and click <code class="hljs inline no-lang" v-pre>Save</code>.</li>
 <li>If you are fine with the team's changes, click <code class="hljs inline no-lang" v-pre>Save</code> without any other changes upon which the issue will move to the <code class="hljs inline no-lang" v-pre>Issue Responded</code> section.</li></ul></li>
 <li>Note that only bugs that require your response will be shown by CATcher. <strong>Bugs already accepted <em>as reported</em> by the team will not appear in CATcher</strong> as there is nothing for you to do about them.</li></ul></tab>
@@ -2033,7 +2039,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <h4 id="pe-phase-4-tutor-moderation-2"><span id="pe-phase-4-tutor-moderation-2" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 4: Tutor Moderation</span><a class="fa fa-anchor" href="#pe-phase-4-tutor-moderation-2" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>In this phase tutors will look through all dev responses you objected to in the previous phase and decide on a final outcome.</li>
-<li>In the unlikely case we need your inputs, the tutor will contact you.</li></ul></div></span></div>
+<li>In the unlikely case we need your inputs, a tutor will contact you.</li></ul></div></span></div>
 <br>
 <p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-deliverables.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP: Deliverables</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/tp-grading.html"><span>tP: Grading <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div>
 <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
@@ -2068,7 +2074,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.0</a>, generated on Tue, 30 Mar 2021, 23:59:04 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.0</a>, generated on Thu, 1 Apr 2021, 23:04:51 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>
