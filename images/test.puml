@@ -1,0 +1,26 @@
+@startuml
+hide footbox
+
+participant ":B" as B
+participant ":C" as C
+participant ":A" as A
+
+create C
+B -> C: new()
+activate C
+C -> A: doSomething()
+activate A
+A --> C: done
+deactivate A
+C --> B: c:C
+deactivate
+B -> C: anotherCall()
+activate C
+C --> B: return
+deactivate C
+destroy C
+
+deactivate B
+
+
+@enduml
