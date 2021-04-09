@@ -1,0 +1,138 @@
+2021-04-09T05:19:46.471Z - info: Website generation (lazy) started at 1:19:35 pm
+2021-04-09T05:19:54.044Z - info: Building assets...
+2021-04-09T05:19:59.957Z - info: Assets built
+2021-04-09T05:19:59.958Z - info: Generating landing page...
+2021-04-09T05:20:02.004Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-04-09T05:20:03.904Z - info: Site data built
+2021-04-09T05:20:03.905Z - info: Website generation (lazy) complete! Total build time: 28.715s
+2021-04-09T05:20:05.770Z - info: Serving "D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\_site" at http://127.0.0.1:8080
+2021-04-09T05:20:05.771Z - info: Press CTRL+C to stop ...
+2021-04-09T05:25:28.998Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\index as some of its dependencies were changed since the last visit
+2021-04-09T05:25:30.183Z - info: Site data built
+2021-04-09T05:25:30.184Z - info: Lazy website regeneration complete! Total build time: 1.188s
+2021-04-09T05:25:33.111Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams as some of its dependencies were changed since the last visit
+2021-04-09T05:25:33.419Z - info: Site data built
+2021-04-09T05:25:33.420Z - info: Lazy website regeneration complete! Total build time: 0.31s
+2021-04-09T05:26:01.641Z - info: [1:26:01 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:26:02.651Z - info: Rebuilding 1 pages
+2021-04-09T05:26:03.326Z - info: Site data built
+2021-04-09T05:26:03.327Z - info: Pages rebuilt
+2021-04-09T05:26:03.327Z - info: Website regeneration complete! Total build time: 0.678s
+2021-04-09T05:29:08.634Z - info: [1:29:08 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:29:09.651Z - info: Rebuilding 1 pages
+2021-04-09T05:29:10.895Z - info: Site data built
+2021-04-09T05:29:10.896Z - info: Pages rebuilt
+2021-04-09T05:29:10.897Z - info: Website regeneration complete! Total build time: 1.25s
+2021-04-09T05:30:03.716Z - info: [1:30:03 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:30:04.731Z - info: Rebuilding 1 pages
+2021-04-09T05:30:05.354Z - info: Site data built
+2021-04-09T05:30:05.355Z - info: Pages rebuilt
+2021-04-09T05:30:05.355Z - info: Website regeneration complete! Total build time: 0.626s
+2021-04-09T05:30:20.557Z - info: [1:30:20 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:30:21.569Z - info: Rebuilding 1 pages
+2021-04-09T05:30:22.247Z - info: Site data built
+2021-04-09T05:30:22.248Z - info: Pages rebuilt
+2021-04-09T05:30:22.249Z - info: Website regeneration complete! Total build time: 0.682s
+2021-04-09T05:30:26.576Z - info: [1:30:26 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:30:27.601Z - info: Rebuilding 1 pages
+2021-04-09T05:30:28.028Z - info: Site data built
+2021-04-09T05:30:28.029Z - info: Pages rebuilt
+2021-04-09T05:30:28.029Z - info: Website regeneration complete! Total build time: 0.429s
+2021-04-09T05:31:03.007Z - info: [1:31:03 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:31:04.017Z - info: Rebuilding 1 pages
+2021-04-09T05:31:04.491Z - info: Site data built
+2021-04-09T05:31:04.493Z - info: Pages rebuilt
+2021-04-09T05:31:04.493Z - info: Website regeneration complete! Total build time: 0.479s
+2021-04-09T05:31:24.381Z - info: [1:31:24 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:31:25.398Z - info: Rebuilding 1 pages
+2021-04-09T05:31:26.660Z - info: Site data built
+2021-04-09T05:31:26.661Z - info: Pages rebuilt
+2021-04-09T05:31:26.661Z - info: Website regeneration complete! Total build time: 1.265s
+2021-04-09T05:32:38.319Z - info: [1:32:38 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:32:39.333Z - info: Rebuilding 1 pages
+2021-04-09T05:32:40.084Z - info: Site data built
+2021-04-09T05:32:40.085Z - info: Pages rebuilt
+2021-04-09T05:32:40.086Z - info: Website regeneration complete! Total build time: 0.753s
+2021-04-09T05:33:13.330Z - info: [1:33:13 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:33:14.343Z - info: Rebuilding 1 pages
+2021-04-09T05:33:14.854Z - info: Site data built
+2021-04-09T05:33:14.855Z - info: Pages rebuilt
+2021-04-09T05:33:14.856Z - info: Website regeneration complete! Total build time: 0.515s
+2021-04-09T05:34:05.420Z - info: [1:34:05 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:34:06.429Z - info: Rebuilding 1 pages
+2021-04-09T05:34:06.963Z - info: Site data built
+2021-04-09T05:34:06.965Z - info: Pages rebuilt
+2021-04-09T05:34:06.966Z - info: Website regeneration complete! Total build time: 0.538s
+2021-04-09T05:34:35.599Z - info: [1:34:35 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:34:36.606Z - info: Rebuilding 1 pages
+2021-04-09T05:34:37.165Z - info: Site data built
+2021-04-09T05:34:37.166Z - info: Pages rebuilt
+2021-04-09T05:34:37.167Z - info: Website regeneration complete! Total build time: 0.562s
+2021-04-09T05:36:12.040Z - info: [1:36:12 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:36:13.056Z - info: Rebuilding 1 pages
+2021-04-09T05:36:13.069Z - error:  Template render error: (unknown path) [Line 181, Column 126]
+  unknown block tag: endif
+    at Object._prettifyError (C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:879:57
+2021-04-09T05:36:13.071Z - warn:  Error: Error while generating undefined
+    at C:\Users\dcsaksh\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1044:18
+2021-04-09T05:36:27.033Z - info: [1:36:27 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:36:28.036Z - info: Rebuilding 1 pages
+2021-04-09T05:36:28.393Z - info: Site data built
+2021-04-09T05:36:28.393Z - info: Pages rebuilt
+2021-04-09T05:36:28.394Z - info: Website regeneration complete! Total build time: 0.36s
+2021-04-09T05:36:49.102Z - info: [1:36:49 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:36:50.116Z - info: Rebuilding 1 pages
+2021-04-09T05:36:50.685Z - info: Site data built
+2021-04-09T05:36:50.686Z - info: Pages rebuilt
+2021-04-09T05:36:50.686Z - info: Website regeneration complete! Total build time: 0.573s
+2021-04-09T05:36:55.788Z - info: [1:36:55 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:36:56.793Z - info: Rebuilding 1 pages
+2021-04-09T05:36:57.303Z - info: Site data built
+2021-04-09T05:36:57.304Z - info: Pages rebuilt
+2021-04-09T05:36:57.304Z - info: Website regeneration complete! Total build time: 0.513s
+2021-04-09T05:37:19.897Z - info: [1:37:19 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:37:20.906Z - info: Rebuilding 1 pages
+2021-04-09T05:37:21.486Z - info: Site data built
+2021-04-09T05:37:21.487Z - info: Pages rebuilt
+2021-04-09T05:37:21.488Z - info: Website regeneration complete! Total build time: 0.583s
+2021-04-09T05:37:26.610Z - info: [1:37:26 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:37:27.618Z - info: Rebuilding 1 pages
+2021-04-09T05:37:28.115Z - info: Site data built
+2021-04-09T05:37:28.116Z - info: Pages rebuilt
+2021-04-09T05:37:28.117Z - info: Website regeneration complete! Total build time: 0.501s
+2021-04-09T05:41:32.116Z - info: [1:41:32 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:41:33.130Z - info: Rebuilding 1 pages
+2021-04-09T05:41:34.240Z - info: Site data built
+2021-04-09T05:41:34.247Z - info: Pages rebuilt
+2021-04-09T05:41:34.248Z - info: Website regeneration complete! Total build time: 1.121s
+2021-04-09T05:41:46.891Z - info: [1:41:46 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:41:47.902Z - info: Rebuilding 1 pages
+2021-04-09T05:41:48.546Z - info: Site data built
+2021-04-09T05:41:48.547Z - info: Pages rebuilt
+2021-04-09T05:41:48.548Z - info: Website regeneration complete! Total build time: 0.649s
+2021-04-09T05:41:52.796Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-04-09T05:41:56.556Z - info: Site data built
+2021-04-09T05:41:56.557Z - info: Lazy website regeneration complete! Total build time: 3.763s
+2021-04-09T05:42:25.728Z - info: [1:42:25 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:42:26.745Z - info: Rebuilding 1 pages
+2021-04-09T05:42:28.018Z - info: Site data built
+2021-04-09T05:42:28.020Z - info: Pages rebuilt
+2021-04-09T05:42:28.021Z - info: Website regeneration complete! Total build time: 1.278s
+2021-04-09T05:42:57.506Z - info: [1:42:57 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:42:58.518Z - info: Rebuilding 1 pages
+2021-04-09T05:42:59.231Z - info: Site data built
+2021-04-09T05:42:59.233Z - info: Pages rebuilt
+2021-04-09T05:42:59.233Z - info: Website regeneration complete! Total build time: 0.716s
+2021-04-09T05:43:47.531Z - info: [1:43:47 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\exams.md
+2021-04-09T05:43:48.551Z - info: Rebuilding 1 pages
+2021-04-09T05:43:49.176Z - info: Site data built
+2021-04-09T05:43:49.177Z - info: Pages rebuilt
+2021-04-09T05:43:49.178Z - info: Website regeneration complete! Total build time: 0.629s
+2021-04-09T05:46:23.312Z - info: Website generation started at 1:46:18 pm
+2021-04-09T05:46:32.868Z - info: Building assets...
