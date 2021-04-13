@@ -1,0 +1,50 @@
+2021-04-13T09:35:26.621Z - info: Website generation (lazy) started at 5:35:16 pm
+2021-04-13T09:35:33.833Z - info: Building assets...
+2021-04-13T09:35:40.108Z - info: Assets built
+2021-04-13T09:35:40.109Z - info: Generating landing page...
+2021-04-13T09:35:41.598Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-04-13T09:35:43.441Z - info: Site data built
+2021-04-13T09:35:43.442Z - info: Website generation (lazy) complete! Total build time: 26.681s
+2021-04-13T09:35:45.388Z - info: Serving "D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\_site" at http://127.0.0.1:8080
+2021-04-13T09:35:45.389Z - info: Press CTRL+C to stop ...
+2021-04-13T09:35:47.877Z - info: [5:35:47 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-13T09:35:52.581Z - info: Assets built
+2021-04-13T09:36:11.637Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\schedule\week13\tutorial as some of its dependencies were changed since the last visit
+2021-04-13T09:36:12.089Z - info: Site data built
+2021-04-13T09:36:12.090Z - info: Lazy website regeneration complete! Total build time: 0.454s
+2021-04-13T09:36:15.955Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\schedule\week13\project as some of its dependencies were changed since the last visit
+2021-04-13T09:36:20.072Z - info: Site data built
+2021-04-13T09:36:20.073Z - info: Lazy website regeneration complete! Total build time: 4.118s
+2021-04-13T09:36:49.642Z - info: [5:36:49 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-13T09:36:50.654Z - info: Rebuilding 1 pages
+2021-04-13T09:36:55.654Z - info: Site data built
+2021-04-13T09:36:55.656Z - info: Pages rebuilt
+2021-04-13T09:36:55.658Z - info: Website regeneration complete! Total build time: 5.005s
+2021-04-13T09:37:00.451Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\index as some of its dependencies were changed since the last visit
+2021-04-13T09:37:01.262Z - info: Site data built
+2021-04-13T09:37:01.263Z - info: Lazy website regeneration complete! Total build time: 0.813s
+2021-04-13T09:37:07.399Z - info: Building D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-04-13T09:37:10.568Z - info: Site data built
+2021-04-13T09:37:10.570Z - info: Lazy website regeneration complete! Total build time: 3.171s
+2021-04-13T09:38:47.437Z - info: [5:38:47 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-13T09:38:48.457Z - info: Rebuilding 1 pages
+2021-04-13T09:38:52.704Z - info: Site data built
+2021-04-13T09:38:52.705Z - info: Pages rebuilt
+2021-04-13T09:38:52.706Z - info: Website regeneration complete! Total build time: 4.252s
+2021-04-13T09:42:03.035Z - info: [5:42:03 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-13T09:42:04.054Z - info: Rebuilding 1 pages
+2021-04-13T09:42:07.709Z - info: Site data built
+2021-04-13T09:42:07.711Z - info: Pages rebuilt
+2021-04-13T09:42:07.713Z - info: Website regeneration complete! Total build time: 3.66s
+2021-04-13T09:42:30.564Z - info: [5:42:30 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-13T09:42:31.570Z - info: Rebuilding 1 pages
+2021-04-13T09:42:35.357Z - info: Site data built
+2021-04-13T09:42:35.359Z - info: Pages rebuilt
+2021-04-13T09:42:35.360Z - info: Website regeneration complete! Total build time: 3.792s
+2021-04-13T09:43:03.794Z - info: [5:43:03 pm] Reload for file change: D:\Teaching\CS2113\_AY2021S2\ay2021sem2-website\admin\tp-pe.mbdf
+2021-04-13T09:43:04.817Z - info: Rebuilding 1 pages
+2021-04-13T09:43:07.853Z - info: Site data built
+2021-04-13T09:43:07.854Z - info: Pages rebuilt
+2021-04-13T09:43:07.855Z - info: Website regeneration complete! Total build time: 3.04s
+2021-04-13T09:45:38.614Z - info: Website generation started at 5:45:33 pm
+2021-04-13T09:45:46.454Z - info: Building assets...
