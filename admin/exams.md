@@ -15,6 +15,11 @@ Instructions below are from the previous semester. Will be updated closer to the
 
 
 * The final exam will be as per the normal exam schedule, and will count for {{ marks_exam }}% of the final grade.
+* We will use Examplify for the final exam this time.
+
+
+<!--
+
 * The exam will be done online.
 * ==**We will be following the [SoC's E-Exam SOP](https://mysoc.nus.edu.sg/academic/e-exam-sop-for-students/)**==, combined with the deviations/refinements given in the section below. Please read the SOP carefully and ensure you follow all instructions.
 
@@ -43,7 +48,6 @@ Instructions below are from the previous semester. Will be updated closer to the
 1. **If your computer crashed/restarted** during the exam, try to get it up again and resume the exam. LumiNUS will allow you to resume from where you stopped earlier. However, note that there is a deadline to finish the quiz and you will overrun that deadline if you lose more than 5 minutes due to the computer outage.{% if cs2103%}
 
 1. **The zoom link and the invigilator info** will be distributed via LumiNUS gradebook at least 24 hours before the exam.{% endif %}
-
 
 ## Format
 <div tags="m--cs2113">
@@ -142,10 +146,51 @@ Choose the incorrect statement.
 
 </div>
 
+-->
+
+## Exam structure
+
+The exam duration is 90 minutes.
+
+The final exam has two types of questions:
+1. MCQ questions - includes True/False like concept questions and some multiple choice/response questions
+2. Short-answer questions
+
+<br>
+
+* All questions will be displayed at once as Examplify doesn't allow creating sections
+* Based on the question you are answering, you need to manage your time appropriately
+* Weightage of the questions will be displayed to help you with time management
+
+
 ## Exam briefing, mock exam, practice exam paper
 
-* There will be an exam briefing in the penultimate lecture. It will include a minimal mock exam, just to help you understand the structure.
-* You will be given a practice exam paper (half the size of the full paper) to help you practice timing. That practice paper will be released at least one week before the exam.
+* There will be an exam briefing in the penultimate lecture that covers Examplify usage.  <!-- It will include a minimal mock exam, just to help you understand the structure.-->
+* You will be given a practice exam paper (smaller than the full paper) to help you practice timing. That practice paper will be released at least one week before the exam.
+
+<!--
+
+## PE proctoring
+
+* PE will be conducted online
+* Please refer to [PE instructions](tp-pe.md#pe-phase-1-bug-reporting-2)
+  
+
+* ==**We will be following the [SoC's E-Exam SOP](https://mysoc.nus.edu.sg/academic/e-exam-sop-for-students/)**==, combined with the deviations/refinements given in the section below. Please read the SOP carefully and ensure you follow all instructions.
+
+<br>
+  
+1. **The webcam view should capture all three** of these: your upper body (side view), the entire screen area of your monitor, the working area of the table. Here is an example:<br>
+   <img src="images/zoomCameraExample.png" width="367"/>
+1. ==**Recording of your PC screen** is not required.==
+1. **Only one computer screen** is allowed.
+1. **You may not use a second laptop/computer as the web cam.** Use either an external webcam or a mobile phone instead. %%Reason: the screen of that second computer will not be captured in the video feed.%%
+1. **Not allowed to use the printer or other devices during the exam.**
+1. **The zoom link and the invigilator info** will be distributed via LumiNUS at least 24 hours before the PE.
+1. **Use Microsoft Teams or Zoom private messages to communicate with the invigilator**.
+-->
+
+
 
 </div>
 
